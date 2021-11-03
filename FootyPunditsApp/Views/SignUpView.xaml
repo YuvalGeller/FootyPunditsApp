@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="FootyPunditsApp.Views.SignUpView">
+    <ContentPage.Content>
+        <StackLayout Spacing="15" BackgroundColor="White">
+            <Label Margin="20,40,0,0" FontSize="25" FontAttributes="Bold" Text="Create your account" FontFamily="Roboto" TextColor="Black"/>
+
+            <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+                <Entry Margin="7,-50" Placeholder="Email" PlaceholderColor="LightGray" Text="{Binding Email}" />
+            </Frame>
+
+
+
+            <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+                <Entry Margin="7,-50,20,-53" Placeholder="Password" PlaceholderColor="LightGray" Text="{Binding Password}" />
+            </Frame>
+
+
+
+            <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+                <Entry Margin="7" Placeholder="Confirm password" PlaceholderColor="LightGray" Text="{Binding ConfirmPassword}" />
+            </Frame>
+
+
+
+            <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+                <Entry Margin="7" Placeholder="Username" PlaceholderColor="LightGray" Text="{Binding UserName}" />
+            </Frame>
+
+
+
+            <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+            <Picker Title="Favorite Team">                      
+                    </Picker>
+            </Frame>
+
+
+
+
+            <Button Margin="37,25,37,10"
+                        HeightRequest="50"
+                        CornerRadius="5"
+                        TextColor="White" 
+                        Text="Sign up"
+                        FontSize="90"
+                        Font="Prompt"
+                        BackgroundColor="#499D62"
+                Command="{Binding SignUpCommand}"/>
+
+                   
+            <Grid Margin="0, 11, 0, 0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="45*" />
+                    <RowDefinition Height="10*" />
+                    <RowDefinition Height="45*" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="23*" />
+                    <ColumnDefinition Width="10*" />
+                    <ColumnDefinition Width="23*" />
+                </Grid.ColumnDefinitions>
+
+                
+            </Grid>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,6 +1,7 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using FootyPunditsApp.Views;
 
 namespace FootyPunditsApp
 {
@@ -12,7 +13,7 @@ namespace FootyPunditsApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new SignUpView();
         }
 
         protected override void OnStart()
