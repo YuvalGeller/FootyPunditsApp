@@ -1,41 +1,65 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FootyPunditsApp.Views.SignUpView">
+             x:Class="FootyPunditsApp.Views.SignUpView"
+             xmlns:local="clr-namespace:FootyPunditsApp;assembly=FootyPunditsApp">
     <ContentPage.Content>
         <StackLayout Spacing="15" BackgroundColor="White">
             <Label Margin="20,40,0,0" FontSize="25" FontAttributes="Bold" Text="Create your account" FontFamily="Roboto" TextColor="Black"/>
 
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
-                <Entry Margin="7,-50" Placeholder="Email" PlaceholderColor="LightGray" Text="{Binding Email}" />
+                <local:MyEntry Margin="7,-50" Placeholder="Email" PlaceholderColor="LightGray" Text="{Binding Email}" />
+            </Frame>
+
+
+
+            
+            <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="9*" />
+                        <ColumnDefinition Width="1*" />
+                    </Grid.ColumnDefinitions>
+                    
+                    <local:MyEntry Margin="7,-50,20,-53" Placeholder="Password" PlaceholderColor="LightGray" Text="{Binding Password}" Grid.Column="0" />
+                    <ImageButton Source="Icon_ShowPassword.png" Grid.Column="1" BackgroundColor="White" HeightRequest="24"/>
+                </Grid>
+            </Frame>
+            
+
+
+            <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+                <local:MyEntry Margin="7" Placeholder="Confirm password" PlaceholderColor="LightGray" Text="{Binding ConfirmPassword}" />
             </Frame>
 
 
 
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
-                <Entry Margin="7,-50,20,-53" Placeholder="Password" PlaceholderColor="LightGray" Text="{Binding Password}" />
+                <local:MyEntry Margin="7" Placeholder="Username" PlaceholderColor="LightGray" Text="{Binding UserName}" />
             </Frame>
 
 
 
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
-                <Entry Margin="7" Placeholder="Confirm password" PlaceholderColor="LightGray" Text="{Binding ConfirmPassword}" />
+                <Picker Title="Favorite Team">
+                    <Picker.Items>
+                        
+                    </Picker.Items>
+                </Picker>
             </Frame>
 
-
-
-            <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
-                <Entry Margin="7" Placeholder="Username" PlaceholderColor="LightGray" Text="{Binding UserName}" />
-            </Frame>
-
-
-
-            <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
-            <Picker Title="Favorite Team">                      
-                    </Picker>
-            </Frame>
-
-
+            <Label HorizontalOptions="Center" FontSize="20" FontFamily="Roboto" TextColor="Gray">
+                <Label.FormattedText>
+                    <FormattedString>
+                        <Span Text="Already have an account? " />
+                        <Span Text="Login" TextColor="#499D62" FontSize="15" >
+                            <Span.GestureRecognizers>
+                                <TapGestureRecognizer Command="{Binding LogInCommand}" />
+                            </Span.GestureRecognizers>
+                        </Span>
+                    </FormattedString>
+                </Label.FormattedText>
+            </Label>
 
 
             <Button Margin="37,25,37,10"
@@ -47,8 +71,8 @@
                         Font="Prompt"
                         BackgroundColor="#499D62"
                 Command="{Binding SignUpCommand}"/>
+            
 
-                   
             <Grid Margin="0, 11, 0, 0">
                 <Grid.RowDefinitions>
                     <RowDefinition Height="45*" />
@@ -61,7 +85,7 @@
                     <ColumnDefinition Width="23*" />
                 </Grid.ColumnDefinitions>
 
-                
+               
             </Grid>
            
         </StackLayout>
