@@ -13,7 +13,7 @@ namespace FootyPunditsApp
         {
             InitializeComponent();
 
-            MainPage = new SignUpView();
+            MainPage = new LogInView();
         }
 
         protected override void OnStart()
