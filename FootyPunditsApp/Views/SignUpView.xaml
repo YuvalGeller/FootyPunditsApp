@@ -5,7 +5,8 @@
              xmlns:local="clr-namespace:FootyPunditsApp;assembly=FootyPunditsApp">
     <ContentPage.Content>
         <StackLayout Spacing="15" BackgroundColor="White">
-            <Label Margin="20,40,0,0" FontSize="25" FontAttributes="Bold" Text="Create your account" FontFamily="Roboto" TextColor="Black"/>
+            <Image Source="AppLogo.PNG" HorizontalOptions="Center" ></Image>
+            <Label Margin="20,-35,0,0" FontSize="20" FontAttributes="Bold" Text="Create your account" FontFamily="Roboto" TextColor="Black"/>
 
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                 <local:MyEntry Margin="7,-50" Placeholder="Email" PlaceholderColor="LightGray" Text="{Binding Email}" />

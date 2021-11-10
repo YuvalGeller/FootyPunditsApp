@@ -87,7 +87,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\AppLogo.PNG" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\FootyPunditsApp\FootyPunditsApp.csproj">
       <Project>{232357CD-7EDC-4916-98E1-17A1559CA78E}</Project>
