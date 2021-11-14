@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace FootyPunditsApp.Views
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ProfileView : ContentView
+    public partial class ProfilePageView : ContentView
     {
-        public ProfileView()
+        public ProfilePageView()
         {
             InitializeComponent();
         }
