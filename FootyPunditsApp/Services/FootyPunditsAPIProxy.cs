@@ -12,6 +12,7 @@ using Xamarin.Forms;
 using Xamarin.Essentials;
 using System.IO;
 using FootyPunditsApp.Models;
+using Newtonsoft.Json;
 
 namespace FootyPunditsApp.Services
 {
@@ -81,21 +82,54 @@ namespace FootyPunditsApp.Services
         }
 
 
-        public async Task<UserAccount> TestAsync(int id)
+        //public async Task<UserAccount> TestAsync(int id)
+        //{
+        //    try
+        //    {
+        //        HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/Test?id={id}");
+        //        if (response.IsSuccessStatusCode)
+        //        {
+        //            JsonSerializerOptions options = new JsonSerializerOptions
+        //            {
+        //                ReferenceHandler = ReferenceHandler.Preserve, //avoid reference loops!
+        //                PropertyNameCaseInsensitive = true
+        //            };
+        //            string content = await response.Content.ReadAsStringAsync();
+        //            UserAccount u = JsonConvert.DeserializeObject<UserAccount>(content, options);
+        //            return u;
+        //        }
+        //        else
+        //        {
+        //            return null;
+        //        }
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Console.WriteLine(e.Message);
+        //        return null;
+        //    }
+        //}
+
+        public async Task<UserAccount> LoginAsync(string email, string password)
         {
             try
             {
-                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/Test?id={id}");
+                UserAccount u = new UserAccount()
+                {
+                    Email = email,
+                    Upass = password
+                };
+
+                string json = JsonConvert.SerializeObject(u);
+                StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+                HttpResponseMessage response = await this.client.PostAsync($"{this.baseUri}/login", content);
+
                 if (response.IsSuccessStatusCode)
                 {
-                    JsonSerializerOptions options = new JsonSerializerOptions
-                    {
-                        ReferenceHandler = ReferenceHandler.Preserve, //avoid reference loops!
-                        PropertyNameCaseInsensitive = true
-                    };
-                    string content = await response.Content.ReadAsStringAsync();
-                    UserAccount u = JsonSerializer.Deserialize<UserAccount>(content, options);
-                    return u;
+                    string jsonContent = await response.Content.ReadAsStringAsync();
+                    UserAccount returnedAccount = JsonConvert.DeserializeObject<UserAccount>(jsonContent);
+
+                    return returnedAccount;
                 }
                 else
                 {
@@ -105,6 +139,27 @@ namespace FootyPunditsApp.Services
             catch (Exception e)
             {
                 Console.WriteLine(e.Message);
+                return null;
+            }
+        }
+
+        public async Task<string> GenerateToken()
+        {
+            try
+            {
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/api/generate-token");
+                if (response.IsSuccessStatusCode)
+                {
+                    string token = await response.Content.ReadAsStringAsync();
+                    return token;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception e)
+            {
                 return null;
             }
         }

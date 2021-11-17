@@ -1,64 +1,64 @@
-﻿using FootyPunditsApp.Models;
-using FootyPunditsApp.Services;
-using FootyPunditsApp.Views;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
+using System.Text;
 using System.Windows.Input;
-using Xamarin.Essentials;
 using Xamarin.Forms;
+using System.Threading.Tasks;
+using FootyPunditsApp.Services;
+using FootyPunditsApp.Models;
+using System.Linq;
+using Xamarin.Essentials;
 
 namespace FootyPunditsApp.ViewModels
 {
-    class LoginViewModel : BaseViewModel    
+    class LoginViewModel :  INotifyPropertyChanged   
     {
+        #region INotifyPropertyChanged
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void OnPropertyChanged(string propertyName)
+        {
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+        }
+        #endregion
+
         private string email;
         private string password;
         private string error;
 
-        public string Error// get eror
+        public string Error
         {
-            get
-            {
-                return error;
-            }
+            get => error;
             set
             {
-                if (error != value)
-                {
-                    error = value;
-                    OnPropertyChanged();
-                }
+                error = value;
+                //if (this.ShowError)
+                //    ValidateError();
+                OnPropertyChanged("Error");
             }
         }
 
-        public string Email // get Email
+        public string Email
         {
-            get
-            {
-                return email;
-            }
+            get => email;
             set
             {
-                if (email != value)
-                {
-                    email = value;
-                    OnPropertyChanged();
-                }
+                email = value;
+                //if (this.ShowEmailError)
+                //    ValidateEmail();
+                OnPropertyChanged("Email");
             }
         }
-        public string Password // GetPassword
+        public string Password
         {
-            get
-            {
-                return password;
-            }
+            get => password;
             set
             {
-                if (password != value)
-                {
-                    password = value;
-                    OnPropertyChanged();
-                }
+                password = value;
+                //if (this.ShowPasswordlError)
+                //    ValidatePassword();
+                OnPropertyChanged("Password");
             }
         }
 
@@ -68,51 +68,50 @@ namespace FootyPunditsApp.ViewModels
 
 
         public event Action<Page> Push;
-        //public LoginPageViewModel()
-        //{
-        //    Error = string.Empty;
-        //    Email = string.Empty;
-        //    Password = string.Empty;
-        //    LoginCommand = new Command(Login);
-        //    SignUpCommand = new Command(CreateAccount);
-        //    ForgotPassCommand = new Command(ForgotPass);
-
-
-        //}
+        public LoginViewModel()
+        {
+            Error = string.Empty;
+            Email = string.Empty;
+            Password = string.Empty;
+            LoginCommand = new Command(Login);
+            SignUpCommand = new Command(CreateAccount);
+            //ForgotPassCommand = new Command(ForgotPass);
+        }
         // פעולות
-        //private void CreateAccount()
-        //{
-        //    Push?.Invoke(new FootyPunditsApp.Views.SignUpPage());
-        //}
+        private void CreateAccount()
+        {
+            Push?.Invoke(new FootyPunditsApp.Views.ProfilePageView());
+        }
+          
         //private void ForgotPass()
         //{
-        //    Push?.Invoke(new FootyPunditsApp.Views.ForgetPassword1());
+           // Push?.Invoke(new FootyPunditsApp.Views.ForgetPassword1());
         //}
 
-    //    private async void Login()
-    //    {
-    //        FootyPunditsAPIProxy proxy = FootyPunditsAPIProxy.CreateProxy();
+        private async void Login()
+        {
+            FootyPunditsAPIProxy proxy = FootyPunditsAPIProxy.CreateProxy();
 
-    //        try
-    //        {
-    //            UserAccount u = await proxy.LoginAsync(Email, Password);
-    //            if (u != null)
-    //            {
-    //                ((App)App.Current).CurrentUser = u;
-    //                Push?.Invoke(new FootyPunditsApp.Views.ProfilePage());
-    //            }
-    //            else
-    //            {
-    //                Error = "This Account Doesn't Exist";
+            try
+            {
+                UserAccount u = await proxy.LoginAsync(Email, Password);
+                if (u != null)
+                {
+                    ((App)App.Current).CurrentUser = u;
+                    Push?.Invoke(new FootyPunditsApp.Views.ProfilePageView());
+                }
+                else
+                {
+                    Error = "This Account Doesn't Exist";
 
-    //            }
-    //        }
+                }
+            }
 
-    //        catch (Exception)
-    //        {
-    //            Error = "Something went Wrong";
-    //        }
-    //    }
+            catch (Exception)
+            {
+                Error = "Something went Wrong";
+            }
+        }
     }
 }
   

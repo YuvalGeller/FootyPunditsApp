@@ -36,16 +36,13 @@
                 </Frame>
 
 
-
-                <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
-                    <local:MyEntry Margin="7" Placeholder="Confirm password" PlaceholderColor="LightGray" Text="{Binding ConfirmPassword}" />
-                </Frame>
+              
 
                 <Label HorizontalOptions="Center" FontSize="20" FontFamily="Roboto" TextColor="Gray">
                     <Label.FormattedText>
                         <FormattedString>
                             <Span Text="Dont have have an account? " />
-                            <Span Text="LogIn" TextColor="#499D62" FontSize="15" >
+                            <Span Text="SignUp" TextColor="#499D62" FontSize="15" >
                                 <Span.GestureRecognizers>
                                     <TapGestureRecognizer Command="{Binding SignUpCommand}" />
                                 </Span.GestureRecognizers>
@@ -63,7 +60,7 @@
                         FontSize="90"
                         Font="Prompt"
                         BackgroundColor="#499D62"
-                Command="{Binding LogINCommand}"/>
+                Command="{Binding LoginCommand}"/>
 
 
                 <Grid Margin="0, 11, 0, 0">
