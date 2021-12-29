@@ -109,6 +109,48 @@ namespace FootyPunditsApp.Services
         //        return null;
         //    }
         //}
+        public async Task<UserAccount> SignUp (string email, string Upassword, string userName, int favoriteTeam)
+        {
+            try
+            {
+                UserAccount a = new UserAccount()
+                {
+                    Email = email,
+                    Upass = Upassword,
+                    Username = userName,
+                    FavoriteTeam = favoriteTeam,
+                    SignUpDate = DateTime.Now,
+                    ProfilePicture = "default_pfp.jpg"
+                };
+
+                string json = JsonConvert.SerializeObject(a);
+                StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
+                string url = $"{this.baseUri}/SignUp";
+                HttpResponseMessage response = await this.client.PostAsync(url, content);
+
+                if (response.IsSuccessStatusCode)
+                {
+                    JsonSerializerSettings options = new JsonSerializerSettings
+                    {
+                        PreserveReferencesHandling = PreserveReferencesHandling.All
+                    };
+
+                    string jsonContent = await response.Content.ReadAsStringAsync();
+                    UserAccount returnedAccount = JsonConvert.DeserializeObject<UserAccount>(jsonContent, options);
+                    return returnedAccount;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+        }
+
 
         public async Task<UserAccount> LoginAsync(string email, string password)
         {
