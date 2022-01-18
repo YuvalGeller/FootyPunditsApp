@@ -151,6 +151,50 @@ namespace FootyPunditsApp.Services
             }
         }
 
+        public async Task<bool?> EmailExists(string email)
+        {
+            try
+            {
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/api/email-exists?email={email}");
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    bool? b = JsonConvert.DeserializeObject<bool?>(content);
+                    return b;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return null;
+            }
+        }
+
+        public async Task<bool?> UsernameExists(string username)
+        {
+            try
+            {
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/api/username-exists?username={username}");
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    bool? b = JsonConvert.DeserializeObject<bool?>(content);
+                    return b;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+        }
 
         public async Task<UserAccount> LoginAsync(string email, string password)
         {

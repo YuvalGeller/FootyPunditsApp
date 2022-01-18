@@ -3,6 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Text;
 using FootyPunditsApp.Services;
+using Xamarin.Forms;
+using FootyPunditsApp.Models;
+using FootyPunditsApp.Views;
 
 namespace FootyPunditsApp.ViewModels
 {
@@ -257,7 +260,50 @@ namespace FootyPunditsApp.ViewModels
             }
         }
         #endregion
-   
+
+        #region FavoriteTeam
+        private bool showFavoriteTeamError;
+
+        public bool ShowFavoriteTeamError
+        {
+            get => showFavoriteTeamError;
+            set
+            {
+                ShowFavoriteTeamError = value;
+                OnPropertyChanged("ShowFavoriteTeamError");
+            }
+        }
+
+        private int favoriteTeam;
+
+        public int FavoriteTeam
+        {
+            get => favoriteTeam;
+            set
+            {
+                favoriteTeam = value;
+                //if (this.ShowEmailError)
+                //    ValidateEmail();
+                OnPropertyChanged("FavoriteTeam");
+            }
+        }
+
+        private int favoriteTeamError;
+
+        public int FavoriteTeamError
+        {
+            get => favoriteTeamError;
+            set
+            {
+                favoriteTeamError = value;
+                OnPropertyChanged("FavoriteTeamError");
+            }
+        }
+        private void ValidateFavoriteTeam()
+        {
+            this.showFavoriteTeamError = false;
+        }
+        #endregion
 
         #region General Error
         private bool showGeneralError;
@@ -306,9 +352,9 @@ namespace FootyPunditsApp.ViewModels
         {
             if (ValidateForm())
             {
-                Account account = await proxy.SignUpAccount(Email, Password, Username);
-                ((App)App.Current).CurrentAccount = account;
-                Push?.Invoke(new TabControlView());
+                UserAccount account = await proxy.SignUp(Email, Password, Username, FavoriteTeam);
+                ((App)App.Current).CurrentUser = account;
+                Push?.Invoke(new ProfilePageView());
             }
         }
 
