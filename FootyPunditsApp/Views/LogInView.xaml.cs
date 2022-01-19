@@ -13,10 +13,13 @@ namespace FootyPunditsApp.Views
     public partial class LogInView : ContentPage
     {
         public LogInView()
-        {
+        {         
             LoginViewModel context = new LoginViewModel();
             this.BindingContext = context;
             InitializeComponent();
+            context.Push += (p) => Navigation.PushAsync(p);
+
+
         }
     }
 }

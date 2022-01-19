@@ -358,6 +358,12 @@ namespace FootyPunditsApp.ViewModels
             }
         }
 
+        public Command LogInCommand => new Command(LogIn);
+        private void LogIn()
+        {
+            Push.Invoke(new Views.LogInView());
+        }
+
         public event Action<Page> Push;
 
     }

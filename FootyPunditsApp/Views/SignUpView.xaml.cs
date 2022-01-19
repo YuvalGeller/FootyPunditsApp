@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using FootyPunditsApp.ViewModels;
 
 namespace FootyPunditsApp.Views
 {
@@ -14,6 +15,9 @@ namespace FootyPunditsApp.Views
     {
         public SignUpView()
         {
+            SignUpViewModel context = new SignUpViewModel();
+            this.BindingContext = context;
+            context.Push += (p) => Navigation.PushAsync(p);
             InitializeComponent();
         }
     }

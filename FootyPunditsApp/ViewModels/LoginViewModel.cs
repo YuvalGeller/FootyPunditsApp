@@ -10,10 +10,11 @@ using FootyPunditsApp.Services;
 using FootyPunditsApp.Models;
 using System.Linq;
 using Xamarin.Essentials;
+using FootyPunditsApp.Views;
 
 namespace FootyPunditsApp.ViewModels
 {
-    class LoginViewModel :  INotifyPropertyChanged   
+    class LoginViewModel : INotifyPropertyChanged
     {
         #region INotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
@@ -22,6 +23,8 @@ namespace FootyPunditsApp.ViewModels
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
         #endregion
+
+        public event Action<Page> Push;
 
         private string email;
         private string password;
@@ -66,8 +69,6 @@ namespace FootyPunditsApp.ViewModels
         public ICommand LoginCommand { get; set; }// login Command
         public ICommand ForgotPassCommand { get; set; }// login Command
 
-
-        public event Action<Page> Push;
         public LoginViewModel()
         {
             Error = string.Empty;
@@ -82,10 +83,10 @@ namespace FootyPunditsApp.ViewModels
         {
             Push?.Invoke(new FootyPunditsApp.Views.ProfilePageView());
         }
-          
+
         //private void ForgotPass()
         //{
-           // Push?.Invoke(new FootyPunditsApp.Views.ForgetPassword1());
+        // Push?.Invoke(new FootyPunditsApp.Views.ForgetPassword1());
         //}
 
         private async void Login()
@@ -112,6 +113,16 @@ namespace FootyPunditsApp.ViewModels
                 Error = "Something went Wrong";
             }
         }
+
+
+        public Command RegisterCommand => new Command(Register);
+        private void Register()
+        {
+            Push.Invoke(new Views.SignUpView());
+        }
+
+
     }
 }
-  
+
+

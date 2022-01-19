@@ -44,7 +44,7 @@
                             <Span Text="Dont have have an account? " />
                             <Span Text="SignUp" TextColor="#499D62" FontSize="15" >
                                 <Span.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding SignUpCommand}" />
+                                    <TapGestureRecognizer Command="{Binding RegisterCommand}" />
                                 </Span.GestureRecognizers>
                             </Span>
                         </FormattedString>
