@@ -20,7 +20,7 @@ namespace FootyPunditsApp
             Sharpnado.Shades.Initializer.Initialize(loggerEnable: false);
             CurrentUser = null;
 
-            MainPage = new NavigationPage(new LogInView());
+            MainPage = new TabControlView(3);
         }
 
         protected override void OnStart()

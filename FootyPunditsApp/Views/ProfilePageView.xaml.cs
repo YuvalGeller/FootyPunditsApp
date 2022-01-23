@@ -16,10 +16,5 @@ namespace FootyPunditsApp.Views
         {
             InitializeComponent();
         }
-
-        public static implicit operator Page(ProfilePageView v)
-        {
-            throw new NotImplementedException();
-        }
     }
 }

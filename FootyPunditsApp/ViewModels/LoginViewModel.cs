@@ -81,7 +81,7 @@ namespace FootyPunditsApp.ViewModels
         // פעולות
         private void CreateAccount()
         {
-            Push?.Invoke(new FootyPunditsApp.Views.ProfilePageView());
+            Push?.Invoke(new FootyPunditsApp.Views.TabControlView());
         }
 
         //private void ForgotPass()
@@ -99,7 +99,7 @@ namespace FootyPunditsApp.ViewModels
                 if (u != null)
                 {
                     ((App)App.Current).CurrentUser = u;
-                    Push?.Invoke(new FootyPunditsApp.Views.ProfilePageView());
+                    Push?.Invoke(new FootyPunditsApp.Views.TabControlView());
                 }
                 else
                 {

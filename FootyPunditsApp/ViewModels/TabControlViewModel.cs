@@ -9,7 +9,7 @@ using FootyPunditsApp.Models;
 using FootyPunditsApp.Views;
 using System.Threading.Tasks;
 
-namespace FilmateApp.ViewModels
+namespace FootyPunditsApp.ViewModels
 {
     class TabControlViewModel : INotifyPropertyChanged
     {
@@ -21,9 +21,9 @@ namespace FilmateApp.ViewModels
         }
         #endregion
 
-        public TabControlViewModel()
+        public TabControlViewModel(int startIndex)
         {
-            SelectedViewModelIndex = 0;
+            SelectedViewModelIndex = startIndex;
         }
 
 

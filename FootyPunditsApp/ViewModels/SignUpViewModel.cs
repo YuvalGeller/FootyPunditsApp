@@ -354,7 +354,7 @@ namespace FootyPunditsApp.ViewModels
             {
                 UserAccount account = await proxy.SignUp(Email, Password, Username, FavoriteTeam);
                 ((App)App.Current).CurrentUser = account;
-                Push?.Invoke(new ProfilePageView());
+                Push?.Invoke(new TabControlView());
             }
         }
 
