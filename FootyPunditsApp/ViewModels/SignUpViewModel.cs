@@ -6,6 +6,8 @@ using FootyPunditsApp.Services;
 using Xamarin.Forms;
 using FootyPunditsApp.Models;
 using FootyPunditsApp.Views;
+using System.Net.Http;
+using FootballDataApi;
 
 namespace FootyPunditsApp.ViewModels
 {
@@ -27,6 +29,20 @@ namespace FootyPunditsApp.ViewModels
             this.SignUpCommand = new Command(() => SignUp());
 
             proxy = FootyPunditsAPIProxy.CreateProxy();
+
+            GetCompetitions();
+        }
+
+        private async void GetCompetitions()
+        {
+            var httpClient = new HttpClient();
+            httpClient.DefaultRequestHeaders.Add("X-Auth-Token", App.APIKey);
+
+            var competitionController = CompetitionProvider.Create()
+            .With(httpClient)
+            .Build();
+
+            var competitions = await competitionController.GetAvailableCompetition();
         }
 
         #region Email

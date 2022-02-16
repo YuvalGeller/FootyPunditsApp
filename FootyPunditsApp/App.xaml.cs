@@ -13,6 +13,8 @@ namespace FootyPunditsApp
         public static bool IsDevEnv = true;
         public UserAccount CurrentUser { get; set; }
 
+        public static string APIKey = "0cccc1f57ccf41dfbeec13653210c1b0";
+
         public App()
         {
             InitializeComponent();
@@ -20,7 +22,7 @@ namespace FootyPunditsApp
             Sharpnado.Shades.Initializer.Initialize(loggerEnable: false);
             CurrentUser = null;
 
-            MainPage = new TabControlView(3);
+            MainPage = new SignUpView();
         }
 
         protected override void OnStart()
