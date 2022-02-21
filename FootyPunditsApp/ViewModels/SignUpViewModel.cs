@@ -34,20 +34,19 @@ namespace FootyPunditsApp.ViewModels
             footyProxy = FootyPunditsAPIProxy.CreateProxy();
 
             GetCompetitions();
-            GetTeams(2021);
+            //GetTeams(2021);
         }
 
         private async void GetCompetitions()
         {
             FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
-            this.Competitions = await proxy.Competition.GetAvailableCompetition();
-        }
+            var competions = await proxy.Competition.GetAvailableCompetition();
 
-        
-        public IEnumerable<Competition> Competitions
-        {
-            get;
-            private set;
+            Competitions = new ObservableCollection<Competition>();
+            foreach (Competition c in competions)
+            {
+                Competitions.Add(c);
+            }
         }
 
         private Competition chosenCompetition;
@@ -65,6 +64,17 @@ namespace FootyPunditsApp.ViewModels
         {
             get;
             private set;
+        }
+
+        private ObservableCollection<Competition> competitions;
+        public ObservableCollection<Competition> Competitions
+        {
+            get => competitions;
+            set
+            {
+                competitions = value;
+                OnPropertyChanged("Competitions");
+            }
         }
 
         private Team chosenTeam;

@@ -2,6 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FootyPunditsApp.Views.SignUpView"
+             xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
              xmlns:local="clr-namespace:FootyPunditsApp;assembly=FootyPunditsApp">
     <ContentPage.Content>
         <StackLayout Spacing="1" BackgroundColor="White">
@@ -11,9 +12,6 @@
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                 <local:MyEntry Margin="7,-50" Placeholder="Email" PlaceholderColor="LightGray" Text="{Binding Email}" />
             </Frame>
-
-
-
 
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                 <Grid>
@@ -32,18 +30,13 @@
                 </Grid>
             </Frame>
 
-
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                 <local:MyEntry Margin="7" Placeholder="Confirm password" PlaceholderColor="LightGray" Text="{Binding ConfirmPassword}" />
             </Frame>
 
-
-
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                 <local:MyEntry Margin="7" Placeholder="Username" PlaceholderColor="LightGray" Text="{Binding UserName}" />
             </Frame>
-
-
 
             <Frame Margin="30,20,30,15" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                 <Picker Title="Favorite Team">
@@ -66,6 +59,27 @@
                 </Label.FormattedText>
             </Label>
 
+            <autocomplete:SfAutoComplete HeightRequest="40" DataSource="{Binding Competitions}" DisplayMemberPath="Name" >
+                <autocomplete:SfAutoComplete.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" 
+                                 Padding="2,0,0,0">
+                            <Label
+                               VerticalOptions="Center" 
+                               WidthRequest="500">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{Binding Name}" />
+                                        <Span Text=" (" />
+                                        <Span Text="{Binding Area.Name}" />
+                                        <Span Text=")" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </DataTemplate>
+                </autocomplete:SfAutoComplete.ItemTemplate>
+            </autocomplete:SfAutoComplete>
 
             <Button Margin="37,15,37,10"
                         HeightRequest="50"
@@ -76,7 +90,7 @@
                         Font="Prompt"
                         BackgroundColor="#499D62"
                 Command="{Binding SignUpCommand}"/>
-            
+
 
             <Grid Margin="0, 11, 0, 0">
                 <Grid.RowDefinitions>
@@ -89,11 +103,7 @@
                     <ColumnDefinition Width="10*" />
                     <ColumnDefinition Width="23*" />
                 </Grid.ColumnDefinitions>
-
-               
-                
             </Grid>
-           
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
