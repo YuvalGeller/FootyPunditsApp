@@ -32,21 +32,62 @@ namespace FootyPunditsApp.ViewModels
             this.SignUpCommand = new Command(() => SignUp());
 
             footyProxy = FootyPunditsAPIProxy.CreateProxy();
-
+            Teams = new ObservableCollection<Team>();
+            Competitions = new ObservableCollection<Competition>();
             GetCompetitions();
-            //GetTeams(2021);
+            //ChosenCompetition = new Competition()
+            //{
+            //    Id = 2001
+            //};
+            //GetTeamsInCompetition();
         }
 
         private async void GetCompetitions()
         {
             FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
-            var competions = await proxy.Competition.GetAvailableCompetition();
-
-            Competitions = new ObservableCollection<Competition>();
-            foreach (Competition c in competions)
+            try
             {
-                Competitions.Add(c);
+
+
+                var competions = await proxy.Competition.GetAvailableCompetition();
+
+
+                if (competitions != null)
+                {
+                    this.Competitions.Clear();
+                    foreach (Competition c in competions)
+                    {
+                        Competitions.Add(c);
+                    }
+                }
             }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+        }
+
+        public async void GetTeamsInCompetition()
+        {
+            //if (ChosenCompetition == null) return;
+            FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
+            try
+            {
+                IEnumerable<Team> teams = await proxy.Team.GetTeamByCompetition(ChosenCompetition.Id);
+                if (teams != null)
+                {
+                    Teams.Clear();
+                    foreach (Team team in teams)
+                    {
+                        Teams.Add(team);
+                    }
+                }
+            }
+            catch(Exception e)
+            {
+                Console.WriteLine(e.Message);
+            }
+            
         }
 
         private Competition chosenCompetition;
@@ -59,11 +100,16 @@ namespace FootyPunditsApp.ViewModels
                 OnPropertyChanged("ChosenCompetition");
             }
         }
-
+        
+        private ObservableCollection<Team> teams;
         public ObservableCollection<Team> Teams
         {
-            get;
-            private set;
+            get => teams;
+            set
+            {
+                teams = value;
+                OnPropertyChanged("Teams");
+            }
         }
 
         private ObservableCollection<Competition> competitions;
@@ -415,17 +461,6 @@ namespace FootyPunditsApp.ViewModels
                 UserAccount account = await footyProxy.SignUp(Email, Password, Username, FavoriteTeam);
                 ((App)App.Current).CurrentUser = account;
                 Push?.Invoke(new TabControlView());
-            }
-        }
-               
-        private async void GetTeams(int competitionID)
-        {
-            FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
-            IEnumerable<Team> teams = await proxy.Team.GetTeamByCompetition(competitionID);
-            Teams = new ObservableCollection<Team>();
-            foreach (Team team in teams)
-            {
-                Teams.Add(team);
             }
         }
 

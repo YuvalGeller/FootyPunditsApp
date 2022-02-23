@@ -3,8 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FootyPunditsApp.Views.SignUpView"
              xmlns:autocomplete="clr-namespace:Syncfusion.SfAutoComplete.XForms;assembly=Syncfusion.SfAutoComplete.XForms"
-             xmlns:local="clr-namespace:FootyPunditsApp;assembly=FootyPunditsApp">
-    <ContentPage.Content>
+             xmlns:local="clr-namespace:FootyPunditsApp;assembly=FootyPunditsApp"
+             >
+    <ContentPage.Content >
         <StackLayout Spacing="1" BackgroundColor="White">
             <Image Source="AppLogo.PNG" HorizontalOptions="Center" Margin="0,-35" ></Image>
             <Label Margin="20,-10,0,0" FontSize="20" FontAttributes="Bold" Text="Create your account" FontFamily="Roboto" TextColor="Black"/>
@@ -59,7 +60,7 @@
                 </Label.FormattedText>
             </Label>
 
-            <autocomplete:SfAutoComplete HeightRequest="40" DataSource="{Binding Competitions}" DisplayMemberPath="Name" >
+            <autocomplete:SfAutoComplete HeightRequest="40" DataSource="{Binding Competitions}" DisplayMemberPath="Name" SelectedItem="{Binding ChosenCompetition}" SelectionChanged="SfAutoComplete_SelectionChanged" >
                 <autocomplete:SfAutoComplete.ItemTemplate>
                     <DataTemplate>
                         <StackLayout Orientation="Horizontal" 
@@ -73,6 +74,25 @@
                                         <Span Text=" (" />
                                         <Span Text="{Binding Area.Name}" />
                                         <Span Text=")" />
+                                    </FormattedString>
+                                </Label.FormattedText>
+                            </Label>
+                        </StackLayout>
+                    </DataTemplate>
+                </autocomplete:SfAutoComplete.ItemTemplate>
+            </autocomplete:SfAutoComplete>
+
+            <autocomplete:SfAutoComplete x:Name="teamsAutoComplete" HeightRequest="40" DisplayMemberPath="Name" >
+                <autocomplete:SfAutoComplete.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" 
+                                 Padding="2,0,0,0">
+                            <Label
+                               VerticalOptions="Center" 
+                               WidthRequest="500">
+                                <Label.FormattedText>
+                                    <FormattedString>
+                                        <Span Text="{Binding Name}"/>
                                     </FormattedString>
                                 </Label.FormattedText>
                             </Label>
