@@ -40,11 +40,48 @@
             </Frame>
 
             <Frame Margin="30,20,30,15" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
-                <Picker Title="Favorite Team">
-                    <Picker.Items>
-                        
-                    </Picker.Items>
-                </Picker>
+                <autocomplete:SfAutoComplete Watermark="Choose a league" ShowSuggestionsOnFocus="True" HeightRequest="40" DataSource="{Binding Competitions}" DisplayMemberPath="Name" SelectedItem="{Binding ChosenCompetition}" SelectionChanged="SfAutoComplete_SelectionChanged" >
+                    <autocomplete:SfAutoComplete.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Orientation="Horizontal" 
+                                 Padding="2,0,0,0">
+                                <Label
+                               VerticalOptions="Center" 
+                               WidthRequest="500">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding Name}" />
+                                            <Span Text=" (" />
+                                            <Span Text="{Binding Area.Name}" />
+                                            <Span Text=")" />
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                            </StackLayout>
+                        </DataTemplate>
+                    </autocomplete:SfAutoComplete.ItemTemplate>
+                </autocomplete:SfAutoComplete>
+            </Frame>
+
+            <Frame Margin="30,20,30,15" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+                <autocomplete:SfAutoComplete Watermark="Choose a team" WatermarkColor="" ShowSuggestionsOnFocus="True" x:Name="teamsAutoComplete" HeightRequest="40" DisplayMemberPath="Name" >
+                    <autocomplete:SfAutoComplete.ItemTemplate>
+                        <DataTemplate>
+                            <StackLayout Orientation="Horizontal" 
+                                 Padding="2,0,0,0">
+                                <Label
+                               VerticalOptions="Center" 
+                               WidthRequest="500">
+                                    <Label.FormattedText>
+                                        <FormattedString>
+                                            <Span Text="{Binding Name}"/>
+                                        </FormattedString>
+                                    </Label.FormattedText>
+                                </Label>
+                            </StackLayout>
+                        </DataTemplate>
+                    </autocomplete:SfAutoComplete.ItemTemplate>
+                </autocomplete:SfAutoComplete>
             </Frame>
 
             <Label HorizontalOptions="Center" FontSize="20" FontFamily="Roboto" TextColor="Gray">
@@ -60,46 +97,9 @@
                 </Label.FormattedText>
             </Label>
 
-            <autocomplete:SfAutoComplete HeightRequest="40" DataSource="{Binding Competitions}" DisplayMemberPath="Name" SelectedItem="{Binding ChosenCompetition}" SelectionChanged="SfAutoComplete_SelectionChanged" >
-                <autocomplete:SfAutoComplete.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout Orientation="Horizontal" 
-                                 Padding="2,0,0,0">
-                            <Label
-                               VerticalOptions="Center" 
-                               WidthRequest="500">
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="{Binding Name}" />
-                                        <Span Text=" (" />
-                                        <Span Text="{Binding Area.Name}" />
-                                        <Span Text=")" />
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                        </StackLayout>
-                    </DataTemplate>
-                </autocomplete:SfAutoComplete.ItemTemplate>
-            </autocomplete:SfAutoComplete>
+            
 
-            <autocomplete:SfAutoComplete x:Name="teamsAutoComplete" HeightRequest="40" DisplayMemberPath="Name" >
-                <autocomplete:SfAutoComplete.ItemTemplate>
-                    <DataTemplate>
-                        <StackLayout Orientation="Horizontal" 
-                                 Padding="2,0,0,0">
-                            <Label
-                               VerticalOptions="Center" 
-                               WidthRequest="500">
-                                <Label.FormattedText>
-                                    <FormattedString>
-                                        <Span Text="{Binding Name}"/>
-                                    </FormattedString>
-                                </Label.FormattedText>
-                            </Label>
-                        </StackLayout>
-                    </DataTemplate>
-                </autocomplete:SfAutoComplete.ItemTemplate>
-            </autocomplete:SfAutoComplete>
+            
 
             <Button Margin="37,15,37,10"
                         HeightRequest="50"
