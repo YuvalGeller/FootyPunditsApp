@@ -31,7 +31,7 @@
                        Grid.Row="0"
                        Animate="False"
                        SelectedIndex="{Binding SelectedViewModelIndex, Mode=TwoWay}">
-                <views:HomeView />
+                <views:HomePageView />
                 <Label Text="Hello world 2"/>
                 <Label Text="Hello world 3"/>
                 <views:ProfilePageView />

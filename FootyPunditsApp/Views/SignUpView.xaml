@@ -64,7 +64,7 @@
             </Frame>
 
             <Frame Margin="30,20,30,15" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
-                <autocomplete:SfAutoComplete Watermark="Choose a team" WatermarkColor="" ShowSuggestionsOnFocus="True" x:Name="teamsAutoComplete" HeightRequest="40" DisplayMemberPath="Name" >
+                <autocomplete:SfAutoComplete Watermark="Choose a team" WatermarkColor="Azure" ShowSuggestionsOnFocus="True" x:Name="teamsAutoComplete" HeightRequest="40" DisplayMemberPath="Name" >
                     <autocomplete:SfAutoComplete.ItemTemplate>
                         <DataTemplate>
                             <StackLayout Orientation="Horizontal" 
