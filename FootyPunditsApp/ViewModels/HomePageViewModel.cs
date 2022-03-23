@@ -1,9 +1,11 @@
 ﻿using FootballDataApi.Models;
+using FootyPunditsApp.DataTests;
 using FootyPunditsApp.Services;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
+using Newtonsoft.Json;
 
 namespace FootyPunditsApp.ViewModels
 {
@@ -42,6 +44,9 @@ namespace FootyPunditsApp.ViewModels
         private async void GetMatchesByDate()
         {
             FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
+            //string str = TestMatch.GetMatches();
+            //IEnumerable<Object> matches = JsonConvert.DeserializeObject<IEnumerable<Object>>(str);
+
             var matches = await proxy.Match.GetAllMatchOfCompetition(2021);
         }
 
