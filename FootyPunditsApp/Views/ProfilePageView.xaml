@@ -5,8 +5,116 @@
   <ContentView.Content>
         <RefreshView Command="{Binding LoadProfileCommand}" IsRefreshing="{Binding IsRefreshing}">
             <ScrollView>
-           
-                
+                <StackLayout Spacing="15" BackgroundColor="White">
+                    <Grid Margin="0,7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Text="{Binding Name}" FontAttributes="Bold" Margin="170,35,-50,0" Style="{StaticResource labelStyle}" FontSize="27"/>
+                    </Grid>
+                    <Grid Margin="0,-57">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Text="Joined at" FontAttributes="Bold" Margin="170,35,0,0" Style="{StaticResource labelStyle}" FontSize="15"/>
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="1" Text="{Binding JoinedAt, StringFormat='{0:MMMM dd, yyyy}'}" FontAttributes="Bold" Margin="-52,35,0,0" Style="{StaticResource labelStyle}" FontSize="15"/>
+                    </Grid>
+
+                   <!-- <controls:CircleImage Margin="-250,-30,0,-70" x:Name="ProfilePictureImage" Source="{Binding ProfileImage, Converter={StaticResource ImageSourceConverter}}" WidthRequest="100" HeightRequest="100" 
+                                                  BorderColor="Black" BorderThickness="1"
+                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=svgStackView, Property=Width, Factor=0.1}"
+                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=svgStackView, Property=Height, Factor=0.2}">
+                        <controls:CircleImage.GestureRecognizers>
+                            <TapGestureRecognizer Command="{Binding ChangePfpCommand}" />
+                        </controls:CircleImage.GestureRecognizers>
+                    </controls:CircleImage> -->
+
+
+                    <BoxView Margin="0,75,0,10"  HeightRequest="1" Color="Gray"/>
+                    <Label Margin="20,-7,0,0" Style="{StaticResource labelStyle}" FontSize="18" FontAttributes="Bold" Text="Account settings"/>
+
+                    <Grid Margin="0,7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Margin="50,0,0,0" Style="{StaticResource labelStyle}" FontSize="20">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Edit personal information">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding PersonalInfoCommand}"/>
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Image Margin="-10" HeightRequest="25" WidthRequest="25" VerticalOptions="CenterAndExpand" Grid.Column="1" Source="Edit.png"/>
+                    </Grid>
+
+                    <BoxView Margin="51,-5,49,0" HorizontalOptions="FillAndExpand" HeightRequest="0.5" Color="Gray"/>
+
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Margin="51,0,0,0" Style="{StaticResource labelStyle}" FontSize="20">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Notifications">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding NotificationsCommand}"/>
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Image Margin="-10" HeightRequest="30" WidthRequest="30" VerticalOptions="CenterAndExpand" Grid.Column="1" Source="DUHistory.png"/>
+                    </Grid>
+                  
+                    <BoxView Margin="51,-5,49,0" HorizontalOptions="FillAndExpand" HeightRequest="0.5" Color="Gray"/>
+                    <Label Margin="20,15,0,0" Style="{StaticResource labelStyle}" FontSize="18" FontAttributes="Bold" Text="Support"/>
+                    <Grid Margin="0,7">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Margin="50,0,0,0" Style="{StaticResource labelStyle}" FontSize="20">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Get help">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding GetHelpCommand}"/>
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                        <Image Margin="-10" HeightRequest="50" WidthRequest="50" VerticalOptions="CenterAndExpand" Grid.Column="1" Source="Help.png"/>
+                    </Grid>
+                    <BoxView Margin="51,-5,49,20" HorizontalOptions="FillAndExpand" HeightRequest="0.5" Color="Gray"/>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="70*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Margin="50,0,0,0" Style="{StaticResource labelStyle}" TextColor="Black" FontAttributes="Bold" FontSize="20">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Log out">
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding LogOutCommand}"/>
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
+                    </Grid>
+                    <BoxView Margin="51,0,49,20" HorizontalOptions="FillAndExpand" HeightRequest="0.5" Color="Gray"/>
+                </StackLayout>
             </ScrollView>
         </RefreshView>
     </ContentView.Content>
