@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              x:Class="FootyPunditsApp.Views.ProfilePageView">
   <ContentView.Content>
         <RefreshView Command="{Binding LoadProfileCommand}" IsRefreshing="{Binding IsRefreshing}">
@@ -21,16 +22,15 @@
                         <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Text="Joined at" FontAttributes="Bold" Margin="170,35,0,0" Style="{StaticResource labelStyle}" FontSize="15"/>
                         <Label VerticalOptions="CenterAndExpand" Grid.Column="1" Text="{Binding JoinedAt, StringFormat='{0:MMMM dd, yyyy}'}" FontAttributes="Bold" Margin="-52,35,0,0" Style="{StaticResource labelStyle}" FontSize="15"/>
                     </Grid>
-
-                   <!-- <controls:CircleImage Margin="-250,-30,0,-70" x:Name="ProfilePictureImage" Source="{Binding ProfileImage, Converter={StaticResource ImageSourceConverter}}" WidthRequest="100" HeightRequest="100" 
+                    
+                    <controls:CircleImage Margin="-250,-30,0,-70" x:Name="ProfilePictureImage" Source="{Binding ProfileImage, Converter={StaticResource ImageSourceConverter}}" WidthRequest="100" HeightRequest="100" 
                                                   BorderColor="Black" BorderThickness="1"
                         RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=svgStackView, Property=Width, Factor=0.1}"
                         RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=svgStackView, Property=Height, Factor=0.2}">
                         <controls:CircleImage.GestureRecognizers>
                             <TapGestureRecognizer Command="{Binding ChangePfpCommand}" />
                         </controls:CircleImage.GestureRecognizers>
-                    </controls:CircleImage> -->
-
+                    </controls:CircleImage>
 
                     <BoxView Margin="0,75,0,10"  HeightRequest="1" Color="Gray"/>
                     <Label Margin="20,-7,0,0" Style="{StaticResource labelStyle}" FontSize="18" FontAttributes="Bold" Text="Account settings"/>

@@ -114,6 +114,17 @@ namespace FootyPunditsApp.ViewModels
             
         }
 
+        public ICommand LogOutCommand => new Command(LogOut);
+        private void LogOut()
+        {
+            //bool success = await proxy.Logout();
+            //if (success)
+            //{
+            ((App)App.Current).CurrentUser = null;
+            Push?.Invoke(new LogInView());
+            //}
+        }
+
         //public Command ChangePfpCommand => new Command(() => ChangePfp());
         //public async void ChangePfp()
         //{
@@ -141,5 +152,5 @@ namespace FootyPunditsApp.ViewModels
         //    {
         //        // add error popup
         //    }
-    }
+        }
 }
