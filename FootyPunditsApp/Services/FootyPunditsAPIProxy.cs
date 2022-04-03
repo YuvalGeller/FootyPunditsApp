@@ -11,7 +11,6 @@ using System.Text.Encodings.Web;
 using Xamarin.Forms;
 using Xamarin.Essentials;
 using System.IO;
-using FootyPunditsApp.Models;
 using Newtonsoft.Json;
 
 namespace FootyPunditsApp.Services
@@ -109,7 +108,7 @@ namespace FootyPunditsApp.Services
         //        return null;
         //    }
         //}
-        public async Task<UserAccount> SignUp (string email, string Upassword, string userName, int favoriteTeam)
+        public async Task<UserAccount> SignUp(string email, string Upassword, string userName, int favoriteTeam)
         {
             try
             {
@@ -249,5 +248,52 @@ namespace FootyPunditsApp.Services
                 return null;
             }
         }
+
+        public async Task<bool> UploadImage(Models.FileInfo fileInfo)
+        {
+            try
+            {
+                var multipartFormDataContent = new MultipartFormDataContent();
+                var fileContent = new ByteArrayContent(File.ReadAllBytes(fileInfo.Name));
+                multipartFormDataContent.Add(fileContent, "file", "kuku.jpg");
+                HttpResponseMessage response = await client.PostAsync($"{this.baseUri}/FootyPunditsAPI/UploadImage", multipartFormDataContent);
+                if (response.IsSuccessStatusCode)
+                {
+                    return true;
+                }
+                else
+                    return false;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
+        }
+    }
+    public async Task<bool> UploadImage(string fullPath, string targetFileName)
+    {
+        try
+        {
+            var multipartFormDataContent = new MultipartFormDataContent();
+            var fileContent = new ByteArrayContent(File.ReadAllBytes(fullPath));
+            multipartFormDataContent.Add(fileContent, "file", targetFileName);
+            string url = $"{this.baseUri}/FootyPunditsAPI/uploadimage";
+
+            HttpResponseMessage response = await client.PostAsync(url, multipartFormDataContent);
+            if (response.IsSuccessStatusCode)
+            {
+                return true;
+            }
+            else
+                return false;
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine(e.Message);
+            return false;
+        }
     }
 }
+
+

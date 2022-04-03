@@ -107,11 +107,11 @@ namespace FootyPunditsApp.ViewModels
         public void LoadProfile()
         {
             User = ((App)App.Current).CurrentUser;
-            
+
             Name = $"{User.AccName}";
             JoinedAt = User.SignUpDate.Date;
             //ProfileImage = $"{proxy.baseUri}/imgs/{User.ProfileImage}";
-            
+
         }
 
         public ICommand LogOutCommand => new Command(LogOut);
@@ -125,32 +125,33 @@ namespace FootyPunditsApp.ViewModels
             //}
         }
 
-        //public Command ChangePfpCommand => new Command(() => ChangePfp());
-        //public async void ChangePfp()
-        //{
-        //    if (MediaPicker.IsCaptureSupported)
-        //    {
-        //        FileResult result = await MediaPicker.PickPhotoAsync(new MediaPickerOptions()
-        //        {
-        //            Title = "Pick a profile picture"
-        //        });
+        public Command ChangePfpCommand => new Command(() => ChangePfp());
+        public async void ChangePfp()
+        {
+            if (MediaPicker.IsCaptureSupported)
+            {
+                FileResult result = await MediaPicker.PickPhotoAsync(new MediaPickerOptions()
+                {
+                    Title = "Pick a profile picture"
+                });
 
-        //        if (result != null)
-        //        {
-        //            this.imageFileResult = result;
+                if (result != null)
+                {
+                    this.imageFileResult = result;
 
-        //            var stream = await result.OpenReadAsync();
-        //            ImageSource imgSource = ImageSource.FromStream(() => stream);
-        //            if (SetImageSourceEvent != null)
-        //                SetImageSourceEvent(imgSource);
-        //            bool uploadImageSuccess = await proxy.UploadImage(imageFileResult.FullPath, $"a{User.Id}.jpg");
-        //            if (uploadImageSuccess)
-        //                User.ProfileImage = $"a{User.Id}.jpg";
-        //        }
-        //    }
-        //    else
-        //    {
-        //        // add error popup
-        //    }
+                    var stream = await result.OpenReadAsync();
+                    ImageSource imgSource = ImageSource.FromStream(() => stream);
+                    if (SetImageSourceEvent != null)
+                        SetImageSourceEvent(imgSource);
+                    bool uploadImageSuccess = await proxy.UploadImage(imageFileResult.FullPath, $"a{User.AccountId}.jpg");
+                    if (uploadImageSuccess)
+                        User.ProfilePicture = $"a{User.AccountId}.jpg";
+                }
+            }
+            else
+            {
+                // add error popup
+            }
         }
+    }
 }
