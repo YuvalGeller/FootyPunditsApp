@@ -116,6 +116,7 @@ namespace FootyPunditsApp.Services
                 {
                     Email = email,
                     Upass = Upassword,
+                    AccName = userName,
                     Username = userName,
                     FavoriteTeam = favoriteTeam,
                     SignUpDate = DateTime.Now,
@@ -124,7 +125,7 @@ namespace FootyPunditsApp.Services
 
                 string json = JsonConvert.SerializeObject(a);
                 StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
-                string url = $"{this.baseUri}/SignUp";
+                string url = $"{this.baseUri}/signUp";
                 HttpResponseMessage response = await this.client.PostAsync(url, content);
 
                 if (response.IsSuccessStatusCode)
@@ -249,7 +250,7 @@ namespace FootyPunditsApp.Services
             }
         }
 
-        public async Task<bool> UploadImage(Models.FileInfo fileInfo)
+        public async Task<bool> UploadImage(FileInfo fileInfo)
         {
             try
             {
@@ -270,30 +271,31 @@ namespace FootyPunditsApp.Services
                 return false;
             }
         }
-    }
-    public async Task<bool> UploadImage(string fullPath, string targetFileName)
-    {
-        try
-        {
-            var multipartFormDataContent = new MultipartFormDataContent();
-            var fileContent = new ByteArrayContent(File.ReadAllBytes(fullPath));
-            multipartFormDataContent.Add(fileContent, "file", targetFileName);
-            string url = $"{this.baseUri}/FootyPunditsAPI/uploadimage";
 
-            HttpResponseMessage response = await client.PostAsync(url, multipartFormDataContent);
-            if (response.IsSuccessStatusCode)
-            {
-                return true;
-            }
-            else
-                return false;
-        }
-        catch (Exception e)
+        public async Task<bool> UploadImage(string fullPath, string targetFileName)
         {
-            Console.WriteLine(e.Message);
-            return false;
+            try
+            {
+                var multipartFormDataContent = new MultipartFormDataContent();
+                var fileContent = new ByteArrayContent(File.ReadAllBytes(fullPath));
+                multipartFormDataContent.Add(fileContent, "file", targetFileName);
+                string url = $"{this.baseUri}/FootyPunditsAPI/uploadimage";
+
+                HttpResponseMessage response = await client.PostAsync(url, multipartFormDataContent);
+                if (response.IsSuccessStatusCode)
+                {
+                    return true;
+                }
+                else
+                    return false;
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine(e.Message);
+                return false;
+            }
         }
-    }
+    } 
 }
 
 

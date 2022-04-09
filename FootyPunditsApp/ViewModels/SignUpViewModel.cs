@@ -458,7 +458,10 @@ namespace FootyPunditsApp.ViewModels
         {
             if (ValidateForm())
             {
-                UserAccount account = await footyProxy.SignUp(Email, Password, Username, FavoriteTeam);
+                int teamId = 0;
+                if (ChosenTeam.Id != null)
+                    teamId = (int)ChosenTeam.Id;
+                UserAccount account = await footyProxy.SignUp(Email, Password, Username, teamId);
                 ((App)App.Current).CurrentUser = account;
                 Push?.Invoke(new TabControlView());
             }
