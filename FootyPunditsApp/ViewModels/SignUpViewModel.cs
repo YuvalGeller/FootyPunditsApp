@@ -41,7 +41,7 @@ namespace FootyPunditsApp.ViewModels
             //};
             //GetTeamsInCompetition();
         }
-
+        
         private async void GetCompetitions()
         {
             FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();

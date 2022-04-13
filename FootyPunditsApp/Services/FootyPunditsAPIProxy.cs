@@ -295,6 +295,20 @@ namespace FootyPunditsApp.Services
                 return false;
             }
         }
+
+
+        public async Task<bool> Logout()
+        {
+            try
+            {
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/logout");
+                return response.IsSuccessStatusCode;
+            }
+            catch
+            {
+                return false;
+            }
+        }
     } 
 }
 

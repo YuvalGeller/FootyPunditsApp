@@ -18,6 +18,7 @@ namespace FootyPunditsApp.Views
             context.SetImageSourceEvent += ChangePfpSource;
             this.BindingContext = context;
             InitializeComponent();
+            context.Push += (p) => Navigation.PushAsync(p);
         }
 
         public void ChangePfpSource(ImageSource imgSource)
