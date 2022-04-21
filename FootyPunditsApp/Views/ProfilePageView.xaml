@@ -12,15 +12,15 @@
                             <ColumnDefinition Width="70*"/>
                             <ColumnDefinition Width="30*"/>
                         </Grid.ColumnDefinitions>
-                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Text="{Binding Name}" FontAttributes="Bold" Margin="170,35,-50,0" Style="{StaticResource labelStyle}" FontSize="27"/>
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Text="{Binding Name}" FontAttributes="Bold" Margin="170,35,-50,0" Style="{StaticResource labelStyle}" FontSize="27" />
                     </Grid>
                     <Grid Margin="0,-57">
                         <Grid.ColumnDefinitions>
                             <ColumnDefinition Width="70*"/>
                             <ColumnDefinition Width="30*"/>
                         </Grid.ColumnDefinitions>
-                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Text="Joined at" FontAttributes="Bold" Margin="170,35,0,0" Style="{StaticResource labelStyle}" FontSize="15"/>
-                        <Label VerticalOptions="CenterAndExpand" Grid.Column="1" Text="{Binding JoinedAt, StringFormat='{0:MMMM dd, yyyy}'}" FontAttributes="Bold" Margin="-52,35,0,0" Style="{StaticResource labelStyle}" FontSize="15"/>
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Text="Joined at" FontAttributes="Bold" Margin="170,40,0,0" Style="{StaticResource labelStyle}" FontSize="17"/>
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="1" Text="{Binding JoinedAt, StringFormat='{0:MMMM dd, yyyy}'}" FontAttributes="Bold" Margin="-52,40,0,0" Style="{StaticResource labelStyle}" FontSize="17"/>
                     </Grid>
                     
                     <controls:CircleImage Margin="-250,-30,0,-70" x:Name="ProfilePictureImage" Source="{Binding ProfileImage, Converter={StaticResource ImageSourceConverter}}" WidthRequest="100" HeightRequest="100" 

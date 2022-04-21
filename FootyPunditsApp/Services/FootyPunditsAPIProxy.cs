@@ -22,13 +22,13 @@ namespace FootyPunditsApp.Services
         private const string DEV_ANDROID_EMULATOR_URL = "http://10.0.2.2:12833/FootyPunditsAPI"; //API url when using emulator on android
         private const string DEV_ANDROID_PHYSICAL_URL = "http://192.168.1.14:12833/FootyPunditsAPI"; //API url when using physucal device on android
         private const string DEV_WINDOWS_URL = "http://localhost:12833/FootyPunditsAPI"; //API url when using windoes on development
-        private const string DEV_ANDROID_EMULATOR_PHOTOS_URL = "http://10.0.2.2:12833/Images/"; //API url when using emulator on android
-        private const string DEV_ANDROID_PHYSICAL_PHOTOS_URL = "http://192.168.1.14:12833/Images/"; //API url when using physucal device on android
-        private const string DEV_WINDOWS_PHOTOS_URL = "http://localhost:12833/Images/"; //API url when using windoes on development
+        private const string DEV_ANDROID_EMULATOR_PHOTOS_URL = "http://10.0.2.2:12833/imgs"; //API url when using emulator on android
+        private const string DEV_ANDROID_PHYSICAL_PHOTOS_URL = "http://192.168.1.14:12833/imgs"; //API url when using physucal device on android
+        private const string DEV_WINDOWS_PHOTOS_URL = "http://localhost:12833/imgs"; //API url when using windoes on development
 
         private HttpClient client;
         private string baseUri;
-        private string basePhotosUri;
+        public string basePhotosUri;
         private static FootyPunditsAPIProxy proxy = null;
 
         public static FootyPunditsAPIProxy CreateProxy()
@@ -250,14 +250,38 @@ namespace FootyPunditsApp.Services
             }
         }
 
-        public async Task<bool> UploadImage(FileInfo fileInfo)
+        //public async Task<bool> UploadImage(FileInfo fileInfo)
+        //{
+        //    try
+        //    {
+        //        var multipartFormDataContent = new MultipartFormDataContent();
+        //        var fileContent = new ByteArrayContent(File.ReadAllBytes(fileInfo.Name));
+        //        multipartFormDataContent.Add(fileContent, "file", "kuku.jpg");
+        //        HttpResponseMessage response = await client.PostAsync($"{this.baseUri}/FootyPunditsAPI/UploadImage", multipartFormDataContent);
+        //        if (response.IsSuccessStatusCode)
+        //        {
+        //            return true;
+        //        }
+        //        else
+        //            return false;
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Console.WriteLine(e.Message);
+        //        return false;
+        //    }
+        //}
+
+        public async Task<bool> UploadImage(string fullPath, string targetFileName)
         {
             try
             {
                 var multipartFormDataContent = new MultipartFormDataContent();
-                var fileContent = new ByteArrayContent(File.ReadAllBytes(fileInfo.Name));
-                multipartFormDataContent.Add(fileContent, "file", "kuku.jpg");
-                HttpResponseMessage response = await client.PostAsync($"{this.baseUri}/FootyPunditsAPI/UploadImage", multipartFormDataContent);
+                var fileContent = new ByteArrayContent(File.ReadAllBytes(fullPath));
+                multipartFormDataContent.Add(fileContent, "file", targetFileName);
+                string url = $"{this.baseUri}/uploadimage";
+
+                HttpResponseMessage response = await client.PostAsync(url, multipartFormDataContent);
                 if (response.IsSuccessStatusCode)
                 {
                     return true;
@@ -272,26 +296,16 @@ namespace FootyPunditsApp.Services
             }
         }
 
-        public async Task<bool> UploadImage(string fullPath, string targetFileName)
+        public async Task<bool> UpdateProfile(string username, string password)
         {
             try
             {
-                var multipartFormDataContent = new MultipartFormDataContent();
-                var fileContent = new ByteArrayContent(File.ReadAllBytes(fullPath));
-                multipartFormDataContent.Add(fileContent, "file", targetFileName);
-                string url = $"{this.baseUri}/FootyPunditsAPI/uploadimage";
-
-                HttpResponseMessage response = await client.PostAsync(url, multipartFormDataContent);
-                if (response.IsSuccessStatusCode)
-                {
-                    return true;
-                }
-                else
-                    return false;
+                string url = Uri.EscapeUriString($"{this.baseUri}/update-profile?password={password}&username={username}");
+                HttpResponseMessage response = await this.client.GetAsync(url);
+                return response.IsSuccessStatusCode;
             }
             catch (Exception e)
             {
-                Console.WriteLine(e.Message);
                 return false;
             }
         }

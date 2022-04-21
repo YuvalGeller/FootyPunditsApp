@@ -110,7 +110,7 @@ namespace FootyPunditsApp.ViewModels
 
             Name = $"{User.AccName}";
             JoinedAt = User.SignUpDate.Date;
-            //ProfileImage = $"{proxy.baseUri}/imgs/{User.ProfileImage}";
+            ProfileImage = $"{proxy.basePhotosUri}/{User.ProfilePicture}";
 
         }
 
