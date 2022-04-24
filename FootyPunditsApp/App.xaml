@@ -12,6 +12,7 @@
                 <Setter Property="FontFamily" Value="Roboto"/>
                 <Setter Property="TextColor" Value="Black" />
             </Style>
+
         </ResourceDictionary>
     </Application.Resources>
 </Application>

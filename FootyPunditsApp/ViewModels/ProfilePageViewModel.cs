@@ -114,6 +114,8 @@ namespace FootyPunditsApp.ViewModels
 
         }
 
+        public Command PersonalInfoCommand => new Command(() => Push.Invoke(new EditProfileView()));
+
         public ICommand LogOutCommand => new Command(LogOut);
         private async void LogOut()
         {

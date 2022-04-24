@@ -40,10 +40,10 @@
                             <ColumnDefinition Width="70*"/>
                             <ColumnDefinition Width="30*"/>
                         </Grid.ColumnDefinitions>
-                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Margin="50,0,0,0" Style="{StaticResource labelStyle}" FontSize="20">
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Margin="50,0,0,0" Style="{StaticResource labelStyle}" FontSize="20" >
                             <Label.FormattedText>
                                 <FormattedString>
-                                    <Span Text="Edit personal information">
+                                    <Span Text="Edit personal information" >
                                         <Span.GestureRecognizers>
                                             <TapGestureRecognizer Command="{Binding PersonalInfoCommand}"/>
                                         </Span.GestureRecognizers>
