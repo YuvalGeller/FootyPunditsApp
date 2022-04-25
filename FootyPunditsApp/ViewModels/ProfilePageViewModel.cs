@@ -30,19 +30,19 @@ namespace FootyPunditsApp.ViewModels
         private FileResult imageFileResult;
         public event Action<ImageSource> SetImageSourceEvent;
 
-        private string name;
-        public string Name
+        private string username;
+        public string Username
         {
             get
             {
-                return this.name;
+                return this.username;
             }
             set
             {
-                if (this.name != value)
+                if (this.username != value)
                 {
-                    this.name = value;
-                    OnPropertyChanged(nameof(Name));
+                    this.username = value;
+                    OnPropertyChanged(nameof(Username));
                 }
             }
         }
@@ -98,6 +98,23 @@ namespace FootyPunditsApp.ViewModels
             }
         }
 
+        private bool isRfreshing;
+        public bool IsRefreshing
+        {
+            get
+            {
+                return this.isRfreshing;
+            }
+            set
+            {
+                if (this.isRfreshing != value)
+                {
+                    this.isRfreshing = value;
+                    OnPropertyChanged(nameof(IsRefreshing));
+                }
+            }
+        }
+
         public ProfilePageViewModel()
         {
             proxy = FootyPunditsAPIProxy.CreateProxy();
@@ -107,12 +124,15 @@ namespace FootyPunditsApp.ViewModels
         public void LoadProfile()
         {
             User = ((App)App.Current).CurrentUser;
-
-            Name = $"{User.AccName}";
+            Username = $"{User.Username}";
             JoinedAt = User.SignUpDate.Date;
             ProfileImage = $"{proxy.basePhotosUri}/{User.ProfilePicture}";
-
         }
+        public Command LoadProfileCommand => new Command(() => {
+            IsRefreshing = true;
+            LoadProfile();
+            IsRefreshing = false;
+        });
 
         public Command PersonalInfoCommand => new Command(() => Push.Invoke(new EditProfileView()));
 

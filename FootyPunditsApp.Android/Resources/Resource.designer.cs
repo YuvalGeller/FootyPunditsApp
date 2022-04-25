@@ -91,12 +91,20 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.EnterFromRight = global::FootyPunditsApp.Droid.Resource.Animation.EnterFromRight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.ExitToLeft = global::FootyPunditsApp.Droid.Resource.Animation.ExitToLeft;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.ExitToRight = global::FootyPunditsApp.Droid.Resource.Animation.ExitToRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.fragment_fast_out_extra_slow_in = global::FootyPunditsApp.Droid.Resource.Animation.fragment_fast_out_extra_slow_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in = global::FootyPunditsApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_in;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out = global::FootyPunditsApp.Droid.Resource.Animation.mtrl_bottom_sheet_slide_out;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animation.mtrl_card_lowers_interpolator = global::FootyPunditsApp.Droid.Resource.Animation.mtrl_card_lowers_interpolator;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.design_appbar_state_list_animator = global::FootyPunditsApp.Droid.Resource.Animator.design_appbar_state_list_animator;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.design_fab_hide_motion_spec = global::FootyPunditsApp.Droid.Resource.Animator.design_fab_hide_motion_spec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.design_fab_show_motion_spec = global::FootyPunditsApp.Droid.Resource.Animator.design_fab_show_motion_spec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_btn_state_list_anim = global::FootyPunditsApp.Droid.Resource.Animator.mtrl_btn_state_list_anim;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim = global::FootyPunditsApp.Droid.Resource.Animator.mtrl_btn_unelevated_state_list_anim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_card_state_list_anim = global::FootyPunditsApp.Droid.Resource.Animator.mtrl_card_state_list_anim;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_chip_state_list_anim = global::FootyPunditsApp.Droid.Resource.Animator.mtrl_chip_state_list_anim;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec = global::FootyPunditsApp.Droid.Resource.Animator.mtrl_extended_fab_hide_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec = global::FootyPunditsApp.Droid.Resource.Animator.mtrl_extended_fab_show_motion_spec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator = global::FootyPunditsApp.Droid.Resource.Animator.mtrl_extended_fab_state_list_animator;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_fab_hide_motion_spec = global::FootyPunditsApp.Droid.Resource.Animator.mtrl_fab_hide_motion_spec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_fab_show_motion_spec = global::FootyPunditsApp.Droid.Resource.Animator.mtrl_fab_show_motion_spec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec = global::FootyPunditsApp.Droid.Resource.Animator.mtrl_fab_transformation_sheet_collapse_spec;
@@ -133,6 +141,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionOverflowButtonStyle = global::FootyPunditsApp.Droid.Resource.Attribute.actionOverflowButtonStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionOverflowMenuStyle = global::FootyPunditsApp.Droid.Resource.Attribute.actionOverflowMenuStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionProviderClass = global::FootyPunditsApp.Droid.Resource.Attribute.actionProviderClass;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionTextColorAlpha = global::FootyPunditsApp.Droid.Resource.Attribute.actionTextColorAlpha;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.actionViewClass = global::FootyPunditsApp.Droid.Resource.Attribute.actionViewClass;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.activityChooserViewStyle = global::FootyPunditsApp.Droid.Resource.Attribute.activityChooserViewStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alertDialogButtonGroupStyle = global::FootyPunditsApp.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
@@ -142,6 +151,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.allowStacking = global::FootyPunditsApp.Droid.Resource.Attribute.allowStacking;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alpha = global::FootyPunditsApp.Droid.Resource.Attribute.alpha;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.alphabeticModifiers = global::FootyPunditsApp.Droid.Resource.Attribute.alphabeticModifiers;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.animationMode = global::FootyPunditsApp.Droid.Resource.Attribute.animationMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.appBarLayoutStyle = global::FootyPunditsApp.Droid.Resource.Attribute.appBarLayoutStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.arrowHeadLength = global::FootyPunditsApp.Droid.Resource.Attribute.arrowHeadLength;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.arrowShaftLength = global::FootyPunditsApp.Droid.Resource.Attribute.arrowShaftLength;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoCompleteTextViewStyle = global::FootyPunditsApp.Droid.Resource.Attribute.autoCompleteTextViewStyle;
@@ -151,16 +162,30 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizeStepGranularity = global::FootyPunditsApp.Droid.Resource.Attribute.autoSizeStepGranularity;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.autoSizeTextType = global::FootyPunditsApp.Droid.Resource.Attribute.autoSizeTextType;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.background = global::FootyPunditsApp.Droid.Resource.Attribute.background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundColor = global::FootyPunditsApp.Droid.Resource.Attribute.backgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundInsetBottom = global::FootyPunditsApp.Droid.Resource.Attribute.backgroundInsetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundInsetEnd = global::FootyPunditsApp.Droid.Resource.Attribute.backgroundInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundInsetStart = global::FootyPunditsApp.Droid.Resource.Attribute.backgroundInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundInsetTop = global::FootyPunditsApp.Droid.Resource.Attribute.backgroundInsetTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundOverlayColorAlpha = global::FootyPunditsApp.Droid.Resource.Attribute.backgroundOverlayColorAlpha;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundSplit = global::FootyPunditsApp.Droid.Resource.Attribute.backgroundSplit;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundStacked = global::FootyPunditsApp.Droid.Resource.Attribute.backgroundStacked;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundTint = global::FootyPunditsApp.Droid.Resource.Attribute.backgroundTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.backgroundTintMode = global::FootyPunditsApp.Droid.Resource.Attribute.backgroundTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.badgeGravity = global::FootyPunditsApp.Droid.Resource.Attribute.badgeGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.badgeStyle = global::FootyPunditsApp.Droid.Resource.Attribute.badgeStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.badgeTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.badgeTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.barLength = global::FootyPunditsApp.Droid.Resource.Attribute.barLength;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_autoHide = global::FootyPunditsApp.Droid.Resource.Attribute.behavior_autoHide;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_autoShrink = global::FootyPunditsApp.Droid.Resource.Attribute.behavior_autoShrink;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_draggable = global::FootyPunditsApp.Droid.Resource.Attribute.behavior_draggable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_expandedOffset = global::FootyPunditsApp.Droid.Resource.Attribute.behavior_expandedOffset;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_fitToContents = global::FootyPunditsApp.Droid.Resource.Attribute.behavior_fitToContents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_halfExpandedRatio = global::FootyPunditsApp.Droid.Resource.Attribute.behavior_halfExpandedRatio;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_hideable = global::FootyPunditsApp.Droid.Resource.Attribute.behavior_hideable;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_overlapTop = global::FootyPunditsApp.Droid.Resource.Attribute.behavior_overlapTop;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_peekHeight = global::FootyPunditsApp.Droid.Resource.Attribute.behavior_peekHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_saveFlags = global::FootyPunditsApp.Droid.Resource.Attribute.behavior_saveFlags;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.behavior_skipCollapsed = global::FootyPunditsApp.Droid.Resource.Attribute.behavior_skipCollapsed;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.borderlessButtonStyle = global::FootyPunditsApp.Droid.Resource.Attribute.borderlessButtonStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.borderWidth = global::FootyPunditsApp.Droid.Resource.Attribute.borderWidth;
@@ -176,7 +201,9 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCornerRadiusTopEnd = global::FootyPunditsApp.Droid.Resource.Attribute.boxCornerRadiusTopEnd;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxCornerRadiusTopStart = global::FootyPunditsApp.Droid.Resource.Attribute.boxCornerRadiusTopStart;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxStrokeColor = global::FootyPunditsApp.Droid.Resource.Attribute.boxStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxStrokeErrorColor = global::FootyPunditsApp.Droid.Resource.Attribute.boxStrokeErrorColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxStrokeWidth = global::FootyPunditsApp.Droid.Resource.Attribute.boxStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.boxStrokeWidthFocused = global::FootyPunditsApp.Droid.Resource.Attribute.boxStrokeWidthFocused;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarButtonStyle = global::FootyPunditsApp.Droid.Resource.Attribute.buttonBarButtonStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarNegativeButtonStyle = global::FootyPunditsApp.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.buttonBarNeutralButtonStyle = global::FootyPunditsApp.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
@@ -193,14 +220,17 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardBackgroundColor = global::FootyPunditsApp.Droid.Resource.Attribute.cardBackgroundColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardCornerRadius = global::FootyPunditsApp.Droid.Resource.Attribute.cardCornerRadius;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardElevation = global::FootyPunditsApp.Droid.Resource.Attribute.cardElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardForegroundColor = global::FootyPunditsApp.Droid.Resource.Attribute.cardForegroundColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardMaxElevation = global::FootyPunditsApp.Droid.Resource.Attribute.cardMaxElevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardPreventCornerOverlap = global::FootyPunditsApp.Droid.Resource.Attribute.cardPreventCornerOverlap;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardUseCompatPadding = global::FootyPunditsApp.Droid.Resource.Attribute.cardUseCompatPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cardViewStyle = global::FootyPunditsApp.Droid.Resource.Attribute.cardViewStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkboxStyle = global::FootyPunditsApp.Droid.Resource.Attribute.checkboxStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedButton = global::FootyPunditsApp.Droid.Resource.Attribute.checkedButton;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedChip = global::FootyPunditsApp.Droid.Resource.Attribute.checkedChip;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedIcon = global::FootyPunditsApp.Droid.Resource.Attribute.checkedIcon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedIconEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.checkedIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedIconTint = global::FootyPunditsApp.Droid.Resource.Attribute.checkedIconTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedIconVisible = global::FootyPunditsApp.Droid.Resource.Attribute.checkedIconVisible;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.checkedTextViewStyle = global::FootyPunditsApp.Droid.Resource.Attribute.checkedTextViewStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipBackgroundColor = global::FootyPunditsApp.Droid.Resource.Attribute.chipBackgroundColor;
@@ -213,6 +243,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIconTint = global::FootyPunditsApp.Droid.Resource.Attribute.chipIconTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipIconVisible = global::FootyPunditsApp.Droid.Resource.Attribute.chipIconVisible;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipMinHeight = global::FootyPunditsApp.Droid.Resource.Attribute.chipMinHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipMinTouchTargetSize = global::FootyPunditsApp.Droid.Resource.Attribute.chipMinTouchTargetSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipSpacing = global::FootyPunditsApp.Droid.Resource.Attribute.chipSpacing;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipSpacingHorizontal = global::FootyPunditsApp.Droid.Resource.Attribute.chipSpacingHorizontal;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipSpacingVertical = global::FootyPunditsApp.Droid.Resource.Attribute.chipSpacingVertical;
@@ -221,6 +252,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStrokeColor = global::FootyPunditsApp.Droid.Resource.Attribute.chipStrokeColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStrokeWidth = global::FootyPunditsApp.Droid.Resource.Attribute.chipStrokeWidth;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipStyle = global::FootyPunditsApp.Droid.Resource.Attribute.chipStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.chipSurfaceColor = global::FootyPunditsApp.Droid.Resource.Attribute.chipSurfaceColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIcon = global::FootyPunditsApp.Droid.Resource.Attribute.closeIcon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.closeIconEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.closeIconEndPadding = global::FootyPunditsApp.Droid.Resource.Attribute.closeIconEndPadding;
@@ -233,6 +265,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collapsedTitleGravity = global::FootyPunditsApp.Droid.Resource.Attribute.collapsedTitleGravity;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collapsedTitleTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.collapsedTitleTextAppearance;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collapseIcon = global::FootyPunditsApp.Droid.Resource.Attribute.collapseIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.collectionViewStyle = global::FootyPunditsApp.Droid.Resource.Attribute.collectionViewStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.color = global::FootyPunditsApp.Droid.Resource.Attribute.color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorAccent = global::FootyPunditsApp.Droid.Resource.Attribute.colorAccent;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorBackgroundFloating = global::FootyPunditsApp.Droid.Resource.Attribute.colorBackgroundFloating;
@@ -241,9 +274,19 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorControlHighlight = global::FootyPunditsApp.Droid.Resource.Attribute.colorControlHighlight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorControlNormal = global::FootyPunditsApp.Droid.Resource.Attribute.colorControlNormal;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorError = global::FootyPunditsApp.Droid.Resource.Attribute.colorError;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnBackground = global::FootyPunditsApp.Droid.Resource.Attribute.colorOnBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnError = global::FootyPunditsApp.Droid.Resource.Attribute.colorOnError;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnPrimary = global::FootyPunditsApp.Droid.Resource.Attribute.colorOnPrimary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnPrimarySurface = global::FootyPunditsApp.Droid.Resource.Attribute.colorOnPrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnSecondary = global::FootyPunditsApp.Droid.Resource.Attribute.colorOnSecondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorOnSurface = global::FootyPunditsApp.Droid.Resource.Attribute.colorOnSurface;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorPrimary = global::FootyPunditsApp.Droid.Resource.Attribute.colorPrimary;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorPrimaryDark = global::FootyPunditsApp.Droid.Resource.Attribute.colorPrimaryDark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorPrimarySurface = global::FootyPunditsApp.Droid.Resource.Attribute.colorPrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorPrimaryVariant = global::FootyPunditsApp.Droid.Resource.Attribute.colorPrimaryVariant;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorSecondary = global::FootyPunditsApp.Droid.Resource.Attribute.colorSecondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorSecondaryVariant = global::FootyPunditsApp.Droid.Resource.Attribute.colorSecondaryVariant;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorSurface = global::FootyPunditsApp.Droid.Resource.Attribute.colorSurface;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.colorSwitchThumbNormal = global::FootyPunditsApp.Droid.Resource.Attribute.colorSwitchThumbNormal;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.commitIcon = global::FootyPunditsApp.Droid.Resource.Attribute.commitIcon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentDescription = global::FootyPunditsApp.Droid.Resource.Attribute.contentDescription;
@@ -261,12 +304,28 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.contentScrim = global::FootyPunditsApp.Droid.Resource.Attribute.contentScrim;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.controlBackground = global::FootyPunditsApp.Droid.Resource.Attribute.controlBackground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.coordinatorLayoutStyle = global::FootyPunditsApp.Droid.Resource.Attribute.coordinatorLayoutStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerFamily = global::FootyPunditsApp.Droid.Resource.Attribute.cornerFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerFamilyBottomLeft = global::FootyPunditsApp.Droid.Resource.Attribute.cornerFamilyBottomLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerFamilyBottomRight = global::FootyPunditsApp.Droid.Resource.Attribute.cornerFamilyBottomRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerFamilyTopLeft = global::FootyPunditsApp.Droid.Resource.Attribute.cornerFamilyTopLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerFamilyTopRight = global::FootyPunditsApp.Droid.Resource.Attribute.cornerFamilyTopRight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerRadius = global::FootyPunditsApp.Droid.Resource.Attribute.cornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerSize = global::FootyPunditsApp.Droid.Resource.Attribute.cornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerSizeBottomLeft = global::FootyPunditsApp.Droid.Resource.Attribute.cornerSizeBottomLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerSizeBottomRight = global::FootyPunditsApp.Droid.Resource.Attribute.cornerSizeBottomRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerSizeTopLeft = global::FootyPunditsApp.Droid.Resource.Attribute.cornerSizeTopLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.cornerSizeTopRight = global::FootyPunditsApp.Droid.Resource.Attribute.cornerSizeTopRight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.counterEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterMaxLength = global::FootyPunditsApp.Droid.Resource.Attribute.counterMaxLength;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterOverflowTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.counterOverflowTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterOverflowTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.counterOverflowTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.counterTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.counterTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.counterTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.customNavigationLayout = global::FootyPunditsApp.Droid.Resource.Attribute.customNavigationLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dayInvalidStyle = global::FootyPunditsApp.Droid.Resource.Attribute.dayInvalidStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.daySelectedStyle = global::FootyPunditsApp.Droid.Resource.Attribute.daySelectedStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dayStyle = global::FootyPunditsApp.Droid.Resource.Attribute.dayStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dayTodayStyle = global::FootyPunditsApp.Droid.Resource.Attribute.dayTodayStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.defaultQueryHint = global::FootyPunditsApp.Droid.Resource.Attribute.defaultQueryHint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dialogCornerRadius = global::FootyPunditsApp.Droid.Resource.Attribute.dialogCornerRadius;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dialogPreferredPadding = global::FootyPunditsApp.Droid.Resource.Attribute.dialogPreferredPadding;
@@ -286,16 +345,31 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableTintMode = global::FootyPunditsApp.Droid.Resource.Attribute.drawableTintMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawableTopCompat = global::FootyPunditsApp.Droid.Resource.Attribute.drawableTopCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawerArrowStyle = global::FootyPunditsApp.Droid.Resource.Attribute.drawerArrowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.drawerLayoutStyle = global::FootyPunditsApp.Droid.Resource.Attribute.drawerLayoutStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dropdownListPreferredItemHeight = global::FootyPunditsApp.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.dropDownListViewStyle = global::FootyPunditsApp.Droid.Resource.Attribute.dropDownListViewStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.editTextBackground = global::FootyPunditsApp.Droid.Resource.Attribute.editTextBackground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.editTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.editTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.editTextStyle = global::FootyPunditsApp.Droid.Resource.Attribute.editTextStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.elevation = global::FootyPunditsApp.Droid.Resource.Attribute.elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.elevationOverlayColor = global::FootyPunditsApp.Droid.Resource.Attribute.elevationOverlayColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.elevationOverlayEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.elevationOverlayEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconCheckable = global::FootyPunditsApp.Droid.Resource.Attribute.endIconCheckable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconContentDescription = global::FootyPunditsApp.Droid.Resource.Attribute.endIconContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconDrawable = global::FootyPunditsApp.Droid.Resource.Attribute.endIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconMode = global::FootyPunditsApp.Droid.Resource.Attribute.endIconMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconTint = global::FootyPunditsApp.Droid.Resource.Attribute.endIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.endIconTintMode = global::FootyPunditsApp.Droid.Resource.Attribute.endIconTintMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.enforceMaterialTheme = global::FootyPunditsApp.Droid.Resource.Attribute.enforceMaterialTheme;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.enforceTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.enforceTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ensureMinTouchTargetSize = global::FootyPunditsApp.Droid.Resource.Attribute.ensureMinTouchTargetSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorContentDescription = global::FootyPunditsApp.Droid.Resource.Attribute.errorContentDescription;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.errorEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorIconDrawable = global::FootyPunditsApp.Droid.Resource.Attribute.errorIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorIconTint = global::FootyPunditsApp.Droid.Resource.Attribute.errorIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorIconTintMode = global::FootyPunditsApp.Droid.Resource.Attribute.errorIconTintMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.errorTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.errorTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.errorTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable = global::FootyPunditsApp.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expanded = global::FootyPunditsApp.Droid.Resource.Attribute.expanded;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleGravity = global::FootyPunditsApp.Droid.Resource.Attribute.expandedTitleGravity;
@@ -305,7 +379,10 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMarginStart = global::FootyPunditsApp.Droid.Resource.Attribute.expandedTitleMarginStart;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleMarginTop = global::FootyPunditsApp.Droid.Resource.Attribute.expandedTitleMarginTop;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.expandedTitleTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.expandedTitleTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.extendedFloatingActionButtonStyle = global::FootyPunditsApp.Droid.Resource.Attribute.extendedFloatingActionButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.extendMotionSpec = global::FootyPunditsApp.Droid.Resource.Attribute.extendMotionSpec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabAlignmentMode = global::FootyPunditsApp.Droid.Resource.Attribute.fabAlignmentMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabAnimationMode = global::FootyPunditsApp.Droid.Resource.Attribute.fabAnimationMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabCradleMargin = global::FootyPunditsApp.Droid.Resource.Attribute.fabCradleMargin;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabCradleRoundedCornerRadius = global::FootyPunditsApp.Droid.Resource.Attribute.fabCradleRoundedCornerRadius;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fabCradleVerticalOffset = global::FootyPunditsApp.Droid.Resource.Attribute.fabCradleVerticalOffset;
@@ -331,20 +408,26 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.fontWeight = global::FootyPunditsApp.Droid.Resource.Attribute.fontWeight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.foregroundInsidePadding = global::FootyPunditsApp.Droid.Resource.Attribute.foregroundInsidePadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.gapBetweenBars = global::FootyPunditsApp.Droid.Resource.Attribute.gapBetweenBars;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.gestureInsetBottomIgnored = global::FootyPunditsApp.Droid.Resource.Attribute.gestureInsetBottomIgnored;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.goIcon = global::FootyPunditsApp.Droid.Resource.Attribute.goIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.haloColor = global::FootyPunditsApp.Droid.Resource.Attribute.haloColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.haloRadius = global::FootyPunditsApp.Droid.Resource.Attribute.haloRadius;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.headerLayout = global::FootyPunditsApp.Droid.Resource.Attribute.headerLayout;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.height = global::FootyPunditsApp.Droid.Resource.Attribute.height;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.helperText = global::FootyPunditsApp.Droid.Resource.Attribute.helperText;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.helperTextEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.helperTextEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.helperTextTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.helperTextTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.helperTextTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.helperTextTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hideMotionSpec = global::FootyPunditsApp.Droid.Resource.Attribute.hideMotionSpec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hideOnContentScroll = global::FootyPunditsApp.Droid.Resource.Attribute.hideOnContentScroll;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hideOnScroll = global::FootyPunditsApp.Droid.Resource.Attribute.hideOnScroll;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hintAnimationEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.hintAnimationEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hintEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.hintEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hintTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.hintTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hintTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.hintTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.homeAsUpIndicator = global::FootyPunditsApp.Droid.Resource.Attribute.homeAsUpIndicator;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.homeLayout = global::FootyPunditsApp.Droid.Resource.Attribute.homeLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.horizontalOffset = global::FootyPunditsApp.Droid.Resource.Attribute.horizontalOffset;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.hoveredFocusedTranslationZ = global::FootyPunditsApp.Droid.Resource.Attribute.hoveredFocusedTranslationZ;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.icon = global::FootyPunditsApp.Droid.Resource.Attribute.icon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.iconEndPadding = global::FootyPunditsApp.Droid.Resource.Attribute.iconEndPadding;
@@ -360,19 +443,34 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.initialActivityCount = global::FootyPunditsApp.Droid.Resource.Attribute.initialActivityCount;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.insetForeground = global::FootyPunditsApp.Droid.Resource.Attribute.insetForeground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.isLightTheme = global::FootyPunditsApp.Droid.Resource.Attribute.isLightTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.isMaterialTheme = global::FootyPunditsApp.Droid.Resource.Attribute.isMaterialTheme;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemBackground = global::FootyPunditsApp.Droid.Resource.Attribute.itemBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemFillColor = global::FootyPunditsApp.Droid.Resource.Attribute.itemFillColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemHorizontalPadding = global::FootyPunditsApp.Droid.Resource.Attribute.itemHorizontalPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemHorizontalTranslationEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.itemHorizontalTranslationEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemIconPadding = global::FootyPunditsApp.Droid.Resource.Attribute.itemIconPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemIconSize = global::FootyPunditsApp.Droid.Resource.Attribute.itemIconSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemIconTint = global::FootyPunditsApp.Droid.Resource.Attribute.itemIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemMaxLines = global::FootyPunditsApp.Droid.Resource.Attribute.itemMaxLines;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemPadding = global::FootyPunditsApp.Droid.Resource.Attribute.itemPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemRippleColor = global::FootyPunditsApp.Droid.Resource.Attribute.itemRippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.itemShapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Attribute.itemShapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeFillColor = global::FootyPunditsApp.Droid.Resource.Attribute.itemShapeFillColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeInsetBottom = global::FootyPunditsApp.Droid.Resource.Attribute.itemShapeInsetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeInsetEnd = global::FootyPunditsApp.Droid.Resource.Attribute.itemShapeInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeInsetStart = global::FootyPunditsApp.Droid.Resource.Attribute.itemShapeInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemShapeInsetTop = global::FootyPunditsApp.Droid.Resource.Attribute.itemShapeInsetTop;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemSpacing = global::FootyPunditsApp.Droid.Resource.Attribute.itemSpacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemStrokeColor = global::FootyPunditsApp.Droid.Resource.Attribute.itemStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemStrokeWidth = global::FootyPunditsApp.Droid.Resource.Attribute.itemStrokeWidth;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.itemTextAppearance;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextAppearanceActive = global::FootyPunditsApp.Droid.Resource.Attribute.itemTextAppearanceActive;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextAppearanceInactive = global::FootyPunditsApp.Droid.Resource.Attribute.itemTextAppearanceInactive;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.itemTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.itemTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.keylines = global::FootyPunditsApp.Droid.Resource.Attribute.keylines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.labelBehavior = global::FootyPunditsApp.Droid.Resource.Attribute.labelBehavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.labelStyle = global::FootyPunditsApp.Droid.Resource.Attribute.labelStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.labelVisibilityMode = global::FootyPunditsApp.Droid.Resource.Attribute.labelVisibilityMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.lastBaselineToBottomHeight = global::FootyPunditsApp.Droid.Resource.Attribute.lastBaselineToBottomHeight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout = global::FootyPunditsApp.Droid.Resource.Attribute.layout;
@@ -388,6 +486,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_scrollFlags = global::FootyPunditsApp.Droid.Resource.Attribute.layout_scrollFlags;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.layout_scrollInterpolator = global::FootyPunditsApp.Droid.Resource.Attribute.layout_scrollInterpolator;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.liftOnScroll = global::FootyPunditsApp.Droid.Resource.Attribute.liftOnScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.liftOnScrollTargetViewId = global::FootyPunditsApp.Droid.Resource.Attribute.liftOnScrollTargetViewId;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.lineHeight = global::FootyPunditsApp.Droid.Resource.Attribute.lineHeight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.lineSpacing = global::FootyPunditsApp.Droid.Resource.Attribute.lineSpacing;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listChoiceBackgroundIndicator = global::FootyPunditsApp.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
@@ -407,22 +506,47 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.listPreferredItemPaddingStart = global::FootyPunditsApp.Droid.Resource.Attribute.listPreferredItemPaddingStart;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.logo = global::FootyPunditsApp.Droid.Resource.Attribute.logo;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.logoDescription = global::FootyPunditsApp.Droid.Resource.Attribute.logoDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle = global::FootyPunditsApp.Droid.Resource.Attribute.materialAlertDialogBodyTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialAlertDialogTheme = global::FootyPunditsApp.Droid.Resource.Attribute.materialAlertDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle = global::FootyPunditsApp.Droid.Resource.Attribute.materialAlertDialogTitleIconStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle = global::FootyPunditsApp.Droid.Resource.Attribute.materialAlertDialogTitlePanelStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle = global::FootyPunditsApp.Droid.Resource.Attribute.materialAlertDialogTitleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialButtonOutlinedStyle = global::FootyPunditsApp.Droid.Resource.Attribute.materialButtonOutlinedStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialButtonStyle = global::FootyPunditsApp.Droid.Resource.Attribute.materialButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialButtonToggleGroupStyle = global::FootyPunditsApp.Droid.Resource.Attribute.materialButtonToggleGroupStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarDay = global::FootyPunditsApp.Droid.Resource.Attribute.materialCalendarDay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarFullscreenTheme = global::FootyPunditsApp.Droid.Resource.Attribute.materialCalendarFullscreenTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton = global::FootyPunditsApp.Droid.Resource.Attribute.materialCalendarHeaderConfirmButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderDivider = global::FootyPunditsApp.Droid.Resource.Attribute.materialCalendarHeaderDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderLayout = global::FootyPunditsApp.Droid.Resource.Attribute.materialCalendarHeaderLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderSelection = global::FootyPunditsApp.Droid.Resource.Attribute.materialCalendarHeaderSelection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderTitle = global::FootyPunditsApp.Droid.Resource.Attribute.materialCalendarHeaderTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarHeaderToggleButton = global::FootyPunditsApp.Droid.Resource.Attribute.materialCalendarHeaderToggleButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarStyle = global::FootyPunditsApp.Droid.Resource.Attribute.materialCalendarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCalendarTheme = global::FootyPunditsApp.Droid.Resource.Attribute.materialCalendarTheme;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialCardViewStyle = global::FootyPunditsApp.Droid.Resource.Attribute.materialCardViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.materialThemeOverlay = global::FootyPunditsApp.Droid.Resource.Attribute.materialThemeOverlay;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxActionInlineWidth = global::FootyPunditsApp.Droid.Resource.Attribute.maxActionInlineWidth;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxButtonHeight = global::FootyPunditsApp.Droid.Resource.Attribute.maxButtonHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxCharacterCount = global::FootyPunditsApp.Droid.Resource.Attribute.maxCharacterCount;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxImageSize = global::FootyPunditsApp.Droid.Resource.Attribute.maxImageSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.maxLines = global::FootyPunditsApp.Droid.Resource.Attribute.maxLines;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.measureWithLargestChild = global::FootyPunditsApp.Droid.Resource.Attribute.measureWithLargestChild;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.menu = global::FootyPunditsApp.Droid.Resource.Attribute.menu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.minTouchTargetSize = global::FootyPunditsApp.Droid.Resource.Attribute.minTouchTargetSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.multiChoiceItemLayout = global::FootyPunditsApp.Droid.Resource.Attribute.multiChoiceItemLayout;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationContentDescription = global::FootyPunditsApp.Droid.Resource.Attribute.navigationContentDescription;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationIcon = global::FootyPunditsApp.Droid.Resource.Attribute.navigationIcon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationMode = global::FootyPunditsApp.Droid.Resource.Attribute.navigationMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.navigationViewStyle = global::FootyPunditsApp.Droid.Resource.Attribute.navigationViewStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.number = global::FootyPunditsApp.Droid.Resource.Attribute.number;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.numericModifiers = global::FootyPunditsApp.Droid.Resource.Attribute.numericModifiers;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.overlapAnchor = global::FootyPunditsApp.Droid.Resource.Attribute.overlapAnchor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingBottomNoButtons = global::FootyPunditsApp.Droid.Resource.Attribute.paddingBottomNoButtons;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingBottomSystemWindowInsets = global::FootyPunditsApp.Droid.Resource.Attribute.paddingBottomSystemWindowInsets;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingEnd = global::FootyPunditsApp.Droid.Resource.Attribute.paddingEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingLeftSystemWindowInsets = global::FootyPunditsApp.Droid.Resource.Attribute.paddingLeftSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingRightSystemWindowInsets = global::FootyPunditsApp.Droid.Resource.Attribute.paddingRightSystemWindowInsets;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingStart = global::FootyPunditsApp.Droid.Resource.Attribute.paddingStart;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.paddingTopNoTitle = global::FootyPunditsApp.Droid.Resource.Attribute.paddingTopNoTitle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.panelBackground = global::FootyPunditsApp.Droid.Resource.Attribute.panelBackground;
@@ -433,9 +557,16 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.passwordToggleEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleTint = global::FootyPunditsApp.Droid.Resource.Attribute.passwordToggleTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.passwordToggleTintMode = global::FootyPunditsApp.Droid.Resource.Attribute.passwordToggleTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.placeholderText = global::FootyPunditsApp.Droid.Resource.Attribute.placeholderText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.placeholderTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.placeholderTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.placeholderTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.placeholderTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.popupMenuBackground = global::FootyPunditsApp.Droid.Resource.Attribute.popupMenuBackground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.popupMenuStyle = global::FootyPunditsApp.Droid.Resource.Attribute.popupMenuStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.popupTheme = global::FootyPunditsApp.Droid.Resource.Attribute.popupTheme;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.popupWindowStyle = global::FootyPunditsApp.Droid.Resource.Attribute.popupWindowStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.prefixText = global::FootyPunditsApp.Droid.Resource.Attribute.prefixText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.prefixTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.prefixTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.prefixTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.prefixTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.preserveIconSpacing = global::FootyPunditsApp.Droid.Resource.Attribute.preserveIconSpacing;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.pressedTranslationZ = global::FootyPunditsApp.Droid.Resource.Attribute.pressedTranslationZ;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.progressBarPadding = global::FootyPunditsApp.Droid.Resource.Attribute.progressBarPadding;
@@ -443,6 +574,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.queryBackground = global::FootyPunditsApp.Droid.Resource.Attribute.queryBackground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.queryHint = global::FootyPunditsApp.Droid.Resource.Attribute.queryHint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.radioButtonStyle = global::FootyPunditsApp.Droid.Resource.Attribute.radioButtonStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.rangeFillColor = global::FootyPunditsApp.Droid.Resource.Attribute.rangeFillColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ratingBarStyle = global::FootyPunditsApp.Droid.Resource.Attribute.ratingBarStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ratingBarStyleIndicator = global::FootyPunditsApp.Droid.Resource.Attribute.ratingBarStyleIndicator;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ratingBarStyleSmall = global::FootyPunditsApp.Droid.Resource.Attribute.ratingBarStyleSmall;
@@ -452,22 +584,32 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.scrimAnimationDuration = global::FootyPunditsApp.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.scrimBackground = global::FootyPunditsApp.Droid.Resource.Attribute.scrimBackground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.scrimVisibleHeightTrigger = global::FootyPunditsApp.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.scrollViewStyle = global::FootyPunditsApp.Droid.Resource.Attribute.scrollViewStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.searchHintIcon = global::FootyPunditsApp.Droid.Resource.Attribute.searchHintIcon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.searchIcon = global::FootyPunditsApp.Droid.Resource.Attribute.searchIcon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.searchViewStyle = global::FootyPunditsApp.Droid.Resource.Attribute.searchViewStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.seekBarStyle = global::FootyPunditsApp.Droid.Resource.Attribute.seekBarStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.selectableItemBackground = global::FootyPunditsApp.Droid.Resource.Attribute.selectableItemBackground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.selectableItemBackgroundBorderless = global::FootyPunditsApp.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.selectionRequired = global::FootyPunditsApp.Droid.Resource.Attribute.selectionRequired;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shapeAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shapeAppearanceLargeComponent = global::FootyPunditsApp.Droid.Resource.Attribute.shapeAppearanceLargeComponent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shapeAppearanceMediumComponent = global::FootyPunditsApp.Droid.Resource.Attribute.shapeAppearanceMediumComponent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Attribute.shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shapeAppearanceSmallComponent = global::FootyPunditsApp.Droid.Resource.Attribute.shapeAppearanceSmallComponent;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showAsAction = global::FootyPunditsApp.Droid.Resource.Attribute.showAsAction;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showDividers = global::FootyPunditsApp.Droid.Resource.Attribute.showDividers;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showMotionSpec = global::FootyPunditsApp.Droid.Resource.Attribute.showMotionSpec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showText = global::FootyPunditsApp.Droid.Resource.Attribute.showText;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.showTitle = global::FootyPunditsApp.Droid.Resource.Attribute.showTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.shrinkMotionSpec = global::FootyPunditsApp.Droid.Resource.Attribute.shrinkMotionSpec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.singleChoiceItemLayout = global::FootyPunditsApp.Droid.Resource.Attribute.singleChoiceItemLayout;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.singleLine = global::FootyPunditsApp.Droid.Resource.Attribute.singleLine;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.singleSelection = global::FootyPunditsApp.Droid.Resource.Attribute.singleSelection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.sliderStyle = global::FootyPunditsApp.Droid.Resource.Attribute.sliderStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.snackbarButtonStyle = global::FootyPunditsApp.Droid.Resource.Attribute.snackbarButtonStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.snackbarStyle = global::FootyPunditsApp.Droid.Resource.Attribute.snackbarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.snackbarTextViewStyle = global::FootyPunditsApp.Droid.Resource.Attribute.snackbarTextViewStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.spanCount = global::FootyPunditsApp.Droid.Resource.Attribute.spanCount;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.spinBars = global::FootyPunditsApp.Droid.Resource.Attribute.spinBars;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.spinnerDropDownItemStyle = global::FootyPunditsApp.Droid.Resource.Attribute.spinnerDropDownItemStyle;
@@ -475,12 +617,19 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.splitTrack = global::FootyPunditsApp.Droid.Resource.Attribute.splitTrack;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.srcCompat = global::FootyPunditsApp.Droid.Resource.Attribute.srcCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.stackFromEnd = global::FootyPunditsApp.Droid.Resource.Attribute.stackFromEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.startIconCheckable = global::FootyPunditsApp.Droid.Resource.Attribute.startIconCheckable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.startIconContentDescription = global::FootyPunditsApp.Droid.Resource.Attribute.startIconContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.startIconDrawable = global::FootyPunditsApp.Droid.Resource.Attribute.startIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.startIconTint = global::FootyPunditsApp.Droid.Resource.Attribute.startIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.startIconTintMode = global::FootyPunditsApp.Droid.Resource.Attribute.startIconTintMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_above_anchor = global::FootyPunditsApp.Droid.Resource.Attribute.state_above_anchor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_collapsed = global::FootyPunditsApp.Droid.Resource.Attribute.state_collapsed;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_collapsible = global::FootyPunditsApp.Droid.Resource.Attribute.state_collapsible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_dragged = global::FootyPunditsApp.Droid.Resource.Attribute.state_dragged;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_liftable = global::FootyPunditsApp.Droid.Resource.Attribute.state_liftable;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.state_lifted = global::FootyPunditsApp.Droid.Resource.Attribute.state_lifted;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.statusBarBackground = global::FootyPunditsApp.Droid.Resource.Attribute.statusBarBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.statusBarForeground = global::FootyPunditsApp.Droid.Resource.Attribute.statusBarForeground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.statusBarScrim = global::FootyPunditsApp.Droid.Resource.Attribute.statusBarScrim;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.strokeColor = global::FootyPunditsApp.Droid.Resource.Attribute.strokeColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.strokeWidth = global::FootyPunditsApp.Droid.Resource.Attribute.strokeWidth;
@@ -490,7 +639,11 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subtitleTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.subtitleTextAppearance;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subtitleTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.subtitleTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.subtitleTextStyle = global::FootyPunditsApp.Droid.Resource.Attribute.subtitleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.suffixText = global::FootyPunditsApp.Droid.Resource.Attribute.suffixText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.suffixTextAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.suffixTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.suffixTextColor = global::FootyPunditsApp.Droid.Resource.Attribute.suffixTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.suggestionRowLayout = global::FootyPunditsApp.Droid.Resource.Attribute.suggestionRowLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor = global::FootyPunditsApp.Droid.Resource.Attribute.swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.switchMinWidth = global::FootyPunditsApp.Droid.Resource.Attribute.switchMinWidth;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.switchPadding = global::FootyPunditsApp.Droid.Resource.Attribute.switchPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.switchStyle = global::FootyPunditsApp.Droid.Resource.Attribute.switchStyle;
@@ -533,6 +686,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline5 = global::FootyPunditsApp.Droid.Resource.Attribute.textAppearanceHeadline5;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceHeadline6 = global::FootyPunditsApp.Droid.Resource.Attribute.textAppearanceHeadline6;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceLargePopupMenu = global::FootyPunditsApp.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceLineHeightEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.textAppearanceLineHeightEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceListItem = global::FootyPunditsApp.Droid.Resource.Attribute.textAppearanceListItem;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceListItemSecondary = global::FootyPunditsApp.Droid.Resource.Attribute.textAppearanceListItemSecondary;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textAppearanceListItemSmall = global::FootyPunditsApp.Droid.Resource.Attribute.textAppearanceListItemSmall;
@@ -546,14 +700,22 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textColorAlertDialogListItem = global::FootyPunditsApp.Droid.Resource.Attribute.textColorAlertDialogListItem;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textColorSearchUrl = global::FootyPunditsApp.Droid.Resource.Attribute.textColorSearchUrl;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textEndPadding = global::FootyPunditsApp.Droid.Resource.Attribute.textEndPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled = global::FootyPunditsApp.Droid.Resource.Attribute.textInputLayoutFocusedRectEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textInputStyle = global::FootyPunditsApp.Droid.Resource.Attribute.textInputStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textLocale = global::FootyPunditsApp.Droid.Resource.Attribute.textLocale;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.textStartPadding = global::FootyPunditsApp.Droid.Resource.Attribute.textStartPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.theme = global::FootyPunditsApp.Droid.Resource.Attribute.theme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.themeLineHeight = global::FootyPunditsApp.Droid.Resource.Attribute.themeLineHeight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thickness = global::FootyPunditsApp.Droid.Resource.Attribute.thickness;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbColor = global::FootyPunditsApp.Droid.Resource.Attribute.thumbColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbElevation = global::FootyPunditsApp.Droid.Resource.Attribute.thumbElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbRadius = global::FootyPunditsApp.Droid.Resource.Attribute.thumbRadius;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbTextPadding = global::FootyPunditsApp.Droid.Resource.Attribute.thumbTextPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbTint = global::FootyPunditsApp.Droid.Resource.Attribute.thumbTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.thumbTintMode = global::FootyPunditsApp.Droid.Resource.Attribute.thumbTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickColor = global::FootyPunditsApp.Droid.Resource.Attribute.tickColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickColorActive = global::FootyPunditsApp.Droid.Resource.Attribute.tickColorActive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickColorInactive = global::FootyPunditsApp.Droid.Resource.Attribute.tickColorInactive;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickMark = global::FootyPunditsApp.Droid.Resource.Attribute.tickMark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickMarkTint = global::FootyPunditsApp.Droid.Resource.Attribute.tickMarkTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tickMarkTintMode = global::FootyPunditsApp.Droid.Resource.Attribute.tickMarkTintMode;
@@ -575,12 +737,21 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.toolbarStyle = global::FootyPunditsApp.Droid.Resource.Attribute.toolbarStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tooltipForegroundColor = global::FootyPunditsApp.Droid.Resource.Attribute.tooltipForegroundColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tooltipFrameBackground = global::FootyPunditsApp.Droid.Resource.Attribute.tooltipFrameBackground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tooltipStyle = global::FootyPunditsApp.Droid.Resource.Attribute.tooltipStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.tooltipText = global::FootyPunditsApp.Droid.Resource.Attribute.tooltipText;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.track = global::FootyPunditsApp.Droid.Resource.Attribute.track;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackColor = global::FootyPunditsApp.Droid.Resource.Attribute.trackColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackColorActive = global::FootyPunditsApp.Droid.Resource.Attribute.trackColorActive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackColorInactive = global::FootyPunditsApp.Droid.Resource.Attribute.trackColorInactive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackHeight = global::FootyPunditsApp.Droid.Resource.Attribute.trackHeight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackTint = global::FootyPunditsApp.Droid.Resource.Attribute.trackTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.trackTintMode = global::FootyPunditsApp.Droid.Resource.Attribute.trackTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.transitionShapeAppearance = global::FootyPunditsApp.Droid.Resource.Attribute.transitionShapeAppearance;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.ttcIndex = global::FootyPunditsApp.Droid.Resource.Attribute.ttcIndex;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.useCompatPadding = global::FootyPunditsApp.Droid.Resource.Attribute.useCompatPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.useMaterialThemeColors = global::FootyPunditsApp.Droid.Resource.Attribute.useMaterialThemeColors;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.values = global::FootyPunditsApp.Droid.Resource.Attribute.values;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.verticalOffset = global::FootyPunditsApp.Droid.Resource.Attribute.verticalOffset;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.viewInflaterClass = global::FootyPunditsApp.Droid.Resource.Attribute.viewInflaterClass;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.voiceIcon = global::FootyPunditsApp.Droid.Resource.Attribute.voiceIcon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowActionBar = global::FootyPunditsApp.Droid.Resource.Attribute.windowActionBar;
@@ -593,6 +764,9 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowMinWidthMajor = global::FootyPunditsApp.Droid.Resource.Attribute.windowMinWidthMajor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowMinWidthMinor = global::FootyPunditsApp.Droid.Resource.Attribute.windowMinWidthMinor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.windowNoTitle = global::FootyPunditsApp.Droid.Resource.Attribute.windowNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.yearSelectedStyle = global::FootyPunditsApp.Droid.Resource.Attribute.yearSelectedStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.yearStyle = global::FootyPunditsApp.Droid.Resource.Attribute.yearStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Attribute.yearTodayStyle = global::FootyPunditsApp.Droid.Resource.Attribute.yearTodayStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Boolean.abc_action_bar_embed_tabs = global::FootyPunditsApp.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::FootyPunditsApp.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps = global::FootyPunditsApp.Droid.Resource.Boolean.mtrl_btn_textappearance_all_caps;
@@ -601,6 +775,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_btn_colored_borderless_text_material = global::FootyPunditsApp.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_btn_colored_text_material = global::FootyPunditsApp.Droid.Resource.Color.abc_btn_colored_text_material;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_color_highlight_material = global::FootyPunditsApp.Droid.Resource.Color.abc_color_highlight_material;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_decor_view_status_guard = global::FootyPunditsApp.Droid.Resource.Color.abc_decor_view_status_guard;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_decor_view_status_guard_light = global::FootyPunditsApp.Droid.Resource.Color.abc_decor_view_status_guard_light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_hint_foreground_material_dark = global::FootyPunditsApp.Droid.Resource.Color.abc_hint_foreground_material_dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_hint_foreground_material_light = global::FootyPunditsApp.Droid.Resource.Color.abc_hint_foreground_material_light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_primary_text_disable_only_material_dark = global::FootyPunditsApp.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
@@ -621,6 +797,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.abc_tint_switch_track = global::FootyPunditsApp.Droid.Resource.Color.abc_tint_switch_track;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.accent_material_dark = global::FootyPunditsApp.Droid.Resource.Color.accent_material_dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.accent_material_light = global::FootyPunditsApp.Droid.Resource.Color.accent_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.androidx_core_ripple_material_light = global::FootyPunditsApp.Droid.Resource.Color.androidx_core_ripple_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.androidx_core_secondary_text_default_material_light = global::FootyPunditsApp.Droid.Resource.Color.androidx_core_secondary_text_default_material_light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.background_floating_material_dark = global::FootyPunditsApp.Droid.Resource.Color.background_floating_material_dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.background_floating_material_light = global::FootyPunditsApp.Droid.Resource.Color.background_floating_material_light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.background_material_dark = global::FootyPunditsApp.Droid.Resource.Color.background_material_dark;
@@ -641,9 +819,35 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.cardview_light_background = global::FootyPunditsApp.Droid.Resource.Color.cardview_light_background;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.cardview_shadow_end_color = global::FootyPunditsApp.Droid.Resource.Color.cardview_shadow_end_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.cardview_shadow_start_color = global::FootyPunditsApp.Droid.Resource.Color.cardview_shadow_start_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.checkbox_themeable_attribute_color = global::FootyPunditsApp.Droid.Resource.Color.checkbox_themeable_attribute_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_bottom_navigation_shadow_color = global::FootyPunditsApp.Droid.Resource.Color.design_bottom_navigation_shadow_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_box_stroke_color = global::FootyPunditsApp.Droid.Resource.Color.design_box_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_background = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_error = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_on_background = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_on_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_on_error = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_on_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_on_primary = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_on_primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_on_secondary = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_on_secondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_on_surface = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_on_surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_primary = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_primary_dark = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_primary_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_primary_variant = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_primary_variant;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_secondary = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_secondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_secondary_variant = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_secondary_variant;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_dark_default_color_surface = global::FootyPunditsApp.Droid.Resource.Color.design_dark_default_color_surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_background = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_error = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_on_background = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_on_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_on_error = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_on_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_on_primary = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_on_primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_on_secondary = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_on_secondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_on_surface = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_on_surface;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_primary = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_primary;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_primary_dark = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_primary_dark;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_primary_variant = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_primary_variant;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_secondary = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_secondary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_secondary_variant = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_secondary_variant;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_default_color_surface = global::FootyPunditsApp.Droid.Resource.Color.design_default_color_surface;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_error = global::FootyPunditsApp.Droid.Resource.Color.design_error;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_shadow_end_color = global::FootyPunditsApp.Droid.Resource.Color.design_fab_shadow_end_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_shadow_mid_color = global::FootyPunditsApp.Droid.Resource.Color.design_fab_shadow_mid_color;
@@ -652,6 +856,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_stroke_end_outer_color = global::FootyPunditsApp.Droid.Resource.Color.design_fab_stroke_end_outer_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_stroke_top_inner_color = global::FootyPunditsApp.Droid.Resource.Color.design_fab_stroke_top_inner_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_fab_stroke_top_outer_color = global::FootyPunditsApp.Droid.Resource.Color.design_fab_stroke_top_outer_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_icon_tint = global::FootyPunditsApp.Droid.Resource.Color.design_icon_tint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.design_snackbar_background_color = global::FootyPunditsApp.Droid.Resource.Color.design_snackbar_background_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.dim_foreground_disabled_material_dark = global::FootyPunditsApp.Droid.Resource.Color.dim_foreground_disabled_material_dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.dim_foreground_disabled_material_light = global::FootyPunditsApp.Droid.Resource.Color.dim_foreground_disabled_material_light;
@@ -675,17 +880,56 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_800 = global::FootyPunditsApp.Droid.Resource.Color.material_grey_800;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_850 = global::FootyPunditsApp.Droid.Resource.Color.material_grey_850;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_grey_900 = global::FootyPunditsApp.Droid.Resource.Color.material_grey_900;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_background_disabled = global::FootyPunditsApp.Droid.Resource.Color.material_on_background_disabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_background_emphasis_high_type = global::FootyPunditsApp.Droid.Resource.Color.material_on_background_emphasis_high_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_background_emphasis_medium = global::FootyPunditsApp.Droid.Resource.Color.material_on_background_emphasis_medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_primary_disabled = global::FootyPunditsApp.Droid.Resource.Color.material_on_primary_disabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_primary_emphasis_high_type = global::FootyPunditsApp.Droid.Resource.Color.material_on_primary_emphasis_high_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_primary_emphasis_medium = global::FootyPunditsApp.Droid.Resource.Color.material_on_primary_emphasis_medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_surface_disabled = global::FootyPunditsApp.Droid.Resource.Color.material_on_surface_disabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_surface_emphasis_high_type = global::FootyPunditsApp.Droid.Resource.Color.material_on_surface_emphasis_high_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_surface_emphasis_medium = global::FootyPunditsApp.Droid.Resource.Color.material_on_surface_emphasis_medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_on_surface_stroke = global::FootyPunditsApp.Droid.Resource.Color.material_on_surface_stroke;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_active_tick_marks_color = global::FootyPunditsApp.Droid.Resource.Color.material_slider_active_tick_marks_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_active_track_color = global::FootyPunditsApp.Droid.Resource.Color.material_slider_active_track_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_halo_color = global::FootyPunditsApp.Droid.Resource.Color.material_slider_halo_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_inactive_tick_marks_color = global::FootyPunditsApp.Droid.Resource.Color.material_slider_inactive_tick_marks_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_inactive_track_color = global::FootyPunditsApp.Droid.Resource.Color.material_slider_inactive_track_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.material_slider_thumb_color = global::FootyPunditsApp.Droid.Resource.Color.material_slider_thumb_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_bg_color_selector = global::FootyPunditsApp.Droid.Resource.Color.mtrl_btn_bg_color_selector;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_ripple_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_btn_ripple_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_stroke_color_selector = global::FootyPunditsApp.Droid.Resource.Color.mtrl_btn_stroke_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector = global::FootyPunditsApp.Droid.Resource.Color.mtrl_btn_text_btn_bg_color_selector;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_btn_text_btn_ripple_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_text_color_disabled = global::FootyPunditsApp.Droid.Resource.Color.mtrl_btn_text_color_disabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_text_color_selector = global::FootyPunditsApp.Droid.Resource.Color.mtrl_btn_text_color_selector;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_btn_transparent_bg_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_btn_transparent_bg_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_calendar_item_stroke_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_calendar_item_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_calendar_selected_range = global::FootyPunditsApp.Droid.Resource.Color.mtrl_calendar_selected_range;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_card_view_foreground = global::FootyPunditsApp.Droid.Resource.Color.mtrl_card_view_foreground;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_card_view_ripple = global::FootyPunditsApp.Droid.Resource.Color.mtrl_card_view_ripple;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_background_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_chip_background_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_close_icon_tint = global::FootyPunditsApp.Droid.Resource.Color.mtrl_chip_close_icon_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_surface_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_chip_surface_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_chip_text_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_chip_text_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_choice_chip_background_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_choice_chip_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_choice_chip_ripple_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_choice_chip_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_choice_chip_text_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_choice_chip_text_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_error = global::FootyPunditsApp.Droid.Resource.Color.mtrl_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_fab_bg_color_selector = global::FootyPunditsApp.Droid.Resource.Color.mtrl_fab_bg_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_fab_icon_text_color_selector = global::FootyPunditsApp.Droid.Resource.Color.mtrl_fab_icon_text_color_selector;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_fab_ripple_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_fab_ripple_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_filled_background_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_filled_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_filled_icon_tint = global::FootyPunditsApp.Droid.Resource.Color.mtrl_filled_icon_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_filled_stroke_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_filled_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_indicator_text_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_indicator_text_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_navigation_item_background_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_navigation_item_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_navigation_item_icon_tint = global::FootyPunditsApp.Droid.Resource.Color.mtrl_navigation_item_icon_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_navigation_item_text_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_navigation_item_text_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector = global::FootyPunditsApp.Droid.Resource.Color.mtrl_on_primary_text_btn_text_color_selector;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_outlined_icon_tint = global::FootyPunditsApp.Droid.Resource.Color.mtrl_outlined_icon_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_outlined_stroke_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_outlined_stroke_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_popupmenu_overlay_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_popupmenu_overlay_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_scrim_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_scrim_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_colored_ripple_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_tabs_colored_ripple_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_tabs_icon_color_selector = global::FootyPunditsApp.Droid.Resource.Color.mtrl_tabs_icon_color_selector;
@@ -695,6 +939,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_textinput_default_box_stroke_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_disabled_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_textinput_disabled_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_textinput_filled_box_default_background_color;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_textinput_focused_box_stroke_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color = global::FootyPunditsApp.Droid.Resource.Color.mtrl_textinput_hovered_box_stroke_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.mtrl_text_btn_text_color_selector = global::FootyPunditsApp.Droid.Resource.Color.mtrl_text_btn_text_color_selector;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.notification_action_color_filter = global::FootyPunditsApp.Droid.Resource.Color.notification_action_color_filter;
@@ -708,6 +953,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_text_default_material_light = global::FootyPunditsApp.Droid.Resource.Color.primary_text_default_material_light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_text_disabled_material_dark = global::FootyPunditsApp.Droid.Resource.Color.primary_text_disabled_material_dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.primary_text_disabled_material_light = global::FootyPunditsApp.Droid.Resource.Color.primary_text_disabled_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.radiobutton_themeable_attribute_color = global::FootyPunditsApp.Droid.Resource.Color.radiobutton_themeable_attribute_color;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.ripple_material_dark = global::FootyPunditsApp.Droid.Resource.Color.ripple_material_dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.ripple_material_light = global::FootyPunditsApp.Droid.Resource.Color.ripple_material_light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.secondary_text_default_material_dark = global::FootyPunditsApp.Droid.Resource.Color.secondary_text_default_material_dark;
@@ -720,6 +966,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_material_light = global::FootyPunditsApp.Droid.Resource.Color.switch_thumb_material_light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_normal_material_dark = global::FootyPunditsApp.Droid.Resource.Color.switch_thumb_normal_material_dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.switch_thumb_normal_material_light = global::FootyPunditsApp.Droid.Resource.Color.switch_thumb_normal_material_light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.test_mtrl_calendar_day = global::FootyPunditsApp.Droid.Resource.Color.test_mtrl_calendar_day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.test_mtrl_calendar_day_selected = global::FootyPunditsApp.Droid.Resource.Color.test_mtrl_calendar_day_selected;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.tooltip_background_dark = global::FootyPunditsApp.Droid.Resource.Color.tooltip_background_dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Color.tooltip_background_light = global::FootyPunditsApp.Droid.Resource.Color.tooltip_background_light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_action_bar_content_inset_material = global::FootyPunditsApp.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
@@ -800,6 +1048,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::FootyPunditsApp.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_title_material = global::FootyPunditsApp.Droid.Resource.Dimension.abc_text_size_title_material;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.abc_text_size_title_material_toolbar = global::FootyPunditsApp.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.action_bar_size = global::FootyPunditsApp.Droid.Resource.Dimension.action_bar_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.appcompat_dialog_background_inset = global::FootyPunditsApp.Droid.Resource.Dimension.appcompat_dialog_background_inset;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.browser_actions_context_menu_max_width = global::FootyPunditsApp.Droid.Resource.Dimension.browser_actions_context_menu_max_width;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.browser_actions_context_menu_min_padding = global::FootyPunditsApp.Droid.Resource.Dimension.browser_actions_context_menu_min_padding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.cardview_compat_inset_shadow = global::FootyPunditsApp.Droid.Resource.Dimension.cardview_compat_inset_shadow;
@@ -812,6 +1062,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_control_corner_material = global::FootyPunditsApp.Droid.Resource.Dimension.compat_control_corner_material;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_notification_large_icon_max_height = global::FootyPunditsApp.Droid.Resource.Dimension.compat_notification_large_icon_max_height;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.compat_notification_large_icon_max_width = global::FootyPunditsApp.Droid.Resource.Dimension.compat_notification_large_icon_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.default_dimension = global::FootyPunditsApp.Droid.Resource.Dimension.default_dimension;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.def_drawer_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.def_drawer_elevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_appbar_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.design_appbar_elevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::FootyPunditsApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width = global::FootyPunditsApp.Droid.Resource.Dimension.design_bottom_navigation_active_item_min_width;
@@ -824,6 +1076,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_margin = global::FootyPunditsApp.Droid.Resource.Dimension.design_bottom_navigation_margin;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_shadow_height = global::FootyPunditsApp.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_navigation_text_size = global::FootyPunditsApp.Droid.Resource.Dimension.design_bottom_navigation_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_sheet_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.design_bottom_sheet_elevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min = global::FootyPunditsApp.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_fab_border_width = global::FootyPunditsApp.Droid.Resource.Dimension.design_fab_border_width;
@@ -842,6 +1095,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_padding_bottom = global::FootyPunditsApp.Droid.Resource.Dimension.design_navigation_padding_bottom;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_navigation_separator_vertical_padding = global::FootyPunditsApp.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_action_inline_max_width = global::FootyPunditsApp.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha = global::FootyPunditsApp.Droid.Resource.Dimension.design_snackbar_action_text_color_alpha;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_background_corner_radius = global::FootyPunditsApp.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.design_snackbar_elevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::FootyPunditsApp.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
@@ -871,7 +1125,24 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::FootyPunditsApp.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::FootyPunditsApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::FootyPunditsApp.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.material_emphasis_disabled = global::FootyPunditsApp.Droid.Resource.Dimension.material_emphasis_disabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.material_emphasis_high_type = global::FootyPunditsApp.Droid.Resource.Dimension.material_emphasis_high_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.material_emphasis_medium = global::FootyPunditsApp.Droid.Resource.Dimension.material_emphasis_medium;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.material_text_view_test_line_height = global::FootyPunditsApp.Droid.Resource.Dimension.material_text_view_test_line_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.material_text_view_test_line_height_override = global::FootyPunditsApp.Droid.Resource.Dimension.material_text_view_test_line_height_override;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_alert_dialog_background_inset_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_alert_dialog_picker_background_inset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_badge_horizontal_edge_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_badge_long_text_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_radius = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_badge_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_badge_text_horizontal_edge_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_text_size = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_badge_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_badge_with_text_radius = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_badge_with_text_radius;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_bottomappbar_fabOffsetEndMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_bottom_margin;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_margin;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_rounded_corner_radius;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_bottomappbar_fab_cradle_vertical_offset;
@@ -898,25 +1169,130 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_btn_text_btn_padding_right;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_text_size = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_btn_text_size;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_btn_z = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_btn_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_action_height = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_action_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_action_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_action_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_bottom_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_bottom_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_content_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_content_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_days_of_week_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_corner = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_day_corner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_height = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_day_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_day_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_day_today_stroke;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_day_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_day_width = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_day_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_dialog_background_inset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_content_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_header_content_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_header_content_padding_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_header_divider_thickness;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_height = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_header_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_header_height_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_header_selection_line_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_text_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_header_text_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_header_toggle_margin_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_landscape_header_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_maximum_default_fullscreen_minor_axis;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_month_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_month_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_navigation_bottom_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_navigation_height = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_navigation_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_navigation_top_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_pre_l_text_clip_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_selection_baseline_to_top_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_bottom_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_selection_text_baseline_to_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_text_input_padding_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_title_baseline_to_top_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_year_corner = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_year_corner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_year_height = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_year_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_year_horizontal_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_year_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_calendar_year_width = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_calendar_year_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_checked_icon_margin = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_card_checked_icon_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_checked_icon_size = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_card_checked_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_corner_radius = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_card_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_dragged_z = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_card_dragged_z;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_card_elevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_card_spacing = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_card_spacing;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_chip_pressed_translation_z;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_chip_text_size = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_chip_text_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_edittext_rectangle_top_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_offset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_exposed_dropdown_menu_popup_vertical_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_bottom_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_disabled_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_disabled_translation_z;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_end_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_end_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_end_padding_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_icon_size = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_icon_text_spacing;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_min_height = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_min_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_min_width = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_min_width;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_start_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_start_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_start_padding_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_top_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_top_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_base;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_hovered_focused;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_extended_fab_translation_z_pressed;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_fab_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_fab_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_fab_min_touch_target = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_fab_min_touch_target;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_fab_translation_z_hovered_focused;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_fab_translation_z_pressed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_high_ripple_default_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_high_ripple_focused_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_high_ripple_hovered_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_high_ripple_pressed_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_large_touch_target = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_large_touch_target;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_low_ripple_default_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_low_ripple_focused_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_low_ripple_hovered_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_low_ripple_pressed_alpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_min_touch_target_size = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_min_touch_target_size;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_navigation_elevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_navigation_item_horizontal_padding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_icon_size = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_navigation_item_icon_size;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_navigation_item_shape_horizontal_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_navigation_item_shape_vertical_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_shape_corner_size_large_component;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_shape_corner_size_medium_component;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_shape_corner_size_small_component;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_halo_radius = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_slider_halo_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_label_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_slider_label_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_label_radius = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_slider_label_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_label_square_side = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_slider_label_square_side;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_thumb_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_slider_thumb_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_thumb_radius = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_slider_thumb_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_track_height = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_slider_track_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_track_side_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_slider_track_side_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_track_top = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_slider_track_top;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_slider_widget_height = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_slider_widget_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_snackbar_action_text_color_alpha;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_snackbar_background_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_snackbar_background_overlay_color_alpha;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_snackbar_margin = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_snackbar_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_switch_thumb_elevation = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_switch_thumb_elevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_medium;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_textinput_box_corner_radius_small;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_textinput_box_label_cutout_padding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_default;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_textinput_box_stroke_width_focused;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_textinput_counter_margin_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_textinput_end_icon_margin_start;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_textinput_outline_box_expanded_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_textinput_start_icon_margin_end;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_toolbar_default_height = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_toolbar_default_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_tooltip_arrowSize = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_tooltip_arrowSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_tooltip_cornerSize = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_tooltip_cornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_tooltip_minHeight = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_tooltip_minHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_tooltip_minWidth = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_tooltip_minWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_tooltip_padding = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_tooltip_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance = global::FootyPunditsApp.Droid.Resource.Dimension.mtrl_transition_shared_axis_slide_distance;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_action_icon_size = global::FootyPunditsApp.Droid.Resource.Dimension.notification_action_icon_size;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_action_text_size = global::FootyPunditsApp.Droid.Resource.Dimension.notification_action_text_size;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_big_circle_margin = global::FootyPunditsApp.Droid.Resource.Dimension.notification_big_circle_margin;
@@ -932,6 +1308,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_subtext_size = global::FootyPunditsApp.Droid.Resource.Dimension.notification_subtext_size;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_top_pad = global::FootyPunditsApp.Droid.Resource.Dimension.notification_top_pad;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.notification_top_pad_large_text = global::FootyPunditsApp.Droid.Resource.Dimension.notification_top_pad_large_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize = global::FootyPunditsApp.Droid.Resource.Dimension.test_mtrl_calendar_day_cornerSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_corner_radius = global::FootyPunditsApp.Droid.Resource.Dimension.tooltip_corner_radius;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_horizontal_padding = global::FootyPunditsApp.Droid.Resource.Dimension.tooltip_horizontal_padding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Dimension.tooltip_margin = global::FootyPunditsApp.Droid.Resource.Dimension.tooltip_margin;
@@ -1060,12 +1437,28 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_ic_visibility_off = global::FootyPunditsApp.Droid.Resource.Drawable.design_ic_visibility_off;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_password_eye = global::FootyPunditsApp.Droid.Resource.Drawable.design_password_eye;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.design_snackbar_background = global::FootyPunditsApp.Droid.Resource.Drawable.design_snackbar_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.ic_mtrl_checked_circle = global::FootyPunditsApp.Droid.Resource.Drawable.ic_mtrl_checked_circle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_black = global::FootyPunditsApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_black;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle = global::FootyPunditsApp.Droid.Resource.Drawable.ic_mtrl_chip_checked_circle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.ic_mtrl_chip_close_circle = global::FootyPunditsApp.Droid.Resource.Drawable.ic_mtrl_chip_close_circle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.inputlayout_togglecollapseicon = global::FootyPunditsApp.Droid.Resource.Drawable.inputlayout_togglecollapseicon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.inputlayout_togglevisibleicon = global::FootyPunditsApp.Droid.Resource.Drawable.inputlayout_togglevisibleicon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.input_layout_drop_down_icon = global::FootyPunditsApp.Droid.Resource.Drawable.input_layout_drop_down_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_calendar_black_24dp = global::FootyPunditsApp.Droid.Resource.Drawable.material_ic_calendar_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_clear_black_24dp = global::FootyPunditsApp.Droid.Resource.Drawable.material_ic_clear_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_edit_black_24dp = global::FootyPunditsApp.Droid.Resource.Drawable.material_ic_edit_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp = global::FootyPunditsApp.Droid.Resource.Drawable.material_ic_keyboard_arrow_left_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp = global::FootyPunditsApp.Droid.Resource.Drawable.material_ic_keyboard_arrow_right_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp = global::FootyPunditsApp.Droid.Resource.Drawable.material_ic_menu_arrow_down_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp = global::FootyPunditsApp.Droid.Resource.Drawable.material_ic_menu_arrow_up_black_24dp;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_dialog_background = global::FootyPunditsApp.Droid.Resource.Drawable.mtrl_dialog_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_dropdown_arrow = global::FootyPunditsApp.Droid.Resource.Drawable.mtrl_dropdown_arrow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down = global::FootyPunditsApp.Droid.Resource.Drawable.mtrl_ic_arrow_drop_down;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up = global::FootyPunditsApp.Droid.Resource.Drawable.mtrl_ic_arrow_drop_up;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_ic_cancel = global::FootyPunditsApp.Droid.Resource.Drawable.mtrl_ic_cancel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_ic_error = global::FootyPunditsApp.Droid.Resource.Drawable.mtrl_ic_error;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_popupmenu_background = global::FootyPunditsApp.Droid.Resource.Drawable.mtrl_popupmenu_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_popupmenu_background_dark = global::FootyPunditsApp.Droid.Resource.Drawable.mtrl_popupmenu_background_dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.mtrl_tabs_default_indicator = global::FootyPunditsApp.Droid.Resource.Drawable.mtrl_tabs_default_indicator;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.navigation_empty_icon = global::FootyPunditsApp.Droid.Resource.Drawable.navigation_empty_icon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notification_action_background = global::FootyPunditsApp.Droid.Resource.Drawable.notification_action_background;
@@ -1082,6 +1475,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.notify_panel_notification_icon_bg = global::FootyPunditsApp.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.sfclosebutton = global::FootyPunditsApp.Droid.Resource.Drawable.sfclosebutton;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.styleinfo = global::FootyPunditsApp.Droid.Resource.Drawable.styleinfo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.test_custom_background = global::FootyPunditsApp.Droid.Resource.Drawable.test_custom_background;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.tooltip_frame_dark = global::FootyPunditsApp.Droid.Resource.Drawable.tooltip_frame_dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Drawable.tooltip_frame_light = global::FootyPunditsApp.Droid.Resource.Drawable.tooltip_frame_light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.accessibility_action_clickable_span = global::FootyPunditsApp.Droid.Resource.Id.accessibility_action_clickable_span;
@@ -1149,6 +1543,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.bottom = global::FootyPunditsApp.Droid.Resource.Id.bottom;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.bottomtab_navarea = global::FootyPunditsApp.Droid.Resource.Id.bottomtab_navarea;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.bottomtab_tabbar = global::FootyPunditsApp.Droid.Resource.Id.bottomtab_tabbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.BOTTOM_END = global::FootyPunditsApp.Droid.Resource.Id.BOTTOM_END;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.BOTTOM_START = global::FootyPunditsApp.Droid.Resource.Id.BOTTOM_START;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_header_text = global::FootyPunditsApp.Droid.Resource.Id.browser_actions_header_text;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_menu_items = global::FootyPunditsApp.Droid.Resource.Id.browser_actions_menu_items;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_menu_item_icon = global::FootyPunditsApp.Droid.Resource.Id.browser_actions_menu_item_icon;
@@ -1156,15 +1552,23 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.browser_actions_menu_view = global::FootyPunditsApp.Droid.Resource.Id.browser_actions_menu_view;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.buttonPanel = global::FootyPunditsApp.Droid.Resource.Id.buttonPanel;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.cancel_action = global::FootyPunditsApp.Droid.Resource.Id.cancel_action;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.cancel_button = global::FootyPunditsApp.Droid.Resource.Id.cancel_button;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.center = global::FootyPunditsApp.Droid.Resource.Id.center;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.center_horizontal = global::FootyPunditsApp.Droid.Resource.Id.center_horizontal;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.center_vertical = global::FootyPunditsApp.Droid.Resource.Id.center_vertical;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.checkbox = global::FootyPunditsApp.Droid.Resource.Id.checkbox;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.@checked = global::FootyPunditsApp.Droid.Resource.Id.@checked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chip = global::FootyPunditsApp.Droid.Resource.Id.chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chip1 = global::FootyPunditsApp.Droid.Resource.Id.chip1;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chip2 = global::FootyPunditsApp.Droid.Resource.Id.chip2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chip3 = global::FootyPunditsApp.Droid.Resource.Id.chip3;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chip_group = global::FootyPunditsApp.Droid.Resource.Id.chip_group;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.chronometer = global::FootyPunditsApp.Droid.Resource.Id.chronometer;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.clear_text = global::FootyPunditsApp.Droid.Resource.Id.clear_text;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.clip_horizontal = global::FootyPunditsApp.Droid.Resource.Id.clip_horizontal;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.clip_vertical = global::FootyPunditsApp.Droid.Resource.Id.clip_vertical;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.collapseActionView = global::FootyPunditsApp.Droid.Resource.Id.collapseActionView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.confirm_button = global::FootyPunditsApp.Droid.Resource.Id.confirm_button;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.container = global::FootyPunditsApp.Droid.Resource.Id.container;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.content = global::FootyPunditsApp.Droid.Resource.Id.content;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.contentPanel = global::FootyPunditsApp.Droid.Resource.Id.contentPanel;
@@ -1172,6 +1576,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.CTRL = global::FootyPunditsApp.Droid.Resource.Id.CTRL;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.custom = global::FootyPunditsApp.Droid.Resource.Id.custom;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.customPanel = global::FootyPunditsApp.Droid.Resource.Id.customPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.cut = global::FootyPunditsApp.Droid.Resource.Id.cut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.date_picker_actions = global::FootyPunditsApp.Droid.Resource.Id.date_picker_actions;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.decor_content_parent = global::FootyPunditsApp.Droid.Resource.Id.decor_content_parent;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.default_activity_button = global::FootyPunditsApp.Droid.Resource.Id.default_activity_button;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_bottom_sheet = global::FootyPunditsApp.Droid.Resource.Id.design_bottom_sheet;
@@ -1181,6 +1587,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.design_navigation_view = global::FootyPunditsApp.Droid.Resource.Id.design_navigation_view;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.dialog_button = global::FootyPunditsApp.Droid.Resource.Id.dialog_button;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.disableHome = global::FootyPunditsApp.Droid.Resource.Id.disableHome;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.dropdown_menu = global::FootyPunditsApp.Droid.Resource.Id.dropdown_menu;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.edit_query = global::FootyPunditsApp.Droid.Resource.Id.edit_query;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.end = global::FootyPunditsApp.Droid.Resource.Id.end;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.end_padder = global::FootyPunditsApp.Droid.Resource.Id.end_padder;
@@ -1189,17 +1596,23 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.exitUntilCollapsed = global::FootyPunditsApp.Droid.Resource.Id.exitUntilCollapsed;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.expanded_menu = global::FootyPunditsApp.Droid.Resource.Id.expanded_menu;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.expand_activities_button = global::FootyPunditsApp.Droid.Resource.Id.expand_activities_button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fade = global::FootyPunditsApp.Droid.Resource.Id.fade;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fill = global::FootyPunditsApp.Droid.Resource.Id.fill;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.filled = global::FootyPunditsApp.Droid.Resource.Id.filled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fill_horizontal = global::FootyPunditsApp.Droid.Resource.Id.fill_horizontal;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fill_vertical = global::FootyPunditsApp.Droid.Resource.Id.fill_vertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fitToContents = global::FootyPunditsApp.Droid.Resource.Id.fitToContents;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.@fixed = global::FootyPunditsApp.Droid.Resource.Id.@fixed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.floating = global::FootyPunditsApp.Droid.Resource.Id.floating;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.flyoutcontent_appbar = global::FootyPunditsApp.Droid.Resource.Id.flyoutcontent_appbar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.forever = global::FootyPunditsApp.Droid.Resource.Id.forever;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.fragment_container_view_tag = global::FootyPunditsApp.Droid.Resource.Id.fragment_container_view_tag;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.FUNCTION = global::FootyPunditsApp.Droid.Resource.Id.FUNCTION;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.ghost_view = global::FootyPunditsApp.Droid.Resource.Id.ghost_view;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.ghost_view_holder = global::FootyPunditsApp.Droid.Resource.Id.ghost_view_holder;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.gone = global::FootyPunditsApp.Droid.Resource.Id.gone;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.group_divider = global::FootyPunditsApp.Droid.Resource.Id.group_divider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.hideable = global::FootyPunditsApp.Droid.Resource.Id.hideable;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.home = global::FootyPunditsApp.Droid.Resource.Id.home;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.homeAsUp = global::FootyPunditsApp.Droid.Resource.Id.homeAsUp;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.icon = global::FootyPunditsApp.Droid.Resource.Id.icon;
@@ -1222,17 +1635,44 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.main_viewpager = global::FootyPunditsApp.Droid.Resource.Id.main_viewpager;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.masked = global::FootyPunditsApp.Droid.Resource.Id.masked;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.media_actions = global::FootyPunditsApp.Droid.Resource.Id.media_actions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.media_controller_compat_view_tag = global::FootyPunditsApp.Droid.Resource.Id.media_controller_compat_view_tag;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.message = global::FootyPunditsApp.Droid.Resource.Id.message;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.META = global::FootyPunditsApp.Droid.Resource.Id.META;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.middle = global::FootyPunditsApp.Droid.Resource.Id.middle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mini = global::FootyPunditsApp.Droid.Resource.Id.mini;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_grid = global::FootyPunditsApp.Droid.Resource.Id.month_grid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_navigation_bar = global::FootyPunditsApp.Droid.Resource.Id.month_navigation_bar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_navigation_fragment_toggle = global::FootyPunditsApp.Droid.Resource.Id.month_navigation_fragment_toggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_navigation_next = global::FootyPunditsApp.Droid.Resource.Id.month_navigation_next;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_navigation_previous = global::FootyPunditsApp.Droid.Resource.Id.month_navigation_previous;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.month_title = global::FootyPunditsApp.Droid.Resource.Id.month_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_days_of_week = global::FootyPunditsApp.Droid.Resource.Id.mtrl_calendar_days_of_week;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_day_selector_frame = global::FootyPunditsApp.Droid.Resource.Id.mtrl_calendar_day_selector_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_frame = global::FootyPunditsApp.Droid.Resource.Id.mtrl_calendar_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_main_pane = global::FootyPunditsApp.Droid.Resource.Id.mtrl_calendar_main_pane;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_months = global::FootyPunditsApp.Droid.Resource.Id.mtrl_calendar_months;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_selection_frame = global::FootyPunditsApp.Droid.Resource.Id.mtrl_calendar_selection_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_text_input_frame = global::FootyPunditsApp.Droid.Resource.Id.mtrl_calendar_text_input_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_calendar_year_selector_frame = global::FootyPunditsApp.Droid.Resource.Id.mtrl_calendar_year_selector_frame;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_card_checked_layer_id = global::FootyPunditsApp.Droid.Resource.Id.mtrl_card_checked_layer_id;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_child_content_container = global::FootyPunditsApp.Droid.Resource.Id.mtrl_child_content_container;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_internal_children_alpha_tag = global::FootyPunditsApp.Droid.Resource.Id.mtrl_internal_children_alpha_tag;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_motion_snapshot_view = global::FootyPunditsApp.Droid.Resource.Id.mtrl_motion_snapshot_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_fullscreen = global::FootyPunditsApp.Droid.Resource.Id.mtrl_picker_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_header = global::FootyPunditsApp.Droid.Resource.Id.mtrl_picker_header;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_header_selection_text = global::FootyPunditsApp.Droid.Resource.Id.mtrl_picker_header_selection_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_header_title_and_selection = global::FootyPunditsApp.Droid.Resource.Id.mtrl_picker_header_title_and_selection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_header_toggle = global::FootyPunditsApp.Droid.Resource.Id.mtrl_picker_header_toggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_text_input_date = global::FootyPunditsApp.Droid.Resource.Id.mtrl_picker_text_input_date;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_text_input_range_end = global::FootyPunditsApp.Droid.Resource.Id.mtrl_picker_text_input_range_end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_text_input_range_start = global::FootyPunditsApp.Droid.Resource.Id.mtrl_picker_text_input_range_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.mtrl_picker_title_text = global::FootyPunditsApp.Droid.Resource.Id.mtrl_picker_title_text;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.multiply = global::FootyPunditsApp.Droid.Resource.Id.multiply;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.navigation_header_container = global::FootyPunditsApp.Droid.Resource.Id.navigation_header_container;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.never = global::FootyPunditsApp.Droid.Resource.Id.never;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.none = global::FootyPunditsApp.Droid.Resource.Id.none;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.normal = global::FootyPunditsApp.Droid.Resource.Id.normal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.noScroll = global::FootyPunditsApp.Droid.Resource.Id.noScroll;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.notification_background = global::FootyPunditsApp.Droid.Resource.Id.notification_background;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.notification_main_column = global::FootyPunditsApp.Droid.Resource.Id.notification_main_column;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.notification_main_column_container = global::FootyPunditsApp.Droid.Resource.Id.notification_main_column_container;
@@ -1242,6 +1682,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.parallax = global::FootyPunditsApp.Droid.Resource.Id.parallax;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.parentPanel = global::FootyPunditsApp.Droid.Resource.Id.parentPanel;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.parent_matrix = global::FootyPunditsApp.Droid.Resource.Id.parent_matrix;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.password_toggle = global::FootyPunditsApp.Droid.Resource.Id.password_toggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.peekHeight = global::FootyPunditsApp.Droid.Resource.Id.peekHeight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.pin = global::FootyPunditsApp.Droid.Resource.Id.pin;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.progress_circular = global::FootyPunditsApp.Droid.Resource.Id.progress_circular;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.progress_horizontal = global::FootyPunditsApp.Droid.Resource.Id.progress_horizontal;
@@ -1249,8 +1691,11 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.right = global::FootyPunditsApp.Droid.Resource.Id.right;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.right_icon = global::FootyPunditsApp.Droid.Resource.Id.right_icon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.right_side = global::FootyPunditsApp.Droid.Resource.Id.right_side;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.rounded = global::FootyPunditsApp.Droid.Resource.Id.rounded;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.row_index_key = global::FootyPunditsApp.Droid.Resource.Id.row_index_key;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.save_non_transition_alpha = global::FootyPunditsApp.Droid.Resource.Id.save_non_transition_alpha;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.save_overlay_view = global::FootyPunditsApp.Droid.Resource.Id.save_overlay_view;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scale = global::FootyPunditsApp.Droid.Resource.Id.scale;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.screen = global::FootyPunditsApp.Droid.Resource.Id.screen;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scroll = global::FootyPunditsApp.Droid.Resource.Id.scroll;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.scrollable = global::FootyPunditsApp.Droid.Resource.Id.scrollable;
@@ -1276,6 +1721,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.showCustom = global::FootyPunditsApp.Droid.Resource.Id.showCustom;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.showHome = global::FootyPunditsApp.Droid.Resource.Id.showHome;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.showTitle = global::FootyPunditsApp.Droid.Resource.Id.showTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.skipCollapsed = global::FootyPunditsApp.Droid.Resource.Id.skipCollapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.slide = global::FootyPunditsApp.Droid.Resource.Id.slide;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.sliding_tabs = global::FootyPunditsApp.Droid.Resource.Id.sliding_tabs;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.snackbar_action = global::FootyPunditsApp.Droid.Resource.Id.snackbar_action;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.snackbar_text = global::FootyPunditsApp.Droid.Resource.Id.snackbar_text;
@@ -1301,14 +1748,24 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_transition_group = global::FootyPunditsApp.Droid.Resource.Id.tag_transition_group;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_unhandled_key_event_manager = global::FootyPunditsApp.Droid.Resource.Id.tag_unhandled_key_event_manager;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.tag_unhandled_key_listeners = global::FootyPunditsApp.Droid.Resource.Id.tag_unhandled_key_listeners;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.test_checkbox_android_button_tint = global::FootyPunditsApp.Droid.Resource.Id.test_checkbox_android_button_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.test_checkbox_app_button_tint = global::FootyPunditsApp.Droid.Resource.Id.test_checkbox_app_button_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.test_radiobutton_android_button_tint = global::FootyPunditsApp.Droid.Resource.Id.test_radiobutton_android_button_tint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.test_radiobutton_app_button_tint = global::FootyPunditsApp.Droid.Resource.Id.test_radiobutton_app_button_tint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.text = global::FootyPunditsApp.Droid.Resource.Id.text;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.text2 = global::FootyPunditsApp.Droid.Resource.Id.text2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textEnd = global::FootyPunditsApp.Droid.Resource.Id.textEnd;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_counter = global::FootyPunditsApp.Droid.Resource.Id.textinput_counter;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_error = global::FootyPunditsApp.Droid.Resource.Id.textinput_error;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_helper_text = global::FootyPunditsApp.Droid.Resource.Id.textinput_helper_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_placeholder = global::FootyPunditsApp.Droid.Resource.Id.textinput_placeholder;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_prefix_text = global::FootyPunditsApp.Droid.Resource.Id.textinput_prefix_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textinput_suffix_text = global::FootyPunditsApp.Droid.Resource.Id.textinput_suffix_text;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textSpacerNoButtons = global::FootyPunditsApp.Droid.Resource.Id.textSpacerNoButtons;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textSpacerNoTitle = global::FootyPunditsApp.Droid.Resource.Id.textSpacerNoTitle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.textStart = global::FootyPunditsApp.Droid.Resource.Id.textStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.text_input_end_icon = global::FootyPunditsApp.Droid.Resource.Id.text_input_end_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.text_input_start_icon = global::FootyPunditsApp.Droid.Resource.Id.text_input_start_icon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.time = global::FootyPunditsApp.Droid.Resource.Id.time;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.title = global::FootyPunditsApp.Droid.Resource.Id.title;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.titleDividerNoCustom = global::FootyPunditsApp.Droid.Resource.Id.titleDividerNoCustom;
@@ -1316,6 +1773,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.toolbar = global::FootyPunditsApp.Droid.Resource.Id.toolbar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.top = global::FootyPunditsApp.Droid.Resource.Id.top;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.topPanel = global::FootyPunditsApp.Droid.Resource.Id.topPanel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.TOP_END = global::FootyPunditsApp.Droid.Resource.Id.TOP_END;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.TOP_START = global::FootyPunditsApp.Droid.Resource.Id.TOP_START;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.touch_outside = global::FootyPunditsApp.Droid.Resource.Id.touch_outside;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_current_scene = global::FootyPunditsApp.Droid.Resource.Id.transition_current_scene;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.transition_layout_save = global::FootyPunditsApp.Droid.Resource.Id.transition_layout_save;
@@ -1328,9 +1787,14 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.up = global::FootyPunditsApp.Droid.Resource.Id.up;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.useLogo = global::FootyPunditsApp.Droid.Resource.Id.useLogo;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.view_offset_helper = global::FootyPunditsApp.Droid.Resource.Id.view_offset_helper;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.view_tree_lifecycle_owner = global::FootyPunditsApp.Droid.Resource.Id.view_tree_lifecycle_owner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.view_tree_saved_state_registry_owner = global::FootyPunditsApp.Droid.Resource.Id.view_tree_saved_state_registry_owner;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.visible = global::FootyPunditsApp.Droid.Resource.Id.visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.visible_removing_fragment_view_tag = global::FootyPunditsApp.Droid.Resource.Id.visible_removing_fragment_view_tag;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.withinBounds = global::FootyPunditsApp.Droid.Resource.Id.withinBounds;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.withText = global::FootyPunditsApp.Droid.Resource.Id.withText;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.wrap_content = global::FootyPunditsApp.Droid.Resource.Id.wrap_content;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Id.zero_corner_chip = global::FootyPunditsApp.Droid.Resource.Id.zero_corner_chip;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.abc_config_activityDefaultDur = global::FootyPunditsApp.Droid.Resource.Integer.abc_config_activityDefaultDur;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.abc_config_activityShortDur = global::FootyPunditsApp.Droid.Resource.Integer.abc_config_activityShortDur;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.app_bar_elevation_anim_duration = global::FootyPunditsApp.Droid.Resource.Integer.app_bar_elevation_anim_duration;
@@ -1340,8 +1804,14 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.design_snackbar_text_max_lines = global::FootyPunditsApp.Droid.Resource.Integer.design_snackbar_text_max_lines;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms = global::FootyPunditsApp.Droid.Resource.Integer.design_tab_indicator_anim_duration_ms;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.hide_password_duration = global::FootyPunditsApp.Droid.Resource.Integer.hide_password_duration;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_badge_max_character_count = global::FootyPunditsApp.Droid.Resource.Integer.mtrl_badge_max_character_count;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_btn_anim_delay_ms = global::FootyPunditsApp.Droid.Resource.Integer.mtrl_btn_anim_delay_ms;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_btn_anim_duration_ms = global::FootyPunditsApp.Droid.Resource.Integer.mtrl_btn_anim_duration_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_calendar_header_orientation = global::FootyPunditsApp.Droid.Resource.Integer.mtrl_calendar_header_orientation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_calendar_selection_text_lines = global::FootyPunditsApp.Droid.Resource.Integer.mtrl_calendar_selection_text_lines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_calendar_year_selector_span = global::FootyPunditsApp.Droid.Resource.Integer.mtrl_calendar_year_selector_span;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_card_anim_delay_ms = global::FootyPunditsApp.Droid.Resource.Integer.mtrl_card_anim_delay_ms;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_card_anim_duration_ms = global::FootyPunditsApp.Droid.Resource.Integer.mtrl_card_anim_duration_ms;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_chip_anim_duration = global::FootyPunditsApp.Droid.Resource.Integer.mtrl_chip_anim_duration;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms = global::FootyPunditsApp.Droid.Resource.Integer.mtrl_tab_indicator_anim_duration_ms;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Integer.show_password_duration = global::FootyPunditsApp.Droid.Resource.Integer.show_password_duration;
@@ -1404,11 +1874,39 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_item_subheader = global::FootyPunditsApp.Droid.Resource.Layout.design_navigation_item_subheader;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_menu = global::FootyPunditsApp.Droid.Resource.Layout.design_navigation_menu;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_navigation_menu_item = global::FootyPunditsApp.Droid.Resource.Layout.design_navigation_menu_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_text_input_end_icon = global::FootyPunditsApp.Droid.Resource.Layout.design_text_input_end_icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.design_text_input_start_icon = global::FootyPunditsApp.Droid.Resource.Layout.design_text_input_start_icon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.FallbackTabbarDoNotUse = global::FootyPunditsApp.Droid.Resource.Layout.FallbackTabbarDoNotUse;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.FallbackToolbarDoNotUse = global::FootyPunditsApp.Droid.Resource.Layout.FallbackToolbarDoNotUse;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.FlyoutContent = global::FootyPunditsApp.Droid.Resource.Layout.FlyoutContent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_dialog = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_alert_dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_dialog_actions = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_alert_dialog_actions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_dialog_title = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_alert_dialog_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_select_dialog_item = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_alert_select_dialog_item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_alert_select_dialog_multichoice;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_alert_select_dialog_singlechoice;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_day = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_calendar_day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_days_of_week = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_calendar_days_of_week;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_day_of_week = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_calendar_day_of_week;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_horizontal = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_calendar_horizontal;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_month = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_calendar_month;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_months = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_calendar_months;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_month_labeled = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_calendar_month_labeled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_month_navigation = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_calendar_month_navigation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_vertical = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_calendar_vertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_calendar_year = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_calendar_year;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_layout_snackbar = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_layout_snackbar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_layout_snackbar_include = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_layout_snackbar_include;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_actions = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_picker_actions;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_dialog = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_picker_dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_fullscreen = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_picker_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_header_dialog = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_picker_header_dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_header_fullscreen = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_picker_header_fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_header_selection_text = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_picker_header_selection_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_header_title_text = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_picker_header_title_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_header_toggle = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_picker_header_toggle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_text_input_date = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_picker_text_input_date;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.mtrl_picker_text_input_date_range = global::FootyPunditsApp.Droid.Resource.Layout.mtrl_picker_text_input_date_range;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_action = global::FootyPunditsApp.Droid.Resource.Layout.notification_action;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_action_tombstone = global::FootyPunditsApp.Droid.Resource.Layout.notification_action_tombstone;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.notification_media_action = global::FootyPunditsApp.Droid.Resource.Layout.notification_media_action;
@@ -1432,7 +1930,22 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.ShellContent = global::FootyPunditsApp.Droid.Resource.Layout.ShellContent;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.support_simple_spinner_dropdown_item = global::FootyPunditsApp.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.Tabbar = global::FootyPunditsApp.Droid.Resource.Layout.Tabbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_action_chip = global::FootyPunditsApp.Droid.Resource.Layout.test_action_chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_chip_zero_corner_radius = global::FootyPunditsApp.Droid.Resource.Layout.test_chip_zero_corner_radius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_design_checkbox = global::FootyPunditsApp.Droid.Resource.Layout.test_design_checkbox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_design_radiobutton = global::FootyPunditsApp.Droid.Resource.Layout.test_design_radiobutton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_reflow_chipgroup = global::FootyPunditsApp.Droid.Resource.Layout.test_reflow_chipgroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_toolbar = global::FootyPunditsApp.Droid.Resource.Layout.test_toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_toolbar_custom_background = global::FootyPunditsApp.Droid.Resource.Layout.test_toolbar_custom_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_toolbar_elevation = global::FootyPunditsApp.Droid.Resource.Layout.test_toolbar_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.test_toolbar_surface = global::FootyPunditsApp.Droid.Resource.Layout.test_toolbar_surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.text_view_without_line_height = global::FootyPunditsApp.Droid.Resource.Layout.text_view_without_line_height;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.text_view_with_line_height_from_appearance = global::FootyPunditsApp.Droid.Resource.Layout.text_view_with_line_height_from_appearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.text_view_with_line_height_from_layout = global::FootyPunditsApp.Droid.Resource.Layout.text_view_with_line_height_from_layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.text_view_with_line_height_from_style = global::FootyPunditsApp.Droid.Resource.Layout.text_view_with_line_height_from_style;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.text_view_with_theme_line_height = global::FootyPunditsApp.Droid.Resource.Layout.text_view_with_theme_line_height;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Layout.Toolbar = global::FootyPunditsApp.Droid.Resource.Layout.Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Plurals.mtrl_badge_content_description = global::FootyPunditsApp.Droid.Resource.Plurals.mtrl_badge_content_description;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_action_bar_home_description = global::FootyPunditsApp.Droid.Resource.String.abc_action_bar_home_description;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_action_bar_up_description = global::FootyPunditsApp.Droid.Resource.String.abc_action_bar_up_description;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.abc_action_menu_overflow_description = global::FootyPunditsApp.Droid.Resource.String.abc_action_menu_overflow_description;
@@ -1463,11 +1976,59 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.appbar_scrolling_view_behavior = global::FootyPunditsApp.Droid.Resource.String.appbar_scrolling_view_behavior;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.bottom_sheet_behavior = global::FootyPunditsApp.Droid.Resource.String.bottom_sheet_behavior;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.character_counter_content_description = global::FootyPunditsApp.Droid.Resource.String.character_counter_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.character_counter_overflowed_content_description = global::FootyPunditsApp.Droid.Resource.String.character_counter_overflowed_content_description;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.character_counter_pattern = global::FootyPunditsApp.Droid.Resource.String.character_counter_pattern;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.chip_text = global::FootyPunditsApp.Droid.Resource.String.chip_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.clear_text_end_icon_content_description = global::FootyPunditsApp.Droid.Resource.String.clear_text_end_icon_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.copy_toast_msg = global::FootyPunditsApp.Droid.Resource.String.copy_toast_msg;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.error_icon_content_description = global::FootyPunditsApp.Droid.Resource.String.error_icon_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.exposed_dropdown_menu_content_description = global::FootyPunditsApp.Droid.Resource.String.exposed_dropdown_menu_content_description;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fab_transformation_scrim_behavior = global::FootyPunditsApp.Droid.Resource.String.fab_transformation_scrim_behavior;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fab_transformation_sheet_behavior = global::FootyPunditsApp.Droid.Resource.String.fab_transformation_sheet_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fallback_menu_item_copy_link = global::FootyPunditsApp.Droid.Resource.String.fallback_menu_item_copy_link;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fallback_menu_item_open_in_browser = global::FootyPunditsApp.Droid.Resource.String.fallback_menu_item_open_in_browser;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.fallback_menu_item_share_link = global::FootyPunditsApp.Droid.Resource.String.fallback_menu_item_share_link;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.hide_bottom_view_on_scroll_behavior = global::FootyPunditsApp.Droid.Resource.String.hide_bottom_view_on_scroll_behavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.icon_content_description = global::FootyPunditsApp.Droid.Resource.String.icon_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.item_view_role_description = global::FootyPunditsApp.Droid.Resource.String.item_view_role_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.material_slider_range_end = global::FootyPunditsApp.Droid.Resource.String.material_slider_range_end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.material_slider_range_start = global::FootyPunditsApp.Droid.Resource.String.material_slider_range_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_badge_numberless_content_description = global::FootyPunditsApp.Droid.Resource.String.mtrl_badge_numberless_content_description;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_chip_close_icon_content_description = global::FootyPunditsApp.Droid.Resource.String.mtrl_chip_close_icon_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description = global::FootyPunditsApp.Droid.Resource.String.mtrl_exceed_max_badge_number_content_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix = global::FootyPunditsApp.Droid.Resource.String.mtrl_exceed_max_badge_number_suffix;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_a11y_next_month = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_a11y_next_month;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_a11y_prev_month = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_a11y_prev_month;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_announce_current_selection = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_announce_current_selection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_cancel = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_cancel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_confirm = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_confirm;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_date_header_selected = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_date_header_selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_date_header_title = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_date_header_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_date_header_unselected = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_date_header_unselected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_day_of_week_column_header = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_day_of_week_column_header;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_invalid_format = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_invalid_format;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_invalid_format_example = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_invalid_format_example;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_invalid_format_use = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_invalid_format_use;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_invalid_range = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_invalid_range;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_navigate_to_year_description = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_navigate_to_year_description;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_out_of_range = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_out_of_range;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_range_header_only_end_selected = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_range_header_only_end_selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_range_header_only_start_selected = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_range_header_only_start_selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_range_header_selected = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_range_header_selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_range_header_title = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_range_header_title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_range_header_unselected = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_range_header_unselected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_save = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_save;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_date_hint = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_text_input_date_hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_text_input_date_range_end_hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_text_input_date_range_start_hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_day_abbr = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_text_input_day_abbr;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_month_abbr = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_text_input_month_abbr;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_text_input_year_abbr = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_text_input_year_abbr;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_toggle_to_calendar_input_mode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_toggle_to_day_selection = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_toggle_to_day_selection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_toggle_to_text_input_mode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.mtrl_picker_toggle_to_year_selection = global::FootyPunditsApp.Droid.Resource.String.mtrl_picker_toggle_to_year_selection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.overflow_tab_title = global::FootyPunditsApp.Droid.Resource.String.overflow_tab_title;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.password_toggle_content_description = global::FootyPunditsApp.Droid.Resource.String.password_toggle_content_description;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.path_password_eye = global::FootyPunditsApp.Droid.Resource.String.path_password_eye;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.path_password_eye_mask_strike_through = global::FootyPunditsApp.Droid.Resource.String.path_password_eye_mask_strike_through;
@@ -1477,10 +2038,13 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.String.status_bar_notification_info_overflow = global::FootyPunditsApp.Droid.Resource.String.status_bar_notification_info_overflow;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.AlertDialog_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.AlertDialog_AppCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.AlertDialog_AppCompat_Light = global::FootyPunditsApp.Droid.Resource.Style.AlertDialog_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.AndroidThemeColorAccentYellow = global::FootyPunditsApp.Droid.Resource.Style.AndroidThemeColorAccentYellow;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_AppCompat_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Animation_AppCompat_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_AppCompat_DropDownUp = global::FootyPunditsApp.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_AppCompat_Tooltip = global::FootyPunditsApp.Droid.Resource.Style.Animation_AppCompat_Tooltip;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_Design_BottomSheetDialog = global::FootyPunditsApp.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog = global::FootyPunditsApp.Droid.Resource.Style.Animation_MaterialComponents_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.AppCompatDialogStyle = global::FootyPunditsApp.Droid.Resource.Style.AppCompatDialogStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.Base_AlertDialog_AppCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light = global::FootyPunditsApp.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Animation_AppCompat_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
@@ -1489,6 +2053,9 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_CardView = global::FootyPunditsApp.Droid.Resource.Style.Base_CardView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon = global::FootyPunditsApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel = global::FootyPunditsApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text = global::FootyPunditsApp.Droid.Resource.Style.Base_MaterialAlertDialog_MaterialComponents_Title_Text;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_AppCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
@@ -1534,6 +2101,10 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Badge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Button;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6 = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Headline6;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2 = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_MaterialComponents_Subtitle2;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::FootyPunditsApp.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
@@ -1546,6 +2117,9 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::FootyPunditsApp.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert = global::FootyPunditsApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::FootyPunditsApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::FootyPunditsApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::FootyPunditsApp.Droid.Resource.Style.Base_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_AppCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_AppCompat_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
@@ -1566,6 +2140,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_DialogWhenLarge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_FixedSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Dialog_MinWidth;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light;
@@ -1575,22 +2150,30 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_FixedSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth = global::FootyPunditsApp.Droid.Resource.Style.Base_Theme_MaterialComponents_Light_Dialog_MinWidth;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_ThemeOverlay_MaterialComponents_MaterialAlertDialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Dialog_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_DarkActionBar_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Base_V14_Theme_MaterialComponents_Light_Dialog_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.Base_V21_Theme_AppCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light = global::FootyPunditsApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_MaterialComponents = global::FootyPunditsApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light = global::FootyPunditsApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Base_V21_Theme_MaterialComponents_Light_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.Base_V22_Theme_AppCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light = global::FootyPunditsApp.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_V23_Theme_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.Base_V23_Theme_AppCompat;
@@ -1667,12 +2250,34 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_Design_TabLayout = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_Design_TabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_MaterialComponents_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_MaterialComponents_CheckedTextView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_MaterialComponents_Slider;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputEditText;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextInputLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView = global::FootyPunditsApp.Droid.Resource.Style.Base_Widget_MaterialComponents_TextView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.CardView = global::FootyPunditsApp.Droid.Resource.Style.CardView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.CardView_Dark = global::FootyPunditsApp.Droid.Resource.Style.CardView_Dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.CardView_Light = global::FootyPunditsApp.Droid.Resource.Style.CardView_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.collectionViewTheme = global::FootyPunditsApp.Droid.Resource.Style.collectionViewTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.EmptyTheme = global::FootyPunditsApp.Droid.Resource.Style.EmptyTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MainTheme = global::FootyPunditsApp.Droid.Resource.Style.MainTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MainTheme_Base = global::FootyPunditsApp.Droid.Resource.Style.MainTheme_Base;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents = global::FootyPunditsApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text = global::FootyPunditsApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Body_Text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar = global::FootyPunditsApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Calendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner = global::FootyPunditsApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Picker_Date_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon = global::FootyPunditsApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked = global::FootyPunditsApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Icon_CenterStacked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel = global::FootyPunditsApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked = global::FootyPunditsApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Panel_CenterStacked;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text = global::FootyPunditsApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked = global::FootyPunditsApp.Droid.Resource.Style.MaterialAlertDialog_MaterialComponents_Title_Text_CenterStacked;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.Platform_AppCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_AppCompat_Light = global::FootyPunditsApp.Droid.Resource.Style.Platform_AppCompat_Light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Platform_MaterialComponents = global::FootyPunditsApp.Droid.Resource.Style.Platform_MaterialComponents;
@@ -1704,6 +2309,40 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::FootyPunditsApp.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::FootyPunditsApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::FootyPunditsApp.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.scrollViewScrollBars = global::FootyPunditsApp.Droid.Resource.Style.scrollViewScrollBars;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.scrollViewTheme = global::FootyPunditsApp.Droid.Resource.Style.scrollViewTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_BottomLeftDifferentCornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_BottomRightCut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_Cut = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_Cut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_DifferentCornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_BottomSheet;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_Chip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_ExtendedFloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_FloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Window_Fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Year;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_MaterialComponents_TextInputLayout_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_TopLeftCut;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearanceOverlay_TopRightDifferentCornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_LargeComponent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_MediumComponent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_SmallComponent;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Test;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip = global::FootyPunditsApp.Droid.Resource.Style.ShapeAppearance_MaterialComponents_Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestStyleWithLineHeight = global::FootyPunditsApp.Droid.Resource.Style.TestStyleWithLineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestStyleWithLineHeightAppearance = global::FootyPunditsApp.Droid.Resource.Style.TestStyleWithLineHeightAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestStyleWithoutLineHeight = global::FootyPunditsApp.Droid.Resource.Style.TestStyleWithoutLineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute = global::FootyPunditsApp.Droid.Resource.Style.TestStyleWithThemeLineHeightAttribute;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestThemeWithLineHeight = global::FootyPunditsApp.Droid.Resource.Style.TestThemeWithLineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TestThemeWithLineHeightDisabled = global::FootyPunditsApp.Droid.Resource.Style.TestThemeWithLineHeightDisabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day = global::FootyPunditsApp.Droid.Resource.Style.Test_ShapeAppearanceOverlay_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar = global::FootyPunditsApp.Droid.Resource.Style.Test_Theme_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar = global::FootyPunditsApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day = global::FootyPunditsApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::FootyPunditsApp.Droid.Resource.Style.Test_Widget_MaterialComponents_MaterialCalendar_Day_Selected;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body1 = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_AppCompat_Body2 = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -1768,8 +2407,12 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Error = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_Design_Error;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_HelperText = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_Design_HelperText;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Hint = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_Design_Hint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Placeholder = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_Design_Placeholder;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Prefix = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_Design_Prefix;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Suffix = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_Design_Suffix;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Design_Tab = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_Design_Tab;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Badge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1 = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body1;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2 = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Body2;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Button = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Button;
@@ -1784,9 +2427,11 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Overline;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1 = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle1;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2 = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Subtitle2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_MaterialComponents_Tooltip;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::FootyPunditsApp.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlayColorAccentRed = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlayColorAccentRed;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_AppCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
@@ -1796,18 +2441,43 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_AppCompat_Light = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_Design_TextInputEditText;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_ActionBar_Surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomAppBar_Surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_BottomSheetDialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dark_ActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_DayNight_BottomSheetDialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Dialog_Alert_Framework;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Light_Dialog_Alert_Framework;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Centered;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Calendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Header_Text_Day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialAlertDialog_Picker_Date_Spinner;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_MaterialCalendar_Fullscreen;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface = global::FootyPunditsApp.Droid.Resource.Style.ThemeOverlay_MaterialComponents_Toolbar_Surface;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat = global::FootyPunditsApp.Droid.Resource.Style.Theme_AppCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_CompactMenu = global::FootyPunditsApp.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DayNight = global::FootyPunditsApp.Droid.Resource.Style.Theme_AppCompat_DayNight;
@@ -1821,6 +2491,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::FootyPunditsApp.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert = global::FootyPunditsApp.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::FootyPunditsApp.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Empty = global::FootyPunditsApp.Droid.Resource.Style.Theme_AppCompat_Empty;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light = global::FootyPunditsApp.Droid.Resource.Style.Theme_AppCompat_Light;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::FootyPunditsApp.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_AppCompat_Light_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
@@ -1839,11 +2510,33 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_BottomSheetDialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_CompactMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_BottomSheetDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DarkActionBar_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_DialogWhenLarge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Alert_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_FixedSize_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_Dialog_MinWidth_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DayNight_NoActionBar_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_DialogWhenLarge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Alert_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_FixedSize_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Dialog_MinWidth_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BarSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_BottomSheetDialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DarkActionBar;
@@ -1851,7 +2544,13 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_DialogWhenLarge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Alert_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_FixedSize_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_Dialog_MinWidth_Bridge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_LargeTouch;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_Light_NoActionBar_Bridge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar = global::FootyPunditsApp.Droid.Resource.Style.Theme_MaterialComponents_NoActionBar;
@@ -1940,11 +2639,27 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::FootyPunditsApp.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_Snackbar = global::FootyPunditsApp.Droid.Resource.Style.Widget_Design_Snackbar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_TabLayout = global::FootyPunditsApp.Droid.Resource.Style.Widget_Design_TabLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_TextInputEditText = global::FootyPunditsApp.Droid.Resource.Style.Widget_Design_TextInputEditText;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Design_TextInputLayout = global::FootyPunditsApp.Droid.Resource.Style.Widget_Design_TextInputLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_PrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_ActionBar_Surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_PrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_AppBarLayout_Surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_FilledBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_AutoCompleteTextView_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Badge = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Badge;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_BottomAppBar_PrimarySurface;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_BottomNavigationView_PrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_BottomSheet_Modal;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Button;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Button_Icon;
@@ -1952,31 +2667,76 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Button_OutlinedButton_Icon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Flush;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Dialog_Icon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Icon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Button_TextButton_Snackbar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Button_UnelevatedButton_Icon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_CardView = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_CardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_CheckedTextView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_ChipGroup;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Action;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Choice;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Entry;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Chip_Filter;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_CheckBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_RadioButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_CompoundButton_Switch;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_ExtendedFloatingActionButton_Icon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_FloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Light_ActionBar_Solid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialButtonToggleGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_DayTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Invalid;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Day_Today;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderConfirmButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderDivider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderSelection_Fullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_HeaderToggleButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Item;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Selected;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_MaterialCalendar_Year_Today;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_NavigationView = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_NavigationView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ContextMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_ListPopupWindow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_PopupMenu_Overflow;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_ShapeableImageView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Slider = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Slider;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_FullWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Snackbar_TextView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_Colored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TabLayout_PrimarySurface;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_FilledBox_Dense;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputEditText_OutlinedBox_Dense;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_Dense_ExposedDropdownMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_FilledBox_ExposedDropdownMenu;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_Dense_ExposedDropdownMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextInputLayout_OutlinedBox_ExposedDropdownMenu;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_TextView = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_TextView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Primary;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_PrimarySurface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Toolbar_Surface;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_MaterialComponents_Tooltip = global::FootyPunditsApp.Droid.Resource.Style.Widget_MaterialComponents_Tooltip;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Style.Widget_Support_CoordinatorLayout = global::FootyPunditsApp.Droid.Resource.Style.Widget_Support_CoordinatorLayout;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBar = global::FootyPunditsApp.Droid.Resource.Styleable.ActionBar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ActionBarLayout = global::FootyPunditsApp.Droid.Resource.Styleable.ActionBarLayout;
@@ -2062,6 +2822,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::FootyPunditsApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::FootyPunditsApp.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_liftOnScroll = global::FootyPunditsApp.Droid.Resource.Styleable.AppBarLayout_liftOnScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId = global::FootyPunditsApp.Droid.Resource.Styleable.AppBarLayout_liftOnScrollTargetViewId;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppBarLayout_statusBarForeground = global::FootyPunditsApp.Droid.Resource.Styleable.AppBarLayout_statusBarForeground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView = global::FootyPunditsApp.Droid.Resource.Styleable.AppCompatImageView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView_android_src = global::FootyPunditsApp.Droid.Resource.Styleable.AppCompatImageView_android_src;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatImageView_srcCompat = global::FootyPunditsApp.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
@@ -2228,20 +2990,42 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::FootyPunditsApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::FootyPunditsApp.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle = global::FootyPunditsApp.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge = global::FootyPunditsApp.Droid.Resource.Styleable.Badge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_backgroundColor = global::FootyPunditsApp.Droid.Resource.Styleable.Badge_backgroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_badgeGravity = global::FootyPunditsApp.Droid.Resource.Styleable.Badge_badgeGravity;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_badgeTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.Badge_badgeTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_horizontalOffset = global::FootyPunditsApp.Droid.Resource.Styleable.Badge_horizontalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_maxCharacterCount = global::FootyPunditsApp.Droid.Resource.Styleable.Badge_maxCharacterCount;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_number = global::FootyPunditsApp.Droid.Resource.Styleable.Badge_number;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Badge_verticalOffset = global::FootyPunditsApp.Droid.Resource.Styleable.Badge_verticalOffset;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_backgroundTint = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_elevation = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar_elevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar_fabAlignmentMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar_fabAnimationMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar_fabCradleMargin;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar_fabCradleRoundedCornerRadius;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar_fabCradleVerticalOffset;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_hideOnScroll = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar_hideOnScroll;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar_paddingBottomSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar_paddingLeftSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets = global::FootyPunditsApp.Droid.Resource.Styleable.BottomAppBar_paddingRightSystemWindowInsets;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView = global::FootyPunditsApp.Droid.Resource.Styleable.BottomNavigationView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled = global::FootyPunditsApp.Droid.Resource.Styleable.BottomNavigationView_itemHorizontalTranslationEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_android_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_draggable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_expandedOffset;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_fitToContents;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_halfExpandedRatio;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_saveFlags;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_gestureInsetBottomIgnored;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Styleable.BottomSheetBehavior_Layout_shapeAppearanceOverlay;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ButtonBarLayout = global::FootyPunditsApp.Droid.Resource.Styleable.ButtonBarLayout;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ButtonBarLayout_allowStacking = global::FootyPunditsApp.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CardView = global::FootyPunditsApp.Droid.Resource.Styleable.CardView;
@@ -2264,6 +3048,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacing = global::FootyPunditsApp.Droid.Resource.Styleable.ChipGroup_chipSpacing;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal = global::FootyPunditsApp.Droid.Resource.Styleable.ChipGroup_chipSpacingHorizontal;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical = global::FootyPunditsApp.Droid.Resource.Styleable.ChipGroup_chipSpacingVertical;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_selectionRequired = global::FootyPunditsApp.Droid.Resource.Styleable.ChipGroup_selectionRequired;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_singleLine = global::FootyPunditsApp.Droid.Resource.Styleable.ChipGroup_singleLine;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ChipGroup_singleSelection = global::FootyPunditsApp.Droid.Resource.Styleable.ChipGroup_singleSelection;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_checkable = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_android_checkable;
@@ -2271,8 +3056,10 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_maxWidth = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_android_maxWidth;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_text = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_android_text;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_textAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_android_textColor = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_android_textColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_checkedIcon = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_checkedIcon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_checkedIconEnabled = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_checkedIconEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_checkedIconTint = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_checkedIconTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_checkedIconVisible = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_checkedIconVisible;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipBackgroundColor = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_chipBackgroundColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipCornerRadius = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_chipCornerRadius;
@@ -2283,9 +3070,11 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIconTint = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_chipIconTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipIconVisible = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_chipIconVisible;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipMinHeight = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_chipMinHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_chipMinTouchTargetSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipStartPadding = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_chipStartPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipStrokeColor = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_chipStrokeColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipStrokeWidth = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_chipStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_chipSurfaceColor = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_chipSurfaceColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIcon = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_closeIcon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconEnabled = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_closeIconEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconEndPadding = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_closeIconEndPadding;
@@ -2293,10 +3082,13 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconStartPadding = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_closeIconStartPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconTint = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_closeIconTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_closeIconVisible = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_closeIconVisible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_ensureMinTouchTargetSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_hideMotionSpec = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_hideMotionSpec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_iconEndPadding = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_iconEndPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_iconStartPadding = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_iconStartPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_rippleColor = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_shapeAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_shapeAppearanceOverlay;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_showMotionSpec = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_showMotionSpec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_textEndPadding = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_textEndPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Chip_textStartPadding = global::FootyPunditsApp.Droid.Resource.Styleable.Chip_textStartPadding;
@@ -2314,6 +3106,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout = global::FootyPunditsApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::FootyPunditsApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::FootyPunditsApp.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines = global::FootyPunditsApp.Droid.Resource.Styleable.CollapsingToolbarLayout_maxLines;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::FootyPunditsApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::FootyPunditsApp.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::FootyPunditsApp.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
@@ -2349,13 +3142,26 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::FootyPunditsApp.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_spinBars = global::FootyPunditsApp.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerArrowToggle_thickness = global::FootyPunditsApp.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerLayout = global::FootyPunditsApp.Droid.Resource.Styleable.DrawerLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.DrawerLayout_elevation = global::FootyPunditsApp.Droid.Resource.Styleable.DrawerLayout_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton = global::FootyPunditsApp.Droid.Resource.Styleable.ExtendedFloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout = global::FootyPunditsApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide = global::FootyPunditsApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoHide;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink = global::FootyPunditsApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_Behavior_Layout_behavior_autoShrink;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation = global::FootyPunditsApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec = global::FootyPunditsApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_extendMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec = global::FootyPunditsApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_hideMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec = global::FootyPunditsApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_showMotionSpec;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec = global::FootyPunditsApp.Droid.Resource.Styleable.ExtendedFloatingActionButton_shrinkMotionSpec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_android_enabled = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_android_enabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTint = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_borderWidth = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_elevation = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_elevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_ensureMinTouchTargetSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_fabCustomSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_fabSize = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_fabSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_hideMotionSpec;
@@ -2363,6 +3169,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_maxImageSize = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_maxImageSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_rippleColor = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_shapeAppearanceOverlay;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_showMotionSpec;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding = global::FootyPunditsApp.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FlowLayout = global::FootyPunditsApp.Droid.Resource.Styleable.FlowLayout;
@@ -2390,6 +3198,13 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::FootyPunditsApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::FootyPunditsApp.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::FootyPunditsApp.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Fragment = global::FootyPunditsApp.Droid.Resource.Styleable.Fragment;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FragmentContainerView = global::FootyPunditsApp.Droid.Resource.Styleable.FragmentContainerView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FragmentContainerView_android_name = global::FootyPunditsApp.Droid.Resource.Styleable.FragmentContainerView_android_name;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.FragmentContainerView_android_tag = global::FootyPunditsApp.Droid.Resource.Styleable.FragmentContainerView_android_tag;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Fragment_android_id = global::FootyPunditsApp.Droid.Resource.Styleable.Fragment_android_id;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Fragment_android_name = global::FootyPunditsApp.Droid.Resource.Styleable.Fragment_android_name;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Fragment_android_tag = global::FootyPunditsApp.Droid.Resource.Styleable.Fragment_android_tag;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor = global::FootyPunditsApp.Droid.Resource.Styleable.GradientColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColorItem = global::FootyPunditsApp.Droid.Resource.Styleable.GradientColorItem;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColorItem_android_color = global::FootyPunditsApp.Droid.Resource.Styleable.GradientColorItem_android_color;
@@ -2406,6 +3221,12 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_startY = global::FootyPunditsApp.Droid.Resource.Styleable.GradientColor_android_startY;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_tileMode = global::FootyPunditsApp.Droid.Resource.Styleable.GradientColor_android_tileMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.GradientColor_android_type = global::FootyPunditsApp.Droid.Resource.Styleable.GradientColor_android_type;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Insets = global::FootyPunditsApp.Droid.Resource.Styleable.Insets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets = global::FootyPunditsApp.Droid.Resource.Styleable.Insets_paddingBottomSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets = global::FootyPunditsApp.Droid.Resource.Styleable.Insets_paddingLeftSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets = global::FootyPunditsApp.Droid.Resource.Styleable.Insets_paddingRightSystemWindowInsets;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ItemsViewRendererTheme = global::FootyPunditsApp.Droid.Resource.Styleable.ItemsViewRendererTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle = global::FootyPunditsApp.Droid.Resource.Styleable.ItemsViewRendererTheme_collectionViewStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat = global::FootyPunditsApp.Droid.Resource.Styleable.LinearLayoutCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::FootyPunditsApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::FootyPunditsApp.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
@@ -2424,7 +3245,26 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ListPopupWindow = global::FootyPunditsApp.Droid.Resource.Styleable.ListPopupWindow;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::FootyPunditsApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::FootyPunditsApp.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialog = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAlertDialog;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAlertDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogBodyTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleIconStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitlePanelStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAlertDialogTheme_materialAlertDialogTitleTextStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAlertDialog_backgroundInsetTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAutoCompleteTextView = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAutoCompleteTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialAutoCompleteTextView_android_inputType;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButtonToggleGroup = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButtonToggleGroup;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_checkedButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_selectionRequired;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButtonToggleGroup_singleSelection;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_background = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_android_background;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_checkable = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_android_checkable;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_insetBottom = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_android_insetBottom;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_insetLeft = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_android_insetLeft;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_android_insetRight = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_android_insetRight;
@@ -2432,6 +3272,7 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_backgroundTint = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_backgroundTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_backgroundTintMode = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_backgroundTintMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_cornerRadius = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_cornerRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_elevation = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_elevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_icon = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_icon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconGravity = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_iconGravity;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconPadding = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_iconPadding;
@@ -2439,11 +3280,58 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconTint = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_iconTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_iconTintMode = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_iconTintMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_rippleColor = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_shapeAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_shapeAppearanceOverlay;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_strokeColor = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_strokeColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialButton_strokeWidth = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialButton_strokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendar;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendarItem;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendarItem_android_insetTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendarItem_itemFillColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendarItem_itemShapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendarItem_itemStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendarItem_itemTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendar_android_windowFullscreen;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendar_dayInvalidStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendar_daySelectedStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_dayStyle = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendar_dayStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendar_dayTodayStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendar_rangeFillColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendar_yearSelectedStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_yearStyle = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendar_yearStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCalendar_yearTodayStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCardView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_android_checkable = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCardView_android_checkable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCardView_cardForegroundColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_checkedIcon = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCardView_checkedIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_checkedIconTint = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCardView_checkedIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_rippleColor = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCardView_rippleColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_shapeAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCardView_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCardView_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_state_dragged = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCardView_state_dragged;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_strokeColor = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCardView_strokeColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCardView_strokeWidth = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCardView_strokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCheckBox = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCheckBox;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCheckBox_buttonTint = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCheckBox_buttonTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialCheckBox_useMaterialThemeColors;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialRadioButton = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialRadioButton;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialRadioButton_buttonTint = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialRadioButton_buttonTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialRadioButton_useMaterialThemeColors;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialShape = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialShape;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialShape_shapeAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialShape_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialShape_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialTextAppearance_android_lineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialTextAppearance_lineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextView = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialTextView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextView_android_lineHeight = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialTextView_android_lineHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextView_android_textAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialTextView_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MaterialTextView_lineHeight = global::FootyPunditsApp.Droid.Resource.Styleable.MaterialTextView_lineHeight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup = global::FootyPunditsApp.Droid.Resource.Styleable.MenuGroup;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior = global::FootyPunditsApp.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.MenuGroup_android_enabled = global::FootyPunditsApp.Droid.Resource.Styleable.MenuGroup_android_enabled;
@@ -2494,7 +3382,16 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemBackground = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemBackground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemHorizontalPadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemIconPadding = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemIconPadding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemIconSize = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemIconSize;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemIconTint = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemMaxLines = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemMaxLines;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemShapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemShapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeFillColor = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemShapeFillColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetBottom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetEnd;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetStart;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemShapeInsetTop;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemTextAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_itemTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_itemTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.NavigationView_menu = global::FootyPunditsApp.Droid.Resource.Styleable.NavigationView_menu;
@@ -2504,6 +3401,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::FootyPunditsApp.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindow_android_popupBackground = global::FootyPunditsApp.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.PopupWindow_overlapAnchor = global::FootyPunditsApp.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RangeSlider = global::FootyPunditsApp.Droid.Resource.Styleable.RangeSlider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RangeSlider_values = global::FootyPunditsApp.Droid.Resource.Styleable.RangeSlider_values;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecycleListView = global::FootyPunditsApp.Droid.Resource.Styleable.RecycleListView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::FootyPunditsApp.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::FootyPunditsApp.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
@@ -2524,6 +3423,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::FootyPunditsApp.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout = global::FootyPunditsApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::FootyPunditsApp.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrollViewRendererTheme = global::FootyPunditsApp.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::FootyPunditsApp.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView = global::FootyPunditsApp.Droid.Resource.Styleable.SearchView;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_android_focusable = global::FootyPunditsApp.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_android_imeOptions = global::FootyPunditsApp.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -2542,13 +3443,55 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_submitBackground = global::FootyPunditsApp.Droid.Resource.Styleable.SearchView_submitBackground;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_suggestionRowLayout = global::FootyPunditsApp.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SearchView_voiceIcon = global::FootyPunditsApp.Droid.Resource.Styleable.SearchView_voiceIcon;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeableImageView = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeableImageView;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeableImageView_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeableImageView_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeableImageView_strokeColor = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeableImageView_strokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeableImageView_strokeWidth = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeableImageView_strokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamily = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamily;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyBottomRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeAppearance_cornerFamilyTopRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerSize = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeAppearance_cornerSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeBottomRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopLeft;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight = global::FootyPunditsApp.Droid.Resource.Styleable.ShapeAppearance_cornerSizeTopRight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider = global::FootyPunditsApp.Droid.Resource.Styleable.Slider;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_android_enabled = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_android_enabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_android_stepSize = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_android_stepSize;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_android_value = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_android_value;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_android_valueFrom = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_android_valueFrom;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_android_valueTo = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_android_valueTo;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_haloColor = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_haloColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_haloRadius = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_haloRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_labelBehavior = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_labelBehavior;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_labelStyle = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_labelStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_thumbColor = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_thumbColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_thumbElevation = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_thumbElevation;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_thumbRadius = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_thumbRadius;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_tickColor = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_tickColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_tickColorActive = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_tickColorActive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_tickColorInactive = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_tickColorInactive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_trackColor = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_trackColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_trackColorActive = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_trackColorActive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_trackColorInactive = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_trackColorInactive;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Slider_trackHeight = global::FootyPunditsApp.Droid.Resource.Styleable.Slider_trackHeight;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Snackbar = global::FootyPunditsApp.Droid.Resource.Styleable.Snackbar;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout = global::FootyPunditsApp.Droid.Resource.Styleable.SnackbarLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha = global::FootyPunditsApp.Droid.Resource.Styleable.SnackbarLayout_actionTextColorAlpha;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth = global::FootyPunditsApp.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_animationMode = global::FootyPunditsApp.Droid.Resource.Styleable.SnackbarLayout_animationMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha = global::FootyPunditsApp.Droid.Resource.Styleable.SnackbarLayout_backgroundOverlayColorAlpha;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_backgroundTint = global::FootyPunditsApp.Droid.Resource.Styleable.SnackbarLayout_backgroundTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode = global::FootyPunditsApp.Droid.Resource.Styleable.SnackbarLayout_backgroundTintMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_elevation = global::FootyPunditsApp.Droid.Resource.Styleable.SnackbarLayout_elevation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::FootyPunditsApp.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle = global::FootyPunditsApp.Droid.Resource.Styleable.Snackbar_snackbarButtonStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Snackbar_snackbarStyle = global::FootyPunditsApp.Droid.Resource.Styleable.Snackbar_snackbarStyle;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle = global::FootyPunditsApp.Droid.Resource.Styleable.Snackbar_snackbarTextViewStyle;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner = global::FootyPunditsApp.Droid.Resource.Styleable.Spinner;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_android_dropDownWidth = global::FootyPunditsApp.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Spinner_android_entries = global::FootyPunditsApp.Droid.Resource.Styleable.Spinner_android_entries;
@@ -2564,6 +3507,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration = global::FootyPunditsApp.Droid.Resource.Styleable.StateListDrawable_android_exitFadeDuration;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_variablePadding = global::FootyPunditsApp.Droid.Resource.Styleable.StateListDrawable_android_variablePadding;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.StateListDrawable_android_visible = global::FootyPunditsApp.Droid.Resource.Styleable.StateListDrawable_android_visible;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwipeRefreshLayout = global::FootyPunditsApp.Droid.Resource.Styleable.SwipeRefreshLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor = global::FootyPunditsApp.Droid.Resource.Styleable.SwipeRefreshLayout_swipeRefreshLayoutProgressSpinnerBackgroundColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat = global::FootyPunditsApp.Droid.Resource.Styleable.SwitchCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOff = global::FootyPunditsApp.Droid.Resource.Styleable.SwitchCompat_android_textOff;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_android_textOn = global::FootyPunditsApp.Droid.Resource.Styleable.SwitchCompat_android_textOn;
@@ -2579,6 +3524,8 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_track = global::FootyPunditsApp.Droid.Resource.Styleable.SwitchCompat_track;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_trackTint = global::FootyPunditsApp.Droid.Resource.Styleable.SwitchCompat_trackTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchCompat_trackTintMode = global::FootyPunditsApp.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchMaterial = global::FootyPunditsApp.Droid.Resource.Styleable.SwitchMaterial;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors = global::FootyPunditsApp.Droid.Resource.Styleable.SwitchMaterial_useMaterialThemeColors;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabItem = global::FootyPunditsApp.Droid.Resource.Styleable.TabItem;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabItem_android_icon = global::FootyPunditsApp.Droid.Resource.Styleable.TabItem_android_icon;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TabItem_android_layout = global::FootyPunditsApp.Droid.Resource.Styleable.TabItem_android_layout;
@@ -2626,7 +3573,10 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_fontVariationSettings = global::FootyPunditsApp.Droid.Resource.Styleable.TextAppearance_fontVariationSettings;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_textAllCaps = global::FootyPunditsApp.Droid.Resource.Styleable.TextAppearance_textAllCaps;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextAppearance_textLocale = global::FootyPunditsApp.Droid.Resource.Styleable.TextAppearance_textLocale;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputEditText = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputEditText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputEditText_textInputLayoutFocusedRectEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_android_enabled = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_android_enabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_android_hint = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_android_hint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_android_textColorHint = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_boxBackgroundColor;
@@ -2637,24 +3587,57 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopEnd;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_boxCornerRadiusTopStart;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeErrorColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_boxStrokeWidthFocused;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterEnabled = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterMaxLength = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_counterTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_counterTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconCheckable = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_endIconCheckable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_endIconContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconDrawable = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_endIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconMode = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_endIconMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconTint = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_endIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_endIconTintMode = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_endIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorContentDescription = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_errorContentDescription;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorEnabled = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_errorIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorIconTint = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_errorIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_errorIconTintMode;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_errorTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_errorTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_helperText = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_helperText;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_helperTextEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_helperTextTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_hintEnabled = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_hintTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_hintTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_placeholderText = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_placeholderText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_placeholderTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_placeholderTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_prefixText = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_prefixText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_prefixTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_prefixTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_prefixTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_shapeAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_shapeAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_shapeAppearanceOverlay;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_startIconCheckable = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_startIconCheckable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_startIconContentDescription;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_startIconDrawable = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_startIconDrawable;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_startIconTint = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_startIconTint;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_startIconTintMode = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_startIconTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_suffixText = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_suffixText;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_suffixTextAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.TextInputLayout_suffixTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.TextInputLayout_suffixTextColor;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ThemeEnforcement = global::FootyPunditsApp.Droid.Resource.Styleable.ThemeEnforcement;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.ThemeEnforcement_android_textAppearance;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme = global::FootyPunditsApp.Droid.Resource.Styleable.ThemeEnforcement_enforceMaterialTheme;
@@ -2690,11 +3673,21 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleMarginTop = global::FootyPunditsApp.Droid.Resource.Styleable.Toolbar_titleMarginTop;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleTextAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Toolbar_titleTextColor = global::FootyPunditsApp.Droid.Resource.Styleable.Toolbar_titleTextColor;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip = global::FootyPunditsApp.Droid.Resource.Styleable.Tooltip;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_layout_margin = global::FootyPunditsApp.Droid.Resource.Styleable.Tooltip_android_layout_margin;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_minHeight = global::FootyPunditsApp.Droid.Resource.Styleable.Tooltip_android_minHeight;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_minWidth = global::FootyPunditsApp.Droid.Resource.Styleable.Tooltip_android_minWidth;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_padding = global::FootyPunditsApp.Droid.Resource.Styleable.Tooltip_android_padding;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_text = global::FootyPunditsApp.Droid.Resource.Styleable.Tooltip_android_text;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_android_textAppearance = global::FootyPunditsApp.Droid.Resource.Styleable.Tooltip_android_textAppearance;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.Tooltip_backgroundTint = global::FootyPunditsApp.Droid.Resource.Styleable.Tooltip_backgroundTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View = global::FootyPunditsApp.Droid.Resource.Styleable.View;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper = global::FootyPunditsApp.Droid.Resource.Styleable.ViewBackgroundHelper;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_android_background = global::FootyPunditsApp.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::FootyPunditsApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::FootyPunditsApp.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewPager2 = global::FootyPunditsApp.Droid.Resource.Styleable.ViewPager2;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewPager2_android_orientation = global::FootyPunditsApp.Droid.Resource.Styleable.ViewPager2_android_orientation;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewStubCompat = global::FootyPunditsApp.Droid.Resource.Styleable.ViewStubCompat;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewStubCompat_android_id = global::FootyPunditsApp.Droid.Resource.Styleable.ViewStubCompat_android_id;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId = global::FootyPunditsApp.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
@@ -2704,6 +3697,12 @@ namespace FootyPunditsApp.Droid
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_paddingEnd = global::FootyPunditsApp.Droid.Resource.Styleable.View_paddingEnd;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_paddingStart = global::FootyPunditsApp.Droid.Resource.Styleable.View_paddingStart;
 			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Styleable.View_theme = global::FootyPunditsApp.Droid.Resource.Styleable.View_theme;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.image_share_filepaths = global::FootyPunditsApp.Droid.Resource.Xml.image_share_filepaths;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.standalone_badge = global::FootyPunditsApp.Droid.Resource.Xml.standalone_badge;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.standalone_badge_gravity_bottom_end = global::FootyPunditsApp.Droid.Resource.Xml.standalone_badge_gravity_bottom_end;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.standalone_badge_gravity_bottom_start = global::FootyPunditsApp.Droid.Resource.Xml.standalone_badge_gravity_bottom_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.standalone_badge_gravity_top_start = global::FootyPunditsApp.Droid.Resource.Xml.standalone_badge_gravity_top_start;
+			global::Syncfusion.SfAutoComplete.XForms.Droid.Resource.Xml.standalone_badge_offset = global::FootyPunditsApp.Droid.Resource.Xml.standalone_badge_offset;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::FootyPunditsApp.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::FootyPunditsApp.Droid.Resource.Attribute.font;
 			global::Xamarin.Essentials.Resource.Attribute.fontProviderAuthority = global::FootyPunditsApp.Droid.Resource.Attribute.fontProviderAuthority;
@@ -19292,196 +20291,205 @@ namespace FootyPunditsApp.Droid
 			public const int ChatsIcon = 2131165310;
 			
 			// aapt resource value: 0x7F07007F
-			public const int clear_button_icon = 2131165311;
+			public const int checkmark = 2131165311;
 			
 			// aapt resource value: 0x7F070080
-			public const int DefaultPFP = 2131165312;
+			public const int clear_button_icon = 2131165312;
 			
 			// aapt resource value: 0x7F070081
-			public const int design_fab_background = 2131165313;
+			public const int DefaultPFP = 2131165313;
 			
 			// aapt resource value: 0x7F070082
-			public const int design_ic_visibility = 2131165314;
+			public const int design_fab_background = 2131165314;
 			
 			// aapt resource value: 0x7F070083
-			public const int design_ic_visibility_off = 2131165315;
+			public const int design_ic_visibility = 2131165315;
 			
 			// aapt resource value: 0x7F070084
-			public const int design_password_eye = 2131165316;
+			public const int design_ic_visibility_off = 2131165316;
 			
 			// aapt resource value: 0x7F070085
-			public const int design_snackbar_background = 2131165317;
+			public const int design_password_eye = 2131165317;
 			
 			// aapt resource value: 0x7F070086
-			public const int DUHistory = 2131165318;
+			public const int design_snackbar_background = 2131165318;
 			
 			// aapt resource value: 0x7F070087
-			public const int Edit = 2131165319;
+			public const int DUHistory = 2131165319;
 			
 			// aapt resource value: 0x7F070088
-			public const int Help = 2131165320;
+			public const int Edit = 2131165320;
 			
 			// aapt resource value: 0x7F070089
-			public const int HomePage = 2131165321;
-			
-			// aapt resource value: 0x7F070091
-			public const int icon_email = 2131165329;
-			
-			// aapt resource value: 0x7F070092
-			public const int Icon_ShowPassword = 2131165330;
+			public const int Help = 2131165321;
 			
 			// aapt resource value: 0x7F07008A
-			public const int ic_arrow_down_24dp = 2131165322;
+			public const int HomePage = 2131165322;
 			
-			// aapt resource value: 0x7F07008B
-			public const int ic_clock_black_24dp = 2131165323;
-			
-			// aapt resource value: 0x7F07008C
-			public const int ic_keyboard_black_24dp = 2131165324;
-			
-			// aapt resource value: 0x7F07008D
-			public const int ic_mtrl_checked_circle = 2131165325;
-			
-			// aapt resource value: 0x7F07008E
-			public const int ic_mtrl_chip_checked_black = 2131165326;
-			
-			// aapt resource value: 0x7F07008F
-			public const int ic_mtrl_chip_checked_circle = 2131165327;
-			
-			// aapt resource value: 0x7F070090
-			public const int ic_mtrl_chip_close_circle = 2131165328;
-			
-			// aapt resource value: 0x7F070094
-			public const int inputlayout_togglecollapseicon = 2131165332;
-			
-			// aapt resource value: 0x7F070095
-			public const int inputlayout_togglevisibleicon = 2131165333;
+			// aapt resource value: 0x7F070092
+			public const int icon_email = 2131165330;
 			
 			// aapt resource value: 0x7F070093
-			public const int input_layout_drop_down_icon = 2131165331;
+			public const int Icon_ShowPassword = 2131165331;
+			
+			// aapt resource value: 0x7F07008B
+			public const int ic_arrow_down_24dp = 2131165323;
+			
+			// aapt resource value: 0x7F07008C
+			public const int ic_clock_black_24dp = 2131165324;
+			
+			// aapt resource value: 0x7F07008D
+			public const int ic_keyboard_black_24dp = 2131165325;
+			
+			// aapt resource value: 0x7F07008E
+			public const int ic_mtrl_checked_circle = 2131165326;
+			
+			// aapt resource value: 0x7F07008F
+			public const int ic_mtrl_chip_checked_black = 2131165327;
+			
+			// aapt resource value: 0x7F070090
+			public const int ic_mtrl_chip_checked_circle = 2131165328;
+			
+			// aapt resource value: 0x7F070091
+			public const int ic_mtrl_chip_close_circle = 2131165329;
+			
+			// aapt resource value: 0x7F070095
+			public const int inputlayout_togglecollapseicon = 2131165333;
 			
 			// aapt resource value: 0x7F070096
-			public const int material_cursor_drawable = 2131165334;
+			public const int inputlayout_togglevisibleicon = 2131165334;
+			
+			// aapt resource value: 0x7F070094
+			public const int input_layout_drop_down_icon = 2131165332;
 			
 			// aapt resource value: 0x7F070097
-			public const int material_ic_calendar_black_24dp = 2131165335;
+			public const int material_cursor_drawable = 2131165335;
 			
 			// aapt resource value: 0x7F070098
-			public const int material_ic_clear_black_24dp = 2131165336;
+			public const int material_ic_calendar_black_24dp = 2131165336;
 			
 			// aapt resource value: 0x7F070099
-			public const int material_ic_edit_black_24dp = 2131165337;
+			public const int material_ic_clear_black_24dp = 2131165337;
 			
 			// aapt resource value: 0x7F07009A
-			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165338;
+			public const int material_ic_edit_black_24dp = 2131165338;
 			
 			// aapt resource value: 0x7F07009B
-			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165339;
+			public const int material_ic_keyboard_arrow_left_black_24dp = 2131165339;
 			
 			// aapt resource value: 0x7F07009C
-			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165340;
+			public const int material_ic_keyboard_arrow_next_black_24dp = 2131165340;
 			
 			// aapt resource value: 0x7F07009D
-			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165341;
+			public const int material_ic_keyboard_arrow_previous_black_24dp = 2131165341;
 			
 			// aapt resource value: 0x7F07009E
-			public const int material_ic_menu_arrow_down_black_24dp = 2131165342;
+			public const int material_ic_keyboard_arrow_right_black_24dp = 2131165342;
 			
 			// aapt resource value: 0x7F07009F
-			public const int material_ic_menu_arrow_up_black_24dp = 2131165343;
+			public const int material_ic_menu_arrow_down_black_24dp = 2131165343;
 			
 			// aapt resource value: 0x7F0700A0
-			public const int mtrl_dialog_background = 2131165344;
+			public const int material_ic_menu_arrow_up_black_24dp = 2131165344;
 			
 			// aapt resource value: 0x7F0700A1
-			public const int mtrl_dropdown_arrow = 2131165345;
+			public const int mtrl_dialog_background = 2131165345;
 			
 			// aapt resource value: 0x7F0700A2
-			public const int mtrl_ic_arrow_drop_down = 2131165346;
+			public const int mtrl_dropdown_arrow = 2131165346;
 			
 			// aapt resource value: 0x7F0700A3
-			public const int mtrl_ic_arrow_drop_up = 2131165347;
+			public const int mtrl_ic_arrow_drop_down = 2131165347;
 			
 			// aapt resource value: 0x7F0700A4
-			public const int mtrl_ic_cancel = 2131165348;
+			public const int mtrl_ic_arrow_drop_up = 2131165348;
 			
 			// aapt resource value: 0x7F0700A5
-			public const int mtrl_ic_error = 2131165349;
+			public const int mtrl_ic_cancel = 2131165349;
 			
 			// aapt resource value: 0x7F0700A6
-			public const int mtrl_navigation_bar_item_background = 2131165350;
+			public const int mtrl_ic_error = 2131165350;
 			
 			// aapt resource value: 0x7F0700A7
-			public const int mtrl_popupmenu_background = 2131165351;
+			public const int mtrl_navigation_bar_item_background = 2131165351;
 			
 			// aapt resource value: 0x7F0700A8
-			public const int mtrl_popupmenu_background_dark = 2131165352;
+			public const int mtrl_popupmenu_background = 2131165352;
 			
 			// aapt resource value: 0x7F0700A9
-			public const int mtrl_tabs_default_indicator = 2131165353;
+			public const int mtrl_popupmenu_background_dark = 2131165353;
 			
 			// aapt resource value: 0x7F0700AA
-			public const int navigation_empty_icon = 2131165354;
+			public const int mtrl_tabs_default_indicator = 2131165354;
 			
 			// aapt resource value: 0x7F0700AB
-			public const int notification_action_background = 2131165355;
+			public const int name = 2131165355;
 			
 			// aapt resource value: 0x7F0700AC
-			public const int notification_bg = 2131165356;
+			public const int navigation_empty_icon = 2131165356;
 			
 			// aapt resource value: 0x7F0700AD
-			public const int notification_bg_low = 2131165357;
+			public const int notification_action_background = 2131165357;
 			
 			// aapt resource value: 0x7F0700AE
-			public const int notification_bg_low_normal = 2131165358;
+			public const int notification_bg = 2131165358;
 			
 			// aapt resource value: 0x7F0700AF
-			public const int notification_bg_low_pressed = 2131165359;
+			public const int notification_bg_low = 2131165359;
 			
 			// aapt resource value: 0x7F0700B0
-			public const int notification_bg_normal = 2131165360;
+			public const int notification_bg_low_normal = 2131165360;
 			
 			// aapt resource value: 0x7F0700B1
-			public const int notification_bg_normal_pressed = 2131165361;
+			public const int notification_bg_low_pressed = 2131165361;
 			
 			// aapt resource value: 0x7F0700B2
-			public const int notification_icon_background = 2131165362;
+			public const int notification_bg_normal = 2131165362;
 			
 			// aapt resource value: 0x7F0700B3
-			public const int notification_template_icon_bg = 2131165363;
+			public const int notification_bg_normal_pressed = 2131165363;
 			
 			// aapt resource value: 0x7F0700B4
-			public const int notification_template_icon_low_bg = 2131165364;
+			public const int notification_icon_background = 2131165364;
 			
 			// aapt resource value: 0x7F0700B5
-			public const int notification_tile_bg = 2131165365;
+			public const int notification_template_icon_bg = 2131165365;
 			
 			// aapt resource value: 0x7F0700B6
-			public const int notify_panel_notification_icon_bg = 2131165366;
+			public const int notification_template_icon_low_bg = 2131165366;
 			
 			// aapt resource value: 0x7F0700B7
-			public const int preference_list_divider_material = 2131165367;
+			public const int notification_tile_bg = 2131165367;
 			
 			// aapt resource value: 0x7F0700B8
-			public const int ProfileIcon = 2131165368;
+			public const int notify_panel_notification_icon_bg = 2131165368;
 			
 			// aapt resource value: 0x7F0700B9
-			public const int SearchIcon = 2131165369;
+			public const int password = 2131165369;
 			
 			// aapt resource value: 0x7F0700BA
-			public const int sfclosebutton = 2131165370;
+			public const int preference_list_divider_material = 2131165370;
 			
 			// aapt resource value: 0x7F0700BB
-			public const int styleinfo = 2131165371;
+			public const int ProfileIcon = 2131165371;
 			
 			// aapt resource value: 0x7F0700BC
-			public const int test_custom_background = 2131165372;
+			public const int SearchIcon = 2131165372;
 			
 			// aapt resource value: 0x7F0700BD
-			public const int tooltip_frame_dark = 2131165373;
+			public const int sfclosebutton = 2131165373;
 			
 			// aapt resource value: 0x7F0700BE
-			public const int tooltip_frame_light = 2131165374;
+			public const int styleinfo = 2131165374;
+			
+			// aapt resource value: 0x7F0700BF
+			public const int test_custom_background = 2131165375;
+			
+			// aapt resource value: 0x7F0700C0
+			public const int tooltip_frame_dark = 2131165376;
+			
+			// aapt resource value: 0x7F0700C1
+			public const int tooltip_frame_light = 2131165377;
 			
 			static Drawable()
 			{

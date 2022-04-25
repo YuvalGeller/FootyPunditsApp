@@ -20,10 +20,10 @@ namespace FootyPunditsApp.ViewModels
         {
             FootyPunditsAPIProxy proxy = FootyPunditsAPIProxy.CreateProxy();
             Account = ((App)App.Current).CurrentUser;
-            Email = Account.
+            Email = Account.Email;
             Username = Account.Username;
-            Name = Account.AccName;
             Password = Account.Upass;
+            Name = Account.AccName;        
             ProfilePicture = $"{proxy.basePhotosUri}/{Account.ProfilePicture}";
         }
 
@@ -40,6 +40,7 @@ namespace FootyPunditsApp.ViewModels
                 {
                     Account.Username = Username;
                     Account.Upass = Password;
+                    ((App)App.Current).CurrentUser = Account;
                 }
 
                 Loading = false;
@@ -81,6 +82,13 @@ namespace FootyPunditsApp.ViewModels
         {
             get => loading;
             set => SetValue(ref loading, value);
+        }
+
+        private string name;
+        public string Name
+        {
+            get => name;
+            set => SetValue(ref name, value);
         }
 
         #region Password
@@ -126,7 +134,7 @@ namespace FootyPunditsApp.ViewModels
         }
 
         private string username;
-        public string UserName
+        public string Username
         {
             get => username;
             set => SetValue(ref username, value);
@@ -142,7 +150,7 @@ namespace FootyPunditsApp.ViewModels
 
         private void ValidateUsername()
         {
-            ShowUsernameError = string.IsNullOrEmpty(UserName);
+            ShowUsernameError = string.IsNullOrEmpty(Username);
         }
         #endregion
 

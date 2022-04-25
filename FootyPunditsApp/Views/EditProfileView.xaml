@@ -7,7 +7,7 @@
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal" Margin="5,10,20,10">
             <Label Text="Edit Profile" FontAttributes="Bold" FontSize="Large" TextColor="{DynamicResource primaryText}" HorizontalOptions="StartAndExpand" />
-            <Image Source="icon_checkmark.svg" HeightRequest="26" WidthRequest="26" HorizontalOptions="End" >
+            <Image Source="checkmark.png" HeightRequest="26" WidthRequest="26" HorizontalOptions="End" >
                 <Image.GestureRecognizers>
                     <TapGestureRecognizer Command="{Binding SaveCommand}" />
                 </Image.GestureRecognizers>
@@ -16,11 +16,9 @@
     </NavigationPage.TitleView>
     
     <ContentPage.Content>
-        <StackLayout Spacing="15" BackgroundColor="White">
-            <controls:CircleImage Margin="-250,-30,0,-70" x:Name="ProfilePictureImage" Source="{Binding ProfileImage, Converter={StaticResource ImageSourceConverter}}" WidthRequest="100" HeightRequest="100" 
-                                                  BorderColor="Black" BorderThickness="1"
-                        RelativeLayout.XConstraint="{ConstraintExpression Type=RelativeToView, ElementName=svgStackView, Property=Width, Factor=0.1}"
-                        RelativeLayout.YConstraint="{ConstraintExpression Type=RelativeToView, ElementName=svgStackView, Property=Height, Factor=0.2}">
+        <StackLayout Spacing="15" BackgroundColor="White" Padding="0,100,0,0">
+            <controls:CircleImage x:Name="ProfilePictureImage" Source="{Binding ProfilePicture, Converter={StaticResource ImageSourceConverter}}" WidthRequest="150" HeightRequest="150" 
+                                                  BorderColor="Black" BorderThickness="1">
             </controls:CircleImage>
 
             <RelativeLayout Margin="0,20,0,0">
@@ -46,22 +44,9 @@
                             </Grid.ColumnDefinitions>
                             <Image Source="ProfileIcon.png" Grid.Column="0" HorizontalOptions="End">
                             </Image>
-                            <local:MyEntry Placeholder="Username" Text="{Binding Username}" Grid.Column="1" PlaceholderColor="{DynamicResource secondaryText}" IsEnabled="False" />
+                            <local:MyEntry Placeholder="Username" Text="{Binding Username}" Grid.Column="1" PlaceholderColor="{DynamicResource secondaryText}" />
                         </Grid>
                     </Frame>
-
-                    <Frame Style="{DynamicResource InputFieldStyle}" Margin="0,17,0,0" Padding="15,0,0,0" >
-                        <Grid VerticalOptions="CenterAndExpand">
-                            <Grid.ColumnDefinitions>
-                                <ColumnDefinition Width="Auto" />
-                                <ColumnDefinition Width="*" />
-                            </Grid.ColumnDefinitions>
-                            <Image Source="name.png" Grid.Column="0" HorizontalOptions="End">
-                            </Image>
-                            <local:MyEntry Placeholder="Name" Text="{Binding Name}" Grid.Column="1" PlaceholderColor="{DynamicResource secondaryText}" />
-                        </Grid>
-                    </Frame>
-                    <Label Text="{Binding NameError}" TextColor="Red" IsVisible="{Binding ShowNameError}" />
 
                     <Frame Style="{DynamicResource InputFieldStyle}" Margin="0,17,0,0" Padding="15,0,0,0" >
                         <Grid VerticalOptions="CenterAndExpand">
@@ -71,10 +56,22 @@
                             </Grid.ColumnDefinitions>
                             <Image Source="password.png" Grid.Column="0" HorizontalOptions="End">
                             </Image>
-                            <local:MyEntry Keyboard="Numeric" Placeholder="Password" Text="{Binding Password}" Grid.Column="1" PlaceholderColor="{DynamicResource secondaryText}" />
+                            <local:MyEntry Placeholder="Password" Text="{Binding Password}" Grid.Column="1" PlaceholderColor="{DynamicResource secondaryText}" />
                         </Grid>
                     </Frame>
                     <Label Text="{Binding PasswordError}" TextColor="Red" IsVisible="{Binding ShowPasswordError}" />
+
+                    <Frame Style="{DynamicResource InputFieldStyle}" Margin="0,17,0,0" Padding="15,0,0,0" >
+                        <Grid VerticalOptions="CenterAndExpand">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                            </Grid.ColumnDefinitions>
+                            <Image Source="name.png" Grid.Column="0" HorizontalOptions="End">
+                            </Image>
+                            <local:MyEntry Placeholder="Name" Text="{Binding Name}" Grid.Column="1" PlaceholderColor="{DynamicResource secondaryText}" IsEnabled="False" />
+                        </Grid>
+                    </Frame>
                 </StackLayout>
             </RelativeLayout>
             

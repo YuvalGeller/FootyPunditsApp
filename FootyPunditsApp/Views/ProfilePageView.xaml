@@ -12,7 +12,7 @@
                             <ColumnDefinition Width="70*"/>
                             <ColumnDefinition Width="30*"/>
                         </Grid.ColumnDefinitions>
-                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Text="{Binding Name}" FontAttributes="Bold" Margin="170,35,-50,0" Style="{StaticResource labelStyle}" FontSize="27" />
+                        <Label VerticalOptions="CenterAndExpand" Grid.Column="0" Text="{Binding Username}" FontAttributes="Bold" Margin="170,35,-50,0" Style="{StaticResource labelStyle}" FontSize="27" />
                     </Grid>
                     <Grid Margin="0,-57">
                         <Grid.ColumnDefinitions>

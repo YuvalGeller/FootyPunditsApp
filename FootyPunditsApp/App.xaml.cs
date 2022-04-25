@@ -23,6 +23,8 @@ namespace FootyPunditsApp
 
             Syncfusion.Licensing.SyncfusionLicenseProvider.RegisterLicense("NTg1MDgwQDMxMzkyZTM0MmUzMFZwbm11cFVzbFZ3Uk4xS2hFb2tQZnd5Z2tnV2NnNk90YUJpa0Z0dklYUzg9");
 
+            string[] styles = new string[] { "MainBackgroundStyle", "InputFieldStyle", "TitleStyle", "TabStyle" };
+
             Resources.Add("secondaryText", Color.FromHex("626262"));
 
             MainPage = new NavigationPage(new SignUpView());
