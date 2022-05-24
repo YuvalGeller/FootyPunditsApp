@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:sho="http://sharpnado.com"
+             x:Class="FootyPunditsApp.Views.InGameView">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="#FFF5F5F5">
+            <Frame HasShadow="True" Margin="0" Padding="20" HeightRequest="120" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding HomeTeamName}" FontSize="20" Grid.Column="0"/>
+                    <Image VerticalOptions="CenterAndExpand" Grid.Column="1" HeightRequest="90" WidthRequest="50" HorizontalOptions="StartAndExpand" Source="{Binding HomeTeamImage}"/>
+                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding TimeOrScore}" FontSize="30" FontAttributes="Bold" Grid.Column="2"/>
+                    <Image VerticalOptions="CenterAndExpand" Grid.Column="3" HeightRequest="90" WidthRequest="50" HorizontalOptions="EndAndExpand" Source="{Binding AwayTeamImage}"/>
+                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding AwayTeamName}" FontSize="20" Grid.Column="4"/>
+                </Grid>
+            </Frame>
+
+            <sho:TabHostView x:Name="TabHost" Grid.Row="0" SelectedIndex="{Binding Source={x:Reference Switcher}, Path=SelectedIndex, Mode=TwoWay}"                    
+                    HorizontalOptions="Start"
+                    VerticalOptions="Start"
+                    TabType="Fixed">
+                <sho:TabHostView.Tabs>
+                    <sho:MaterialUnderlinedTabItem Label="Suggestions" Style="{DynamicResource TabStyle}" LabelSize="21" />
+                    <sho:MaterialUnderlinedTabItem Label="Reviews" Style="{DynamicResource TabStyle}" LabelSize="21" />
+                </sho:TabHostView.Tabs>
+            </sho:TabHostView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -3,8 +3,39 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FootyPunditsApp.Views.HomePageView">
   <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
+        <StackLayout BackgroundColor="#FFF5F5F5">
+            <Frame HasShadow="True" Margin="0" Padding="20" HeightRequest="40" >
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="*" />
+                    </Grid.ColumnDefinitions>
+                    <Image Source="AppLogo.PNG" Grid.Column="0"/>
+                    <Label VerticalOptions="CenterAndExpand" Text="{Binding MatchDayDate}" FontSize="15" Grid.Column="1"/>
+                </Grid>
+            </Frame>
+
+
+            <Frame HasShadow="True" CornerRadius="12" Margin="20" Padding="20" HeightRequest="120" >
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding HomeTeamName}" FontSize="15" Grid.Column="0"/>
+                    <Image VerticalOptions="CenterAndExpand" Grid.Column="1" HeightRequest="50" WidthRequest="50" HorizontalOptions="StartAndExpand" Source="{Binding HomeTeamImage}"/>
+                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding TimeOrScore}" FontSize="20" FontAttributes="Bold" Grid.Column="2"/>
+                    <Image VerticalOptions="CenterAndExpand" Grid.Column="3" HeightRequest="50" WidthRequest="50" HorizontalOptions="EndAndExpand" Source="{Binding AwayTeamImage}"/>
+                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding AwayTeamName}" FontSize="15" Grid.Column="4"/>
+                </Grid>
+            </Frame>
+        </StackLayout>
   </ContentView.Content>
 </ContentView>

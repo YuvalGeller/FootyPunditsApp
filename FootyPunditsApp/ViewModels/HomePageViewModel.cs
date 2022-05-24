@@ -47,7 +47,7 @@ namespace FootyPunditsApp.ViewModels
             //string str = TestMatch.GetMatches();
             //IEnumerable<Object> matches = JsonConvert.DeserializeObject<IEnumerable<Object>>(str);
 
-            var matches = await proxy.Match.GetAllMatchOfCompetition(2021);
+            var matches = await proxy.Match.GetAllMatches();
         }
 
         private ObservableCollection<Competition> competitions;
