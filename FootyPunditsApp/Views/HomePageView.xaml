@@ -4,38 +4,69 @@
              x:Class="FootyPunditsApp.Views.HomePageView">
   <ContentView.Content>
         <StackLayout BackgroundColor="#FFF5F5F5">
-            <Frame HasShadow="True" Margin="0" Padding="20" HeightRequest="40" >
+            <Frame HasShadow="True" Margin="0" Padding="20" HeightRequest="70">
                 <Grid>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="*" />
-                        <ColumnDefinition Width="*" />
+                        <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    <Image Source="AppLogo.PNG" Grid.Column="0"/>
+                    <Image Source="AppLogo.PNG" Grid.Column="0" HeightRequest="400"/>
                     <Label VerticalOptions="CenterAndExpand" Text="{Binding MatchDayDate}" FontSize="15" Grid.Column="1"/>
                 </Grid>
             </Frame>
 
+            <CollectionView ItemsSource="{Binding Competitions}">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout>
+                            <Frame HasShadow="True" CornerRadius="12" Margin="20" Padding="20">
+                                <StackLayout>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Image HeightRequest="50" WidthRequest="50" VerticalOptions="CenterAndExpand"/>
+                                        <Label Text="{Binding CompetitionName}" FontAttributes="Bold" VerticalOptions="CenterAndExpand" />
+                                    </StackLayout>
+                                    <BoxView Margin="0,10,0,10" Grid.Row="1" Color="#FFF5F5F5" Grid.Column="0" Grid.ColumnSpan="5" HeightRequest="2" />
 
-            <Frame HasShadow="True" CornerRadius="12" Margin="20" Padding="20" HeightRequest="120" >
-                <Grid>
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="Auto"/>
-                    </Grid.ColumnDefinitions>
-                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding HomeTeamName}" FontSize="15" Grid.Column="0"/>
-                    <Image VerticalOptions="CenterAndExpand" Grid.Column="1" HeightRequest="50" WidthRequest="50" HorizontalOptions="StartAndExpand" Source="{Binding HomeTeamImage}"/>
-                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding TimeOrScore}" FontSize="20" FontAttributes="Bold" Grid.Column="2"/>
-                    <Image VerticalOptions="CenterAndExpand" Grid.Column="3" HeightRequest="50" WidthRequest="50" HorizontalOptions="EndAndExpand" Source="{Binding AwayTeamImage}"/>
-                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding AwayTeamName}" FontSize="15" Grid.Column="4"/>
-                </Grid>
-            </Frame>
+                                    <StackLayout BindableLayout.ItemsSource="{Binding Matches}">
+                                        <BindableLayout.ItemTemplate>
+                                            <DataTemplate>
+                                                <Frame Padding="10" HasShadow="False">
+                                                    <Grid>
+                                                        <Grid.RowDefinitions>
+                                                            <RowDefinition Height="Auto" />
+                                                            <RowDefinition Height="2" />
+                                                        </Grid.RowDefinitions>
+                                                        <Grid.ColumnDefinitions>
+                                                            <ColumnDefinition Width="30*"/>
+                                                            <ColumnDefinition Width="10*"/>
+                                                            <ColumnDefinition Width="20*"/>
+                                                            <ColumnDefinition Width="10*"/>
+                                                            <ColumnDefinition Width="30*"/>
+                                                        </Grid.ColumnDefinitions>
+                                                        <Label Text="{Binding HomeTeam.Name}" FontSize="15" Grid.Column="0"/>
+                                                        <Image Grid.Column="1" HeightRequest="50" WidthRequest="50" Source="{Binding HomeTeamImage}"/>
+                                                        <StackLayout Orientation="Horizontal" Grid.Column="2">
+                                                            <Label Text="{Binding Score.FullTime.HomeTeam}" FontSize="20" FontAttributes="Bold"/>
+                                                            <Label Text="-" FontSize="20" FontAttributes="Bold" />
+                                                            <Label Text="{Binding Score.FullTime.AwayTeam}" FontSize="20" FontAttributes="Bold" />
+                                                        </StackLayout>
+                                                        <Image Grid.Column="3" HeightRequest="50" WidthRequest="50" Source="{Binding AwayTeamImage}"/>
+                                                        <Label Text="{Binding AwayTeam.Name}" FontSize="15" Grid.Column="4"/>
+                                                        <BoxView Grid.Row="1" Color="#FFF5F5F5" Grid.Column="0" Grid.ColumnSpan="5" HeightRequest="2" />
+                                                    </Grid>
+                                                </Frame>
+
+                                            </DataTemplate>
+                                        </BindableLayout.ItemTemplate>
+                                    </StackLayout>
+                                    
+                                </StackLayout>
+                            </Frame>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
         </StackLayout>
   </ContentView.Content>
 </ContentView>

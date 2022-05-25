@@ -27,7 +27,7 @@ namespace FootyPunditsApp
 
             Resources.Add("secondaryText", Color.FromHex("626262"));
 
-            MainPage = new NavigationPage(new SignUpView());
+            MainPage = new NavigationPage(new TabControlView());
         }
 
         protected override void OnStart()

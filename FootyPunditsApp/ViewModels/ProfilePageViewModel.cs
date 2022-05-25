@@ -123,6 +123,13 @@ namespace FootyPunditsApp.ViewModels
 
         public void LoadProfile()
         {
+            ((App)App.Current).CurrentUser = new UserAccount()
+            {
+                Username = "Geller",
+                SignUpDate = DateTime.Now,
+                ProfilePicture = "default_pfp.png"
+            };
+
             User = ((App)App.Current).CurrentUser;
             Username = $"{User.Username}";
             JoinedAt = User.SignUpDate.Date;

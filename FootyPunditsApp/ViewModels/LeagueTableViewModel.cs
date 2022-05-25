@@ -25,7 +25,7 @@ namespace FootyPunditsApp.ViewModels
         {
             FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
 
-            var table = await proxy.Standing.GetStandingOfCompetition()
+            //var table = await proxy.Standing.GetStandingOfCompetition();
         }
     }
 }

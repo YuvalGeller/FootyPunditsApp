@@ -5,13 +5,25 @@
              x:Class="FootyPunditsApp.App">
     <Application.Resources>
         <ResourceDictionary>
+            <OnPlatform x:Key="FontBold" x:TypeArguments="x:String">
+                <!--<On Platform="iOS">OpenSans-Bold</On>-->
+                <On Platform="Android">Roboto-Bold.ttf#Roboto Bold</On>
+            </OnPlatform>
+            
             <converters:ImageSourceConverter x:Key="ImageSourceConverter" />
-            <Color x:Key="primary">#FF5353</Color>
+            <Color x:Key="primary">#FF5353</Color> 
             <Style x:Key="labelStyle" TargetType="Label">
                 <Setter Property="HorizontalOptions" Value="Start"/>
                 <Setter Property="FontFamily" Value="Roboto"/>
                 <Setter Property="TextColor" Value="Black" />
             </Style>
+
+            <!--<Style x:Key="TabStyle" TargetType="sho:MaterialUnderlinedTabItem">
+                <Setter Property="SelectedTabColor" Value="#499D62" />
+                <Setter Property="FontFamily" Value="{StaticResource FontBold}" />
+                <Setter Property="UnderlineHeight" Value="0" />
+                <Setter Property="UnselectedLabelColor" Value="#929293" />
+            </Style> -->
 
         </ResourceDictionary>
     </Application.Resources>

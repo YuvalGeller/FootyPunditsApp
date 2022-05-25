@@ -34,7 +34,7 @@
                 <views:HomePageView />
                 <Label Text="Hello world 2"/>
                 <Label Text="Hello world 3"/>
-                <views:ProfilePageView />
+                <Label Text="Hello world 4"/>
 
             </tabs:ViewSwitcher>
 

@@ -1,11 +1,13 @@
 ﻿using FootballDataApi.Models;
 using FootyPunditsApp.DataTests;
 using FootyPunditsApp.Services;
+using FootyPunditsApp.Models;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Text;
 using Newtonsoft.Json;
+using System.Linq;
 
 namespace FootyPunditsApp.ViewModels
 {
@@ -13,45 +15,66 @@ namespace FootyPunditsApp.ViewModels
     {
         public HomePageViewModel()
         {
-            GetMatchesByDate();
+            Competitions = new ObservableCollection<CompetitionsHelper>();
+            GetMatchesByDate("2022-05-22", "2022-05-22");
         }
 
 
 
-        private async void GetCompetitions()
+        //private async void GetCompetitions()
+        //{
+        //    FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
+        //    try
+        //    {
+        //        var competions = await proxy.Competition.GetAvailableCompetition();
+
+
+        //        if (competitions != null)
+        //        {
+        //            this.Competitions.Clear();
+        //            foreach (Competition c in competions)
+        //            {
+        //                Competitions.Add(c);
+        //            }
+        //        }
+        //    }
+        //    catch (Exception e)
+        //    {
+        //        Console.WriteLine(e.Message);
+        //    }
+        //}
+
+        private async void GetMatchesByDate(string dateFrom, string dateTo)
         {
             FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
-            try
+
+            var matches = await proxy.Match.GetAllMatches("dateFrom", dateFrom, "dateTo", dateTo);
+
+            foreach (Match match in matches)
             {
-                var competions = await proxy.Competition.GetAvailableCompetition();
+                Competition competition = match.Competition;
 
-
-                if (competitions != null)
+                CompetitionsHelper compHelper = Competitions.FirstOrDefault(c => c.Id == competition.Id);
+                if (compHelper == null)
                 {
-                    this.Competitions.Clear();
-                    foreach (Competition c in competions)
+                    compHelper = new CompetitionsHelper()
                     {
-                        Competitions.Add(c);
-                    }
+                        CompetitionName = competition.Name,
+                        Id = competition.Id,
+                        Matches = new ObservableCollection<Match>()
+                    };
+                    compHelper.Matches.Add(match);
+                    Competitions.Add(compHelper);
+                }
+                else
+                {
+                    compHelper.Matches.Add(match);
                 }
             }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
         }
 
-        private async void GetMatchesByDate()
-        {
-            FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
-            //string str = TestMatch.GetMatches();
-            //IEnumerable<Object> matches = JsonConvert.DeserializeObject<IEnumerable<Object>>(str);
-
-            var matches = await proxy.Match.GetAllMatches();
-        }
-
-        private ObservableCollection<Competition> competitions;
-        public ObservableCollection<Competition> Competitions
+        private ObservableCollection<CompetitionsHelper> competitions;
+        public ObservableCollection<CompetitionsHelper> Competitions
         {
             get => competitions;
             set
