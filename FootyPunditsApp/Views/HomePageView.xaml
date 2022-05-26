@@ -44,18 +44,17 @@
                                                             <ColumnDefinition Width="30*"/>
                                                         </Grid.ColumnDefinitions>
                                                         <Label Text="{Binding HomeTeam.Name}" FontSize="15" Grid.Column="0"/>
-                                                        <Image Grid.Column="1" HeightRequest="50" WidthRequest="50" Source="{Binding HomeTeamImage}"/>
+                                                        <Image Grid.Column="1" HeightRequest="60" WidthRequest="60" Source="{Binding HomeTeamImage}"/>
                                                         <StackLayout Orientation="Horizontal" Grid.Column="2">
                                                             <Label Text="{Binding Score.FullTime.HomeTeam}" FontSize="20" FontAttributes="Bold"/>
                                                             <Label Text="-" FontSize="20" FontAttributes="Bold" />
                                                             <Label Text="{Binding Score.FullTime.AwayTeam}" FontSize="20" FontAttributes="Bold" />
                                                         </StackLayout>
-                                                        <Image Grid.Column="3" HeightRequest="50" WidthRequest="50" Source="{Binding AwayTeamImage}"/>
+                                                        <Image Grid.Column="3" HeightRequest="60" WidthRequest="60" Source="{Binding AwayTeamImage}"/>
                                                         <Label Text="{Binding AwayTeam.Name}" FontSize="15" Grid.Column="4"/>
                                                         <BoxView Grid.Row="1" Color="#FFF5F5F5" Grid.Column="0" Grid.ColumnSpan="5" HeightRequest="2" />
                                                     </Grid>
                                                 </Frame>
-
                                             </DataTemplate>
                                         </BindableLayout.ItemTemplate>
                                     </StackLayout>
