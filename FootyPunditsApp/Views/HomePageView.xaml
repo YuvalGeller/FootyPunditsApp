@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             NavigationPage.HasNavigationBar="False"
+             x:Name="MyPage"
              x:Class="FootyPunditsApp.Views.HomePageView">
   <ContentView.Content>
         <StackLayout BackgroundColor="#FFF5F5F5">
-            <Frame HasShadow="True" Margin="0" Padding="20" HeightRequest="70">
+            <Frame HasShadow="True" Margin="0" Padding="0" HeightRequest="125">
                 <Grid>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="Auto" />
                         <ColumnDefinition Width="*" />
                     </Grid.ColumnDefinitions>
-                    <Image Source="AppLogo.PNG" Grid.Column="0" HeightRequest="400"/>
-                    <Label VerticalOptions="CenterAndExpand" Text="{Binding MatchDayDate}" FontSize="15" Grid.Column="1"/>
+                    <Image VerticalOptions="CenterAndExpand" Margin="15,0,0,0" Source="AppLogo.PNG" Grid.Column="0" HeightRequest="90"/>
+                    <Label VerticalOptions="CenterAndExpand" HorizontalOptions="End" Margin="0,0,25,0" FontAttributes="Bold" Text="{Binding MatchDate}" FontSize="16" Grid.Column="1"/>
                 </Grid>
             </Frame>
 
@@ -19,11 +21,11 @@
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
                         <StackLayout>
-                            <Frame HasShadow="True" CornerRadius="12" Margin="20" Padding="20">
+                            <Frame HasShadow="True" CornerRadius="12" Margin="15,10" Padding="20">
                                 <StackLayout>
                                     <StackLayout Orientation="Horizontal">
-                                        <Image HeightRequest="50" WidthRequest="50" VerticalOptions="CenterAndExpand"/>
-                                        <Label Text="{Binding CompetitionName}" FontAttributes="Bold" VerticalOptions="CenterAndExpand" />
+                                        <!-- <Image HeightRequest="50" WidthRequest="50" VerticalOptions="CenterAndExpand" /> -->
+                                        <Label Text="{Binding CompetitionName}" FontSize="18" FontAttributes="Bold" VerticalOptions="CenterAndExpand" />
                                     </StackLayout>
                                     <BoxView Margin="0,10,0,10" Grid.Row="1" Color="#FFF5F5F5" Grid.Column="0" Grid.ColumnSpan="5" HeightRequest="2" />
 
@@ -31,9 +33,13 @@
                                         <BindableLayout.ItemTemplate>
                                             <DataTemplate>
                                                 <Frame Padding="10" HasShadow="False">
+                                                    <Frame.GestureRecognizers>
+                                                        <TapGestureRecognizer Command="{Binding BindingContext.MatchClickedCommand, Source={x:Reference MyPage}}"
+                                                                              CommandParameter="{Binding }" />
+                                                    </Frame.GestureRecognizers>
                                                     <Grid>
                                                         <Grid.RowDefinitions>
-                                                            <RowDefinition Height="Auto" />
+                                                            <RowDefinition Height="30" />
                                                             <RowDefinition Height="2" />
                                                         </Grid.RowDefinitions>
                                                         <Grid.ColumnDefinitions>
@@ -43,15 +49,15 @@
                                                             <ColumnDefinition Width="10*"/>
                                                             <ColumnDefinition Width="30*"/>
                                                         </Grid.ColumnDefinitions>
-                                                        <Label Text="{Binding HomeTeam.Name}" FontSize="15" Grid.Column="0"/>
-                                                        <Image Grid.Column="1" HeightRequest="60" WidthRequest="60" Source="{Binding HomeTeamImage}"/>
-                                                        <StackLayout Orientation="Horizontal" Grid.Column="2">
+                                                        <Label LineBreakMode="TailTruncation" Text="{Binding HomeTeam.Name}" FontSize="15" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                                        <Image Grid.Column="1" HeightRequest="55" HorizontalOptions="Center" VerticalOptions="Center" Source="{Binding HomeTeam.Name, Converter={StaticResource TeamImageConverter}}"/>
+                                                        <StackLayout Orientation="Horizontal" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center">
                                                             <Label Text="{Binding Score.FullTime.HomeTeam}" FontSize="20" FontAttributes="Bold"/>
                                                             <Label Text="-" FontSize="20" FontAttributes="Bold" />
                                                             <Label Text="{Binding Score.FullTime.AwayTeam}" FontSize="20" FontAttributes="Bold" />
                                                         </StackLayout>
-                                                        <Image Grid.Column="3" HeightRequest="60" WidthRequest="60" Source="{Binding AwayTeamImage}"/>
-                                                        <Label Text="{Binding AwayTeam.Name}" FontSize="15" Grid.Column="4"/>
+                                                        <Image Grid.Column="3" HeightRequest="55" WidthRequest="60" HorizontalOptions="Center" VerticalOptions="Center" Source="{Binding AwayTeam.Name, Converter={StaticResource TeamImageConverter}}"/>
+                                                        <Label LineBreakMode="TailTruncation" Text="{Binding AwayTeam.Name}" HeightRequest="55" HorizontalOptions="Center" VerticalOptions="Center" FontSize="15" Grid.Column="4"/>
                                                         <BoxView Grid.Row="1" Color="#FFF5F5F5" Grid.Column="0" Grid.ColumnSpan="5" HeightRequest="2" />
                                                     </Grid>
                                                 </Frame>

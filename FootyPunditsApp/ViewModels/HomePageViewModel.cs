@@ -8,6 +8,9 @@ using System.Collections.ObjectModel;
 using System.Text;
 using Newtonsoft.Json;
 using System.Linq;
+using System.Windows.Input;
+using Xamarin.Forms;
+using FootyPunditsApp.Views;
 
 namespace FootyPunditsApp.ViewModels
 {
@@ -16,33 +19,9 @@ namespace FootyPunditsApp.ViewModels
         public HomePageViewModel()
         {
             Competitions = new ObservableCollection<CompetitionsHelper>();
-            GetMatchesByDate("2022-05-22", "2022-05-22");
+            MatchDate = "2022-05-22";
+            GetMatchesByDate(MatchDate, MatchDate);
         }
-
-
-
-        //private async void GetCompetitions()
-        //{
-        //    FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
-        //    try
-        //    {
-        //        var competions = await proxy.Competition.GetAvailableCompetition();
-
-
-        //        if (competitions != null)
-        //        {
-        //            this.Competitions.Clear();
-        //            foreach (Competition c in competions)
-        //            {
-        //                Competitions.Add(c);
-        //            }
-        //        }
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        Console.WriteLine(e.Message);
-        //    }
-        //}
 
         private async void GetMatchesByDate(string dateFrom, string dateTo)
         {
@@ -73,6 +52,12 @@ namespace FootyPunditsApp.ViewModels
             }
         }
 
+        public ICommand MatchClickedCommand => new Command<Match>((m) => MatchClicked(m));
+        private void MatchClicked(Match m)
+        {
+            ((App)App.Current).MainPage.Navigation.PushAsync(new InGameView(m));
+        }
+
         private ObservableCollection<CompetitionsHelper> competitions;
         public ObservableCollection<CompetitionsHelper> Competitions
         {
@@ -81,6 +66,17 @@ namespace FootyPunditsApp.ViewModels
             {
                 competitions = value;
                 OnPropertyChanged("Competitions");
+            }
+        }
+
+        private string matchDate;
+        public string MatchDate
+        {
+            get => matchDate;
+            set
+            {
+                matchDate = value;
+                OnPropertyChanged("MatchDate");
             }
         }
     }

@@ -25,7 +25,7 @@
                 </Grid>
             </Frame>
 
-            <sho:TabHostView x:Name="TabHost" Grid.Row="0" SelectedIndex="{Binding Source={x:Reference Switcher}, Path=SelectedIndex, Mode=TwoWay}"                    
+            <sho:TabHostView x:Name="TabHost" SelectedIndex="{Binding Source={x:Reference Switcher}, Path=SelectedIndex, Mode=TwoWay}"                    
                     HorizontalOptions="Start"
                     VerticalOptions="Start"
                     TabType="Fixed">
@@ -34,6 +34,16 @@
                     <sho:MaterialUnderlinedTabItem Label="Reviews" Style="{DynamicResource TabStyle}" LabelSize="21" />
                 </sho:TabHostView.Tabs>
             </sho:TabHostView>
+
+            <sho:ViewSwitcher x:Name="Switcher"
+                       Grid.Row="0"
+                       Animate="False"
+                       SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}">
+                <Label Text="Hello World 2" />
+                <Label Text="Hello World 1" />
+
+            </sho:ViewSwitcher>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

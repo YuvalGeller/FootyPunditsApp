@@ -2,6 +2,7 @@
 <Application xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:converters="clr-namespace:FootyPunditsApp.Services"
+             xmlns:sho="http://sharpnado.com"
              x:Class="FootyPunditsApp.App">
     <Application.Resources>
         <ResourceDictionary>
@@ -11,6 +12,7 @@
             </OnPlatform>
             
             <converters:ImageSourceConverter x:Key="ImageSourceConverter" />
+            <converters:TeamImageConverter x:Key="TeamImageConverter" />
             <Color x:Key="primary">#FF5353</Color> 
             <Style x:Key="labelStyle" TargetType="Label">
                 <Setter Property="HorizontalOptions" Value="Start"/>
@@ -18,12 +20,11 @@
                 <Setter Property="TextColor" Value="Black" />
             </Style>
 
-            <!--<Style x:Key="TabStyle" TargetType="sho:MaterialUnderlinedTabItem">
+            <Style x:Key="TabStyle" TargetType="sho:MaterialUnderlinedTabItem">
                 <Setter Property="SelectedTabColor" Value="#499D62" />
-                <Setter Property="FontFamily" Value="{StaticResource FontBold}" />
-                <Setter Property="UnderlineHeight" Value="0" />
+                <Setter Property="UnderlineHeight" Value="2" />
                 <Setter Property="UnselectedLabelColor" Value="#929293" />
-            </Style> -->
+            </Style>
 
         </ResourceDictionary>
     </Application.Resources>
