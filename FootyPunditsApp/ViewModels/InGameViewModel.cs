@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using FootballDataApi.Models;
+using FootyPunditsApp.Services;
 
 namespace FootyPunditsApp.ViewModels
 {
@@ -10,18 +11,21 @@ namespace FootyPunditsApp.ViewModels
         public InGameViewModel(Match m)
         {
             Match = m;
-            SelectedViewModelIndex = 0;
+            SelectedIndex = 0;
+
+            FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
+            LeagueTableViewModel = new LeagueTableViewModel(m.Competition.Id);
         }
 
         #region Selected Tab Index
-        private int selectedViewModelIndex;
-        public int SelectedViewModelIndex
+        private int selectedIndex;
+        public int SelectedIndex
         {
-            get => selectedViewModelIndex;
+            get => selectedIndex;
             set
             {
-                selectedViewModelIndex = value;
-                OnPropertyChanged("SelectedViewModelIndex");
+                selectedIndex = value;
+                OnPropertyChanged("SelectedIndex");
             }
         }
         #endregion
@@ -36,5 +40,7 @@ namespace FootyPunditsApp.ViewModels
                 OnPropertyChanged("Match");
             }
         }
+
+        public LeagueTableViewModel LeagueTableViewModel { get; set; }
     }
 }

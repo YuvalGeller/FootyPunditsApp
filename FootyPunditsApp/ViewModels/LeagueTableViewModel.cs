@@ -11,13 +11,16 @@ using FootyPunditsApp.Models;
 using System.Linq;
 using Xamarin.Essentials;
 using FootyPunditsApp.Views;
+using FootballDataApi.Models;
 
 namespace FootyPunditsApp.ViewModels
 {
-    class LeagueTableViewModel : BaseViewModel
+    public class LeagueTableViewModel : BaseViewModel
     {
-        public LeagueTableViewModel()
+        private int competitionId;
+        public LeagueTableViewModel(int compId)
         {
+            competitionId = compId;
             GetTableByCompetition();
         }
 
@@ -25,7 +28,21 @@ namespace FootyPunditsApp.ViewModels
         {
             FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
 
-            //var table = await proxy.Standing.GetStandingOfCompetition();
+            var standings = await proxy.Standing.GetStandingOfCompetition(competitionId);
+            Table = standings.Standings.First().Table.ToList();
         }
+
+        private List<Ranking> table;
+        public List<Ranking> Table
+        {
+            get => table;
+            set
+            {
+                table = value;
+                OnPropertyChanged("Table");
+            }
+        }
+
     }
+
 }

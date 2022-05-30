@@ -2,36 +2,46 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:sho="http://sharpnado.com"
+             xmlns:views="clr-namespace:FootyPunditsApp.Views"
              x:Class="FootyPunditsApp.Views.InGameView">
     <ContentPage.Content>
-        <StackLayout BackgroundColor="#FFF5F5F5">
-            <Frame HasShadow="True" Margin="0" Padding="20" HeightRequest="120" >
+        <StackLayout BackgroundColor="White">
+            <Frame Padding="0" BackgroundColor="White" Margin="10,0" />
                 <Grid>
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="150" />
+                        <RowDefinition Height="2" />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="Auto"/>
-                    </Grid.ColumnDefinitions>
-                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding HomeTeamName}" FontSize="20" Grid.Column="0"/>
-                    <Image VerticalOptions="CenterAndExpand" Grid.Column="1" HeightRequest="90" WidthRequest="50" HorizontalOptions="StartAndExpand" Source="{Binding HomeTeamImage}"/>
-                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding TimeOrScore}" FontSize="30" FontAttributes="Bold" Grid.Column="2"/>
-                    <Image VerticalOptions="CenterAndExpand" Grid.Column="3" HeightRequest="90" WidthRequest="50" HorizontalOptions="EndAndExpand" Source="{Binding AwayTeamImage}"/>
-                    <Label VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" Text="{Binding AwayTeamName}" FontSize="20" Grid.Column="4"/>
+                        <ColumnDefinition Width="30*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="20*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="30*"/>
+                </Grid.ColumnDefinitions>
+                <Label Text="{Binding Match.HomeTeam.Name}" FontSize="15" Grid.Column="0" HorizontalOptions="Center" VerticalOptions="Center"/>
+                <Image Grid.Column="1" HeightRequest="55" HorizontalOptions="Center" VerticalOptions="Center" Source="{Binding Match.HomeTeam.Name, Converter={StaticResource TeamImageConverter}}"/>
+                <StackLayout Margin="0,20,0,0" Orientation="Vertical" Grid.Column="2" HorizontalOptions="Center" VerticalOptions="Center">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                        <Label Text="{Binding Match.Score.FullTime.HomeTeam}" FontSize="20" FontAttributes="Bold"/>
+                        <Label Text="-" FontSize="20" FontAttributes="Bold" />
+                        <Label Text="{Binding Match.Score.FullTime.AwayTeam}" FontSize="20" FontAttributes="Bold" />
+                    </StackLayout>
+                    <Label Text="{Binding Match.Status}" />
+                </StackLayout>
+                <Image Grid.Column="3" HeightRequest="55" WidthRequest="60" HorizontalOptions="Center" VerticalOptions="Center" Source="{Binding Match.AwayTeam.Name, Converter={StaticResource TeamImageConverter}}"/>
+                <Label Text="{Binding Match.AwayTeam.Name}" HeightRequest="55" HorizontalOptions="Center" VerticalTextAlignment="Center" VerticalOptions="CenterAndExpand" FontSize="15" Grid.Column="4"/>
+                <BoxView Grid.Row="1" Color="#FFF5F5F5" Grid.Column="0" Grid.ColumnSpan="5" HeightRequest="2" />
                 </Grid>
-            </Frame>
 
-            <sho:TabHostView x:Name="TabHost" SelectedIndex="{Binding Source={x:Reference Switcher}, Path=SelectedIndex, Mode=TwoWay}"                    
+
+                <sho:TabHostView x:Name="TabHost" Margin="0,5,0,0" SelectedIndex="{Binding Source={x:Reference Switcher}, Path=SelectedIndex, Mode=TwoWay}"                    
                     HorizontalOptions="Start"
                     VerticalOptions="Start"
                     TabType="Fixed">
                 <sho:TabHostView.Tabs>
-                    <sho:MaterialUnderlinedTabItem Label="Suggestions" Style="{DynamicResource TabStyle}" LabelSize="21" />
-                    <sho:MaterialUnderlinedTabItem Label="Reviews" Style="{DynamicResource TabStyle}" LabelSize="21" />
+                    <sho:MaterialUnderlinedTabItem Label="Table" Style="{DynamicResource TabStyle}" LabelSize="20" />
+                    <sho:MaterialUnderlinedTabItem Label="Chat" Style="{DynamicResource TabStyle}" LabelSize="20" />
                 </sho:TabHostView.Tabs>
             </sho:TabHostView>
 
@@ -39,8 +49,8 @@
                        Grid.Row="0"
                        Animate="False"
                        SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}">
-                <Label Text="Hello World 2" />
-                <Label Text="Hello World 1" />
+                <views:LeagueTableView BindingContext="{Binding LeagueTableViewModel}" />
+                <Label Text="Chats" />
 
             </sho:ViewSwitcher>
 

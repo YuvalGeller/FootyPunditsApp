@@ -3,17 +3,63 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="FootyPunditsApp.Views.LeagueTableView">
   <ContentView.Content>
-      <StackLayout>
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="40"></RowDefinition>
-                    <RowDefinition Height="40"></RowDefinition>
-                    <RowDefinition Height="40"></RowDefinition>
-                    <RowDefinition Height="40"></RowDefinition>
-                    <RowDefinition Height="40"></RowDefinition>
-                    <RowDefinition Height="40"></RowDefinition>
-                </Grid.RowDefinitions>
+        <StackLayout>
+            <Grid Margin="5,30,5,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25" />
+                    <ColumnDefinition Width="25" />
+                    <ColumnDefinition Width="125" />
+                    <ColumnDefinition Width="25" />
+                    <ColumnDefinition Width="25" />
+                    <ColumnDefinition Width="25" />
+                    <ColumnDefinition Width="25" />
+                    <ColumnDefinition Width="25" />
+                    <ColumnDefinition Width="25" />
+                </Grid.ColumnDefinitions>
+
+                <Label FontAttributes="Bold" Text="Team" Grid.Column="0" Grid.ColumnSpan="3" Grid.Row="0" />
+                <Label FontAttributes="Bold" Text="PL" Grid.Column="3" Grid.Row="0" />
+                <Label FontAttributes="Bold" Text="W" Grid.Column="4" Grid.Row="0" />
+                <Label FontAttributes="Bold" Text="D" Grid.Column="5" Grid.Row="0" />
+                <Label FontAttributes="Bold" Text="L" Grid.Column="6" Grid.Row="0" />
+                <Label FontAttributes="Bold" Text="GD" Grid.Column="7" Grid.Row="0" />
+                <Label FontAttributes="Bold" Text="PTS" Grid.Column="8" Grid.Row="0" />
             </Grid>
+
+            <CollectionView ItemsSource="{Binding Table}" Margin="5,0">
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid Margin="0,10,0,0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="30" />
+                                <RowDefinition Height="1" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="125" />
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="25" />
+                                <ColumnDefinition Width="25" />
+                            </Grid.ColumnDefinitions>
+
+                            <Label Text="{Binding Position}" VerticalOptions="Center" Grid.Column="0" Grid.Row="0" />
+                            <Image Grid.Column="1" Grid.Row="0" HorizontalOptions="Center" VerticalOptions="Center" Source="{Binding Team.Name, Converter={StaticResource TeamImageConverter}}"/>
+                            <Label Text="{Binding Team.Name}" FontSize="13" VerticalOptions="Center" Grid.Column="2" Grid.Row="0" />
+                            <Label Text="{Binding PlayedGames}" VerticalOptions="Center" Grid.Column="3" Grid.Row="0" />
+                            <Label Text="{Binding Won}" VerticalOptions="Center" Grid.Column="4" Grid.Row="0" />
+                            <Label Text="{Binding Draw}" VerticalOptions="Center" Grid.Column="5" Grid.Row="0" />
+                            <Label Text="{Binding Lost}" VerticalOptions="Center" Grid.Column="6" Grid.Row="0" />
+                            <Label Text="{Binding GoalDifference}" VerticalOptions="Center" Grid.Column="7" Grid.Row="0" />
+                            <Label Text="{Binding Points}" VerticalOptions="Center" Grid.Column="8" Grid.Row="0" />
+                            <BoxView Grid.Row="1" Color="#FFF5F5F5" Grid.Column="0" Grid.ColumnSpan="9" HeightRequest="1" />
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
       </StackLayout>
   </ContentView.Content>
 </ContentView>

@@ -22,7 +22,7 @@
 
             <Style x:Key="TabStyle" TargetType="sho:MaterialUnderlinedTabItem">
                 <Setter Property="SelectedTabColor" Value="#499D62" />
-                <Setter Property="UnderlineHeight" Value="2" />
+                <Setter Property="UnderlineHeight" Value="0" />
                 <Setter Property="UnselectedLabelColor" Value="#929293" />
             </Style>
 
