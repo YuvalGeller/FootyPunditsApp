@@ -19,6 +19,9 @@ namespace FootyPunditsApp.Services
     {
         private const string CLOUD_URL = "TBD"; //API url when going on the cloud
         private const string CLOUD_PHOTOS_URL = "TBD";
+        private const string DEV_ANDROID_EMULATOR_CLEAN_URL = "http://10.0.2.2:12833"; //API url when using emulator on android
+        private const string DEV_ANDROID_PHYSICAL_CLEAN_URL = "http://192.168.1.14:12833"; //API url when using physucal device on android
+        private const string DEV_WINDOWS_CLEAN_URL = "http://localhost:12833"; //API url when using windoes on development
         private const string DEV_ANDROID_EMULATOR_URL = "http://10.0.2.2:12833/FootyPunditsAPI"; //API url when using emulator on android
         private const string DEV_ANDROID_PHYSICAL_URL = "http://192.168.1.14:12833/FootyPunditsAPI"; //API url when using physucal device on android
         private const string DEV_WINDOWS_URL = "http://localhost:12833/FootyPunditsAPI"; //API url when using windoes on development
@@ -27,12 +30,14 @@ namespace FootyPunditsApp.Services
         private const string DEV_WINDOWS_PHOTOS_URL = "http://localhost:12833/imgs"; //API url when using windoes on development
 
         private HttpClient client;
-        private string baseUri;
+        public string baseUriClean;
+        public string baseUri;
         public string basePhotosUri;
         private static FootyPunditsAPIProxy proxy = null;
 
         public static FootyPunditsAPIProxy CreateProxy()
         {
+            string baseUriClean;
             string baseUri;
             string basePhotosUri;
             if (App.IsDevEnv)
@@ -41,34 +46,38 @@ namespace FootyPunditsApp.Services
                 {
                     if (DeviceInfo.DeviceType == DeviceType.Virtual)
                     {
+                        baseUriClean = DEV_ANDROID_EMULATOR_CLEAN_URL;
                         baseUri = DEV_ANDROID_EMULATOR_URL;
                         basePhotosUri = DEV_ANDROID_EMULATOR_PHOTOS_URL;
                     }
                     else
                     {
+                        baseUriClean = DEV_ANDROID_PHYSICAL_CLEAN_URL;
                         baseUri = DEV_ANDROID_PHYSICAL_URL;
                         basePhotosUri = DEV_ANDROID_PHYSICAL_PHOTOS_URL;
                     }
                 }
                 else
                 {
+                    baseUriClean = DEV_WINDOWS_CLEAN_URL;
                     baseUri = DEV_WINDOWS_URL;
                     basePhotosUri = DEV_WINDOWS_PHOTOS_URL;
                 }
             }
             else
             {
+                baseUriClean = CLOUD_URL;
                 baseUri = CLOUD_URL;
                 basePhotosUri = CLOUD_PHOTOS_URL;
             }
 
             if (proxy == null)
-                proxy = new FootyPunditsAPIProxy(baseUri, basePhotosUri);
+                proxy = new FootyPunditsAPIProxy(baseUriClean, baseUri, basePhotosUri);
             return proxy;
         }
 
 
-        private FootyPunditsAPIProxy(string baseUri, string basePhotosUri)
+        private FootyPunditsAPIProxy(string baseUriClean, string baseUri, string basePhotosUri)
         {
             //Set client handler to support cookies!!
             HttpClientHandler handler = new HttpClientHandler();
@@ -76,6 +85,7 @@ namespace FootyPunditsApp.Services
 
             //Create client with the handler!
             this.client = new HttpClient(handler, true);
+            this.baseUriClean = baseUriClean;
             this.baseUri = baseUri;
             this.basePhotosUri = basePhotosUri;
         }
@@ -323,7 +333,30 @@ namespace FootyPunditsApp.Services
                 return false;
             }
         }
-    } 
+
+        public async Task<UserAccount> GetAccountById(int id)
+        {
+            try
+            {
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/get-account?id={id}");
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    UserAccount a = JsonConvert.DeserializeObject<UserAccount>(content);
+                    return a;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+        }
+
+    }
 }
 
 

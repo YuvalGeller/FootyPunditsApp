@@ -4,6 +4,7 @@ using Xamarin.Forms.Xaml;
 using FootyPunditsApp.Views;
 using FootyPunditsApp.Models;
 using Syncfusion.Licensing;
+using FootyPunditsApp.Services;
 
 namespace FootyPunditsApp
 {
@@ -13,6 +14,7 @@ namespace FootyPunditsApp
         public UserAccount CurrentUser { get; set; }
 
         public static string APIKey = "0cccc1f57ccf41dfbeec13653210c1b0";
+        public ChatService chatService = new ChatService();
 
         public App()
         {
@@ -27,7 +29,7 @@ namespace FootyPunditsApp
 
             Resources.Add("secondaryText", Color.FromHex("626262"));
 
-            MainPage = new NavigationPage(new TabControlView());
+            MainPage = new NavigationPage(new LogInView());
         }
 
         protected override void OnStart()

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootyPunditsApp.Android", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootyPunditsApp.iOS", "FootyPunditsApp.iOS\FootyPunditsApp.iOS.csproj", "{470F4ADE-5EEB-4B89-B204-0201E60738A3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootyPunditsApp", "FootyPunditsApp\FootyPunditsApp.csproj", "{842521BD-2977-4F4E-853C-B61DF704BFD1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootyPunditsApp", "FootyPunditsApp\FootyPunditsApp.csproj", "{842521BD-2977-4F4E-853C-B61DF704BFD1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

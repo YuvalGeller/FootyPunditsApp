@@ -15,6 +15,7 @@ namespace FootyPunditsApp.ViewModels
 
             FootballDataAPIProxy proxy = FootballDataAPIProxy.CreateProxy();
             LeagueTableViewModel = new LeagueTableViewModel(m.Competition.Id);
+            ChatViewModel = new ChatViewModel((int)m.Id);
         }
 
         #region Selected Tab Index
@@ -42,5 +43,6 @@ namespace FootyPunditsApp.ViewModels
         }
 
         public LeagueTableViewModel LeagueTableViewModel { get; set; }
+        public ChatViewModel ChatViewModel { get; set; }
     }
 }
