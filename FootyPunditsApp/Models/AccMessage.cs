@@ -20,7 +20,7 @@ namespace FootyPunditsApp.Models
         public int Upvotes { get; set; }
         public int Downvotes { get; set; }
         public int ChatGameId { get; set; }
-        public bool IsLiked { get => ((App)App.Current).CurrentUser.VotesHistories.Any(v => v.MessageId == this.MessageId); }
+        public bool IsLiked { get; set; }
 
         public virtual UserAccount Account { get; set; }
         public virtual List<VotesHistory> VotesHistories { get; set; }

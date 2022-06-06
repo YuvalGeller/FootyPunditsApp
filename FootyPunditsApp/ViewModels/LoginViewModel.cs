@@ -99,6 +99,7 @@ namespace FootyPunditsApp.ViewModels
                 if (u != null)
                 {
                     ((App)App.Current).CurrentUser = u;
+                    ((App)App.Current).CurrentUser.VotesHistories = await proxy.GetUserVoteHistory(u.AccountId);
                     Push?.Invoke(new FootyPunditsApp.Views.TabControlView());
                 }
                 else

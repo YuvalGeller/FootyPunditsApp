@@ -210,15 +210,15 @@ namespace FootyPunditsApp.Services
         {
             try
             {
-                UserAccount u = new UserAccount()
+                AccountDTO accountDTO = new AccountDTO()
                 {
                     Email = email,
-                    Upass = password
+                    Password = password
                 };
 
-                string json = JsonConvert.SerializeObject(u);
+                string json = JsonConvert.SerializeObject(accountDTO);
                 StringContent content = new StringContent(json, Encoding.UTF8, "application/json");
-                HttpResponseMessage response = await this.client.PostAsync($"{this.baseUri}/login", content);
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/login?email={email}&password={password}");
 
                 if (response.IsSuccessStatusCode)
                 {
@@ -366,6 +366,28 @@ namespace FootyPunditsApp.Services
                     string content = await response.Content.ReadAsStringAsync();
                     List<AccMessage> m = JsonConvert.DeserializeObject<List<AccMessage>>(content);
                     return m;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+        }
+
+        public async Task<List<VotesHistory>> GetUserVoteHistory(int id)
+        {
+            try
+            {
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/get-vote-history?id={id}");
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    List<VotesHistory> v = JsonConvert.DeserializeObject<List<VotesHistory>>(content);
+                    return v;
                 }
                 else
                 {

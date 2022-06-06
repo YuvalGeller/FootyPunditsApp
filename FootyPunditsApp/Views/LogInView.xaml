@@ -5,51 +5,46 @@
              xmlns:local="clr-namespace:FootyPunditsApp;assembly=FootyPunditsApp">
     
     <ContentPage.Content>
-       <StackLayout>
-            <Image Source="fansTalking.jpg" HorizontalOptions="Center" Aspect="Fill" HeightRequest="250"></Image>
-       
-           <StackLayout Spacing="15" BackgroundColor="White" Margin="0,-150,0,0">
-                
-                <Image Source="AppLogo.PNG" HorizontalOptions="Center" ></Image>
-                <Label Margin="20,-35,0,0" FontSize="20" FontAttributes="Bold" Text="LogIn to your account" FontFamily="Roboto" TextColor="Black"/>
+        <ScrollView>
+            <StackLayout>
+                <Image Source="fansTalking.jpg" HorizontalOptions="Center" Aspect="Fill" HeightRequest="250"></Image>
 
-                <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
-                    <local:MyEntry Margin="7,-50" Placeholder="Email" PlaceholderColor="LightGray" Text="{Binding Email}" />
-                </Frame>
+                <Frame Padding="0" CornerRadius="30" TranslationY="-100" HasShadow="False">
+                    <StackLayout Spacing="15" BackgroundColor="White" TranslationY="-40">
+                        <Image Source="AppLogo.PNG" HorizontalOptions="Center" />
 
+                        <Label Margin="20,-35,0,0" FontSize="20" FontAttributes="Bold" Text="Login to your account" FontFamily="Roboto" TextColor="Black"/>
 
+                        <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+                            <local:MyEntry Margin="7,-50" Placeholder="Email" PlaceholderColor="LightGray" Text="{Binding Email}" />
+                        </Frame>
 
+                        <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="9*" />
+                                    <ColumnDefinition Width="1*" />
+                                    <ColumnDefinition Width="0.2*" />
+                                </Grid.ColumnDefinitions>
 
-                <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
-                    <Grid>
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="9*" />
-                            <ColumnDefinition Width="1*" />
-                            <ColumnDefinition Width="0.2*" />
-                        </Grid.ColumnDefinitions>
+                                <local:MyEntry Margin="7,-50,20,-53" Placeholder="Password" PlaceholderColor="LightGray" Text="{Binding Password}" Grid.Column="0" />
+                            </Grid>
+                        </Frame>
 
-                        <local:MyEntry Margin="7,-50,20,-53" Placeholder="Password" PlaceholderColor="LightGray" Text="{Binding Password}" Grid.Column="0" />
-                    </Grid>
-                </Frame>
+                        <Label HorizontalOptions="Center" FontSize="20" FontFamily="Roboto" TextColor="Gray">
+                            <Label.FormattedText>
+                                <FormattedString>
+                                    <Span Text="Dont have have an account? " />
+                                    <Span Text="SignUp" TextColor="#499D62" FontSize="15" >
+                                        <Span.GestureRecognizers>
+                                            <TapGestureRecognizer Command="{Binding RegisterCommand}" />
+                                        </Span.GestureRecognizers>
+                                    </Span>
+                                </FormattedString>
+                            </Label.FormattedText>
+                        </Label>
 
-
-
-
-                <Label HorizontalOptions="Center" FontSize="20" FontFamily="Roboto" TextColor="Gray">
-                    <Label.FormattedText>
-                        <FormattedString>
-                            <Span Text="Dont have have an account? " />
-                            <Span Text="SignUp" TextColor="#499D62" FontSize="15" >
-                                <Span.GestureRecognizers>
-                                    <TapGestureRecognizer Command="{Binding RegisterCommand}" />
-                                </Span.GestureRecognizers>
-                            </Span>
-                        </FormattedString>
-                    </Label.FormattedText>
-                </Label>
-
-
-                <Button Margin="37,25,37,10"
+                        <Button Margin="37,25,37,10"
                         HeightRequest="50"
                         CornerRadius="5"
                         TextColor="White" 
@@ -59,24 +54,9 @@
                         BackgroundColor="#499D62"
                 Command="{Binding LoginCommand}"/>
 
-
-                <Grid Margin="0, 11, 0, 0">
-                    <Grid.RowDefinitions>
-                        <RowDefinition Height="45*" />
-                        <RowDefinition Height="10*" />
-                        <RowDefinition Height="45*" />
-                    </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="23*" />
-                        <ColumnDefinition Width="10*" />
-                        <ColumnDefinition Width="23*" />
-                    </Grid.ColumnDefinitions>
-
-
-                </Grid>
-
-
+                    </StackLayout>
+                </Frame>
             </StackLayout>
-       </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

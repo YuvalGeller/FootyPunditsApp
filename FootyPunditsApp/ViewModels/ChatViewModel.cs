@@ -35,12 +35,26 @@ namespace FootyPunditsApp.ViewModels
             if (vh != null)
             {
                 CurrentUser.VotesHistories.Add(vh);
+                AccMessage accMessage = CurrentUser.AccMessages.FirstOrDefault(m => m.MessageId == vh.MessageId);
+                if (accMessage != null)
+                {
+                    accMessage.IsLiked = true;
+                }
             }
         });
 
         public ICommand UnlikeMovieCommand => new Command<int>(async (id) =>
         {
-            VotesHistory sucess = await proxy.UnlikeMessage(id);
+            VotesHistory vh = await proxy.UnlikeMessage(id);
+            if (vh != null)
+            {
+                CurrentUser.VotesHistories.Remove(vh);
+                AccMessage accMessage = CurrentUser.AccMessages.FirstOrDefault(m => m.MessageId == vh.MessageId);
+                if (accMessage != null)
+                {
+                    accMessage.IsLiked = false;
+                }
+            }
         });
 
         public async void LoadChat()
@@ -51,6 +65,14 @@ namespace FootyPunditsApp.ViewModels
             foreach (AccMessage msg in accounts)
             {
                 msg.Account.ProfilePicture = $"{proxy.basePhotosUri}/{msg.Account.ProfilePicture}";
+            }
+            foreach (AccMessage msg in messages)
+            {
+                if (!CurrentUser.AccMessages.Any(m => m.MessageId == msg.MessageId))
+                {
+                    CurrentUser.AccMessages.Add(msg);
+                }
+                msg.IsLiked = ((App)App.Current).CurrentUser.VotesHistories.Any(v => v.MessageId == msg.MessageId);
             }
 
             Messages = new ObservableCollection<AccMessage>(messages);
@@ -89,7 +111,7 @@ namespace FootyPunditsApp.ViewModels
             }
         }
 
-        private async void ReceiveMessageFromGroup(int accountId, string message, string groupId)
+        private async void ReceiveMessageFromGroup(int accountId, string message, string groupId, int messageId)
         {
             UserAccount a = await proxy.GetAccountById(accountId);
             AccMessage msg = new AccMessage()
@@ -98,7 +120,8 @@ namespace FootyPunditsApp.ViewModels
                 ChatGameId = int.Parse(groupId),
                 Content = message,
                 SentDate = DateTime.Now,
-                Account = a
+                Account = a,
+                MessageId = messageId
             };
             AddMessage(msg);
         }
@@ -106,6 +129,7 @@ namespace FootyPunditsApp.ViewModels
         private void AddMessage(AccMessage message)
         {
             Messages.Add(message);
+            CurrentUser.AccMessages.Add(message);
             message.Account.ProfilePicture = $"{proxy.basePhotosUri}/{message.Account.ProfilePicture}";
             MessagesLoaded?.Invoke();
         }

@@ -13,6 +13,6 @@ namespace FootyPunditsApp.Services
         //Task SendMessage(string userId, string message);
         Task SendMessageToGroup(AccMessageDTO message, string groupName);
         //void RegisterToReceiveMessage(Action<string, string> GetMessageAndUser);
-        void RegisterToReceiveMessageFromGroup(Action<int, string, string> GetMessageAndUserFromGroup);
+        void RegisterToReceiveMessageFromGroup(Action<int, string, string, int> GetMessageAndUserFromGroup);
     }
 }

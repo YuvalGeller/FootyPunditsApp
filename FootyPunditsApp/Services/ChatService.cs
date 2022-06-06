@@ -35,7 +35,7 @@ namespace FootyPunditsApp.Services
             await hubConnection.InvokeAsync("SendMessageToGroup", message, gameId);
         }
 
-        public void RegisterToReceiveMessageFromGroup(Action<int, string, string> GetMessageAndUserFromGroup)
+        public void RegisterToReceiveMessageFromGroup(Action<int, string, string, int> GetMessageAndUserFromGroup)
         {
             hubConnection.On("ReceiveMessageFromGroup", GetMessageAndUserFromGroup);
         }
