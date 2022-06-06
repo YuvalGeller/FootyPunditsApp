@@ -33,8 +33,7 @@
                        SelectedIndex="{Binding SelectedViewModelIndex, Mode=TwoWay}">
                 <views:HomePageView />
                 <Label Text="Hello world 2"/>
-                <Label Text="Hello world 3"/>
-                <Label Text="Hello world 4"/>
+                <views:ProfilePageView/>
 
             </tabs:ViewSwitcher>
 
@@ -50,14 +49,10 @@
                                         IsTextVisible="False"
                             Label="Hello" />
                     <tabs:BottomTabItem Style="{StaticResource BottomTabStyle}"
-                            IconImageSource="ChatsIcon.png"
+                            IconImageSource="leaderboard.png"
                                         IsTextVisible="False"
                             Label="World" />
-
-                    <tabs:BottomTabItem Style="{StaticResource BottomTabStyle}"
-                            IconImageSource="SearchIcon.png"
-                                        IsTextVisible="False"
-                            Label="Hello" />
+                  
                     <tabs:BottomTabItem Style="{StaticResource BottomTabStyle}"
                             IconImageSource="ProfileIcon.png"
                                         IsTextVisible="False"

@@ -123,13 +123,6 @@ namespace FootyPunditsApp.ViewModels
 
         public void LoadProfile()
         {
-            ((App)App.Current).CurrentUser = new UserAccount()
-            {
-                Username = "Geller",
-                SignUpDate = DateTime.Now,
-                ProfilePicture = "default_pfp.png"
-            };
-
             User = ((App)App.Current).CurrentUser;
             Username = $"{User.Username}";
             JoinedAt = User.SignUpDate.Date;
@@ -142,6 +135,8 @@ namespace FootyPunditsApp.ViewModels
         });
 
         public Command PersonalInfoCommand => new Command(() => Push.Invoke(new EditProfileView()));
+        public Command GetHelpCommand => new Command(() => Push.Invoke(new GetHelpView()));
+
 
         public ICommand LogOutCommand => new Command(LogOut);
         private async void LogOut()

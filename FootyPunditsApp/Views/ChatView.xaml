@@ -4,20 +4,15 @@
              xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              xmlns:models="clr-namespace:FootyPunditsApp.Models"
              xmlns:yummy="clr-namespace:Xamarin.Forms.PancakeView;assembly=Xamarin.Forms.PancakeView"
+             x:Name="MyPage"
              x:Class="FootyPunditsApp.Views.ChatView">
   <ContentView.Content>
         <StackLayout BackgroundColor="White" HorizontalOptions="CenterAndExpand">
-            <Grid>
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="25*" />
-                    <RowDefinition Height="75*" />
-                </Grid.RowDefinitions>
-
-                <StackLayout Grid.Row="1" Spacing="0">
-                    <CollectionView x:Name="messages" ItemsSource="{Binding Messages}" FlowDirection="RightToLeft" Rotation="180">
+            <StackLayout Spacing="0">
+                    <CollectionView x:Name="messages" ItemsSource="{Binding Messages}" FlowDirection="RightToLeft">
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
-                                <ContentView FlowDirection="LeftToRight" Rotation="180">
+                                <ContentView FlowDirection="LeftToRight">
                                     <VisualStateManager.VisualStateGroups>
                                         <!-- Visual State Manager changes the selected movie background color from orange to white -->
                                         <VisualStateGroup Name="CommonStates">
@@ -29,7 +24,7 @@
                                         </VisualStateGroup>
                                     </VisualStateManager.VisualStateGroups>
 
-                                    <StackLayout Margin="25,5,25,5" Orientation="Horizontal" FlowDirection="LeftToRight" BackgroundColor="{DynamicResource background}" Spacing="10">
+                                    <StackLayout BackgroundColor="{DynamicResource background}" Margin="25,5,25,5" Orientation="Horizontal" FlowDirection="LeftToRight" Spacing="10">
                                         <StackLayout.Triggers>
                                             <DataTrigger TargetType="StackLayout"
                                                          Binding="{Binding AccountId}"
@@ -38,7 +33,7 @@
                                             </DataTrigger>
                                         </StackLayout.Triggers>
                                         <controls:CircleImage Source="{Binding Account.ProfilePicture, Converter={StaticResource ImageSourceConverter}}" BorderColor="#414141" BorderThickness="0" 
-                                                              HeightRequest="40" WidthRequest="40" Aspect="AspectFill" />
+                                                              HeightRequest="40" WidthRequest="40" Aspect="AspectFit" />
 
                                         <yummy:PancakeView Padding="10" CornerRadius="15,15,0,15" BackgroundColor="#E9E9E9">
                                             <yummy:PancakeView.Triggers>
@@ -60,7 +55,41 @@
                                                     </Label.Triggers>
                                                 </Label>
                                                 <Label Text="{Binding Content}" FontSize="16" TextColor="{DynamicResource primaryText}" VerticalOptions="Center" />
-                                            </StackLayout>
+                                            <ImageButton Source="icon_heart_outline.png" BackgroundColor="#E9E9E9" IsVisible="False" HeightRequest="26" WidthRequest="26" HorizontalOptions="Start"
+                                                Command="{Binding BindingContext.LikeMovieCommand, Source={x:Reference MyPage}}"
+                                                CommandParameter="{Binding MessageId}" >
+                                                <ImageButton.Triggers>
+                                                    <DataTrigger TargetType="ImageButton"
+                                                           Binding="{Binding IsLiked}"
+                                                           Value="False" >
+                                                        <Setter Property="IsVisible" Value="True" />
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="ImageButton"
+                                                         Binding="{Binding AccountId}"
+                                                         Value="{x:Static models:AccMessage.LoggedInAccountId}">
+                                                        <Setter Property="BackgroundColor" Value="#FFDE9E" />
+                                                    </DataTrigger>
+                                                </ImageButton.Triggers>
+                                            </ImageButton>
+
+                                            <ImageButton Source="icon_heart_filled.png" BackgroundColor="#E9E9E9" IsVisible="False" HeightRequest="26" WidthRequest="26" HorizontalOptions="Start"
+                                                Command="{Binding BindingContext.UnlikeMovieCommand, Source={x:Reference MyPage}}"
+                                                CommandParameter="{Binding VoteId}" >
+                                                <ImageButton.Triggers>
+                                                    <DataTrigger TargetType="ImageButton"
+                                                           Binding="{Binding IsLiked}"
+                                                           Value="True" >
+                                                        <Setter Property="IsVisible" Value="True" />
+                                                    </DataTrigger>
+                                                    <DataTrigger TargetType="ImageButton"
+                                                         Binding="{Binding AccountId}"
+                                                         Value="{x:Static models:AccMessage.LoggedInAccountId}">
+                                                        <Setter Property="BackgroundColor" Value="#FFDE9E" />
+                                                    </DataTrigger>
+                                                </ImageButton.Triggers>
+                                            </ImageButton>
+
+                                        </StackLayout>
                                         </yummy:PancakeView>
                                     </StackLayout>
                                 </ContentView>
@@ -68,15 +97,13 @@
                         </CollectionView.ItemTemplate>
                     </CollectionView>
 
-                    <StackLayout Orientation="Horizontal" Margin="25,15,25,25" Spacing="7">
+                    <StackLayout Orientation="Horizontal" Margin="25,15,25,25" Spacing="7" HorizontalOptions="CenterAndExpand">
                         <Frame Style="{DynamicResource InputFieldStyle}" CornerRadius="20" VerticalOptions="CenterAndExpand" >
-                            <Entry Text="{Binding Message}" FontSize="14" Margin="3,0,0,0" Placeholder="Type a message..." HorizontalOptions="FillAndExpand" />
+                            <Entry Text="{Binding Message}" FontSize="14" Margin="3,0,0,0" Placeholder="Type a message..." HorizontalOptions="FillAndExpand" WidthRequest="250" />
                         </Frame>
-                        <ImageButton Source="icon_send.png" Command="{Binding SendMsgCommand}" BackgroundColor="{DynamicResource background}" VerticalOptions="CenterAndExpand" HeightRequest="28" WidthRequest="28"/>
+                        <ImageButton Source="icon_send.png" Command="{Binding SendMsgCommand}" BackgroundColor="White" VerticalOptions="CenterAndExpand" HeightRequest="28" WidthRequest="28"/>
                     </StackLayout>
                 </StackLayout>
-
-            </Grid>
         </StackLayout>
     </ContentView.Content>
 </ContentView>

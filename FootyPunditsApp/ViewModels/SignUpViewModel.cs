@@ -35,11 +35,7 @@ namespace FootyPunditsApp.ViewModels
             Teams = new ObservableCollection<Team>();
             Competitions = new ObservableCollection<Competition>();
             GetCompetitions();
-            //ChosenCompetition = new Competition()
-            //{
-            //    Id = 2001
-            //};
-            //GetTeamsInCompetition();
+
         }
         
         private async void GetCompetitions()

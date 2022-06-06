@@ -35,9 +35,7 @@
                 </Grid>
 
 
-                <sho:TabHostView x:Name="TabHost" Margin="0,5,0,0" SelectedIndex="{Binding Source={x:Reference Switcher}, Path=SelectedIndex, Mode=TwoWay}"                    
-                    HorizontalOptions="Start"
-                    VerticalOptions="Start"
+            <sho:TabHostView x:Name="TabHost" Margin="0,5,0,0" HeightRequest="60"  SelectedIndex="{Binding Source={x:Reference Switcher}, Path=SelectedIndex, Mode=TwoWay}"                    
                     TabType="Fixed">
                 <sho:TabHostView.Tabs>
                     <sho:MaterialUnderlinedTabItem Label="Table" Style="{DynamicResource TabStyle}" LabelSize="20" />

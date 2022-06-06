@@ -356,6 +356,71 @@ namespace FootyPunditsApp.Services
             }
         }
 
+        public async Task<List<AccMessage>> GetMessagesById(int id)
+        {
+            try
+            {
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/get-messages?id={id}");
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    List<AccMessage> m = JsonConvert.DeserializeObject<List<AccMessage>>(content);
+                    return m;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+        }
+
+        public async Task<VotesHistory> LikeMessage(int messageId)
+        {
+            try
+            {
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/like-message?messageId={messageId}");
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    VotesHistory vh = JsonConvert.DeserializeObject<VotesHistory>(content);
+                    return vh;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+        }
+
+        public async Task<VotesHistory> UnlikeMessage(int voteId)
+        {
+            try
+            {
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/unlike-message?voteId={voteId}");
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    VotesHistory vh = JsonConvert.DeserializeObject<VotesHistory>(content);
+                    return vh;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+        }
     }
 }
 

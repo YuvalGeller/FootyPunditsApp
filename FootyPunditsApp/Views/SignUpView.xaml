@@ -23,11 +23,6 @@
                     </Grid.ColumnDefinitions>
 
                     <local:MyEntry Margin="7,-50,20,-53" Placeholder="Password" PlaceholderColor="LightGray" Text="{Binding Password}" Grid.Column="0" />
-                    <Image Source="Icon_ShowPassword.png" Grid.Column="1" HeightRequest="24">
-                        <Image.GestureRecognizers>
-                            <TapGestureRecognizer Command="{Binding PasswordVisibility}" />
-                        </Image.GestureRecognizers>
-                    </Image>
                 </Grid>
             </Frame>
 

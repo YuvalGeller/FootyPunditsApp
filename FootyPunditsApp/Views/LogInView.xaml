@@ -5,9 +5,11 @@
              xmlns:local="clr-namespace:FootyPunditsApp;assembly=FootyPunditsApp">
     
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout Spacing="15" BackgroundColor="White">
-
+       <StackLayout>
+            <Image Source="fansTalking.jpg" HorizontalOptions="Center" Aspect="Fill" HeightRequest="250"></Image>
+       
+           <StackLayout Spacing="15" BackgroundColor="White" Margin="0,-150,0,0">
+                
                 <Image Source="AppLogo.PNG" HorizontalOptions="Center" ></Image>
                 <Label Margin="20,-35,0,0" FontSize="20" FontAttributes="Bold" Text="LogIn to your account" FontFamily="Roboto" TextColor="Black"/>
 
@@ -27,16 +29,11 @@
                         </Grid.ColumnDefinitions>
 
                         <local:MyEntry Margin="7,-50,20,-53" Placeholder="Password" PlaceholderColor="LightGray" Text="{Binding Password}" Grid.Column="0" />
-                        <Image Source="Icon_ShowPassword.png" Grid.Column="1" HeightRequest="24">
-                            <Image.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding PasswordVisibility}" />
-                            </Image.GestureRecognizers>
-                        </Image>
                     </Grid>
                 </Frame>
 
 
-              
+
 
                 <Label HorizontalOptions="Center" FontSize="20" FontFamily="Roboto" TextColor="Gray">
                     <Label.FormattedText>
@@ -80,6 +77,6 @@
 
 
             </StackLayout>
-        </StackLayout>
+       </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -4,7 +4,9 @@ using System.Text;
 using FootyPunditsApp.Services;
 using Xamarin.Forms;
 using FootyPunditsApp.Models;
+using System.Linq;
 using System.Collections.ObjectModel;
+using System.Windows.Input;
 
 namespace FootyPunditsApp.ViewModels
 {
@@ -24,6 +26,34 @@ namespace FootyPunditsApp.ViewModels
             chatService = ((App)App.Current).chatService;
             Messages = new ObservableCollection<AccMessage>();
             InitializeHub();
+            LoadChat();
+        }
+
+        public ICommand LikeMovieCommand => new Command<int>(async (id) => 
+        {
+            VotesHistory vh = await proxy.LikeMessage(id);
+            if (vh != null)
+            {
+                CurrentUser.VotesHistories.Add(vh);
+            }
+        });
+
+        public ICommand UnlikeMovieCommand => new Command<int>(async (id) =>
+        {
+            VotesHistory sucess = await proxy.UnlikeMessage(id);
+        });
+
+        public async void LoadChat()
+        {
+            List<AccMessage> messages = await proxy.GetMessagesById(gameId);
+
+            var accounts = messages.GroupBy(m => m.Account).Select(x => x.First()).ToList();
+            foreach (AccMessage msg in accounts)
+            {
+                msg.Account.ProfilePicture = $"{proxy.basePhotosUri}/{msg.Account.ProfilePicture}";
+            }
+
+            Messages = new ObservableCollection<AccMessage>(messages);
         }
 
         public async void InitializeHub()
@@ -75,8 +105,8 @@ namespace FootyPunditsApp.ViewModels
 
         private void AddMessage(AccMessage message)
         {
-            Messages.Insert(0, message);
-            message.Account.ProfilePicture = $"{proxy.baseUri}/imgs/{message.Account.ProfilePicture}";
+            Messages.Add(message);
+            message.Account.ProfilePicture = $"{proxy.basePhotosUri}/{message.Account.ProfilePicture}";
             MessagesLoaded?.Invoke();
         }
 
