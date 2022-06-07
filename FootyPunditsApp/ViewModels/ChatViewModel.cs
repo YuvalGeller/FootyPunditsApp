@@ -15,7 +15,7 @@ namespace FootyPunditsApp.ViewModels
         private int gameId;
         private ChatService chatService;
         private FootyPunditsAPIProxy proxy;
-
+        public event Action<AccMessage> ScrollToObjectEvent;
         public ChatViewModel(int gameId)
         {
             this.gameId = gameId;
@@ -27,6 +27,7 @@ namespace FootyPunditsApp.ViewModels
             Messages = new ObservableCollection<AccMessage>();
             InitializeHub();
             LoadChat();
+
         }
 
         public ICommand LikeMovieCommand => new Command<int>(async (id) => 
@@ -39,20 +40,41 @@ namespace FootyPunditsApp.ViewModels
                 if (accMessage != null)
                 {
                     accMessage.IsLiked = true;
+                    int pos = -1;
+                    for (int i = 0; i < Messages.Count; i++)
+                    {
+                        if (Messages[i] == accMessage)
+                            pos = i;
+                    }
+                    if (pos != -1)
+                        Messages[pos] = accMessage;
+                    //ScrollToObjectEvent?.Invoke(accMessage);
                 }
             }
         });
-
+        //UnlikeMovieCommand
         public ICommand UnlikeMovieCommand => new Command<int>(async (id) =>
         {
             VotesHistory vh = await proxy.UnlikeMessage(id);
             if (vh != null)
             {
-                CurrentUser.VotesHistories.Remove(vh);
-                AccMessage accMessage = CurrentUser.AccMessages.FirstOrDefault(m => m.MessageId == vh.MessageId);
+                VotesHistory v = CurrentUser.VotesHistories.Where(vv => vv.VoteId == vh.VoteId).FirstOrDefault();
+                if (v != null)
+                    CurrentUser.VotesHistories.Remove(v);
+                AccMessage accMessage = CurrentUser.AccMessages.FirstOrDefault(m => m.MessageId == v.MessageId);
                 if (accMessage != null)
                 {
                     accMessage.IsLiked = false;
+                    int pos = -1;
+                    for (int i = 0; i < Messages.Count; i++)
+                    {
+                        if (Messages[i] == accMessage)
+                            pos = i;
+                    }
+                    if (pos != -1)
+                        Messages[pos] = accMessage;
+                    //Messages = new ObservableCollection<AccMessage>(Messages.OrderBy(m => m.MessageId).ToList());
+                    //ScrollToObjectEvent?.Invoke(accMessage);
                 }
             }
         });
@@ -76,6 +98,7 @@ namespace FootyPunditsApp.ViewModels
             }
 
             Messages = new ObservableCollection<AccMessage>(messages);
+            
         }
 
         public async void InitializeHub()
@@ -87,7 +110,7 @@ namespace FootyPunditsApp.ViewModels
             }
             catch (System.Exception exp)
             {
-
+                
             }
         }
 

@@ -48,7 +48,7 @@
                        Animate="False"
                        SelectedIndex="{Binding SelectedIndex, Mode=TwoWay}">
                 <views:LeagueTableView BindingContext="{Binding LeagueTableViewModel}" />
-                <views:ChatView BindingContext="{Binding ChatViewModel}" />
+                <views:ChatView x:Name="chatTab" BindingContext="{Binding ChatViewModel}" />
 
             </sho:ViewSwitcher>
 

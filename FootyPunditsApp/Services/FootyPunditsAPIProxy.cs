@@ -422,11 +422,11 @@ namespace FootyPunditsApp.Services
             }
         }
 
-        public async Task<VotesHistory> UnlikeMessage(int voteId)
+        public async Task<VotesHistory> UnlikeMessage(int messageId)
         {
             try
             {
-                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/unlike-message?voteId={voteId}");
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/unlike-message?messageId={messageId}");
                 if (response.IsSuccessStatusCode)
                 {
                     string content = await response.Content.ReadAsStringAsync();

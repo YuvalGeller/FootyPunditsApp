@@ -17,18 +17,33 @@ namespace FootyPunditsApp.Views
         public ChatView()
         {
             InitializeComponent();
-            if (this.BindingContext != null)
-            {
-                context = (ChatViewModel)this.BindingContext;
-                context.MessagesLoaded += ScrollToBottom;
-            }
+            
+            
         }
 
         public void ScrollToBottom()
         {
-            AccMessage lastMessage = context.Messages.FirstOrDefault();
+            AccMessage lastMessage = context.Messages.LastOrDefault();
             if (lastMessage != null)
                 messages.ScrollTo(lastMessage, ScrollToPosition.End);
         }
+
+        public void ScrollToObject(AccMessage m)
+        {
+            messages.ScrollTo(m);
+        }
+
+        protected override void OnBindingContextChanged()
+        {
+            if (this.BindingContext != null)
+            {
+                context = (ChatViewModel)this.BindingContext;
+                context.MessagesLoaded += ScrollToBottom;
+                context.ScrollToObjectEvent += ScrollToObject;
+            }
+            base.OnBindingContextChanged();
+        }
+
+        
     }
 }

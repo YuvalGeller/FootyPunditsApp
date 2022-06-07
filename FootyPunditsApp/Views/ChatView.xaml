@@ -10,6 +10,11 @@
         <StackLayout BackgroundColor="White" HorizontalOptions="CenterAndExpand">
             <StackLayout Spacing="0">
                     <CollectionView x:Name="messages" ItemsSource="{Binding Messages}" FlowDirection="RightToLeft">
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout Orientation="Vertical"
+                           SnapPointsType="Mandatory"
+                           SnapPointsAlignment="End" />
+                    </CollectionView.ItemsLayout>
                         <CollectionView.ItemTemplate>
                             <DataTemplate>
                                 <ContentView FlowDirection="LeftToRight">
@@ -74,7 +79,7 @@
 
                                             <ImageButton Source="icon_heart_filled.png" BackgroundColor="#E9E9E9" IsVisible="False" HeightRequest="26" WidthRequest="26" HorizontalOptions="Start"
                                                 Command="{Binding BindingContext.UnlikeMovieCommand, Source={x:Reference MyPage}}"
-                                                CommandParameter="{Binding VoteId}" >
+                                                CommandParameter="{Binding MessageId}" >
                                                 <ImageButton.Triggers>
                                                     <DataTrigger TargetType="ImageButton"
                                                            Binding="{Binding IsLiked}"

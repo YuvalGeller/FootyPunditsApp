@@ -18,5 +18,11 @@ namespace FootyPunditsApp.Views
             this.BindingContext = new InGameViewModel(m);
             InitializeComponent();
         }
+
+        protected override void OnAppearing()
+        {
+            chatTab.ScrollToBottom();
+            base.OnAppearing();
+        }
     }
 }
