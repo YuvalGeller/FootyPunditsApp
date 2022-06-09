@@ -25,7 +25,7 @@ namespace FootyPunditsApp.Views
         {
             AccMessage lastMessage = context.Messages.LastOrDefault();
             if (lastMessage != null)
-                messages.ScrollTo(lastMessage, ScrollToPosition.End);
+                messages.ScrollTo(lastMessage);
         }
 
         public void ScrollToObject(AccMessage m)

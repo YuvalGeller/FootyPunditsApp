@@ -145,7 +145,8 @@ namespace FootyPunditsApp.ViewModels
             if (success)
             {
                 ((App)App.Current).CurrentUser = null;
-                Push?.Invoke(new LogInView());
+                //Push?.Invoke(new LogInView());
+                App.Current.MainPage = new NavigationPage(new LogInView());
             }
         }
 

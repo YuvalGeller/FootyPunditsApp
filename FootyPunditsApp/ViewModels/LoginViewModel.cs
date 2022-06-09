@@ -14,7 +14,7 @@ using FootyPunditsApp.Views;
 
 namespace FootyPunditsApp.ViewModels
 {
-    class LoginViewModel : INotifyPropertyChanged
+    class LoginViewModel : BaseViewModel
     {
         #region INotifyPropertyChanged
         public event PropertyChangedEventHandler PropertyChanged;
@@ -26,44 +26,109 @@ namespace FootyPunditsApp.ViewModels
 
         public event Action<Page> Push;
 
-        private string email;
-        private string password;
-        private string error;
 
-        public string Error
+        #region Email
+        private bool showEmailError;
+
+        public bool ShowEmailError
         {
-            get => error;
-            set
-            {
-                error = value;
-                //if (this.ShowError)
-                //    ValidateError();
-                OnPropertyChanged("Error");
-            }
+            get => showEmailError;
+            set => SetValue(ref showEmailError, value);
         }
+
+        private string email;
 
         public string Email
         {
             get => email;
-            set
-            {
-                email = value;
-                //if (this.ShowEmailError)
-                //    ValidateEmail();
-                OnPropertyChanged("Email");
-            }
+            set => SetValue(ref email, value);
         }
+
+        private string emailError;
+
+        public string EmailError
+        {
+            get => emailError;
+            set => SetValue(ref emailError, value);
+        }
+
+        private void ValidateEmail()
+        {
+            this.ShowEmailError = false;
+            if (string.IsNullOrEmpty(Email))
+            {
+                this.EmailError = "Email cannot be blank";
+                this.ShowEmailError = true;
+            }
+            try
+            {
+                var addr = new System.Net.Mail.MailAddress(email);
+                this.ShowEmailError = addr.Address != email;
+            }
+            catch
+            {
+                this.EmailError = "Not a valid email";
+                this.ShowEmailError = true;
+            }
+
+        }
+        #endregion
+
+
+        #region Password
+        private bool showPasswordError;
+
+        public bool ShowPasswordError
+        {
+            get => showPasswordError;
+            set => SetValue(ref showPasswordError, value);
+        }
+
+        private string password;
+
         public string Password
         {
             get => password;
-            set
-            {
-                password = value;
-                //if (this.ShowPasswordlError)
-                //    ValidatePassword();
-                OnPropertyChanged("Password");
-            }
+            set => SetValue(ref password, value);
         }
+
+        private string passwordError;
+
+        public string PasswordError
+        {
+            get => passwordError;
+            set => SetValue(ref passwordError, value);
+        }
+
+        private void ValidatePassword()
+        {
+            ShowPasswordError = true;
+            if (string.IsNullOrEmpty(Password))
+                PasswordError = "Password cannot be blank";
+            else if (Password.Length < 8)
+                PasswordError = "Password must be more than 8 characters";
+            else
+                ShowPasswordError = false;
+        }
+        #endregion
+
+        #region General Error
+        private bool showGeneralError;
+
+        public bool ShowGeneralError
+        {
+            get => showGeneralError;
+            set => SetValue(ref showGeneralError, value);
+        }
+
+        private string generalError;
+
+        public string GeneralError
+        {
+            get => generalError;
+            set => SetValue(ref generalError, value);
+        }
+        #endregion
 
         public ICommand SignUpCommand { get; set; }// login Command
         public ICommand LoginCommand { get; set; }// login Command
@@ -71,9 +136,6 @@ namespace FootyPunditsApp.ViewModels
 
         public LoginViewModel()
         {
-            Error = string.Empty;
-            Email = string.Empty;
-            Password = string.Empty;
             LoginCommand = new Command(Login);
             SignUpCommand = new Command(CreateAccount);
             //ForgotPassCommand = new Command(ForgotPass);
@@ -89,10 +151,26 @@ namespace FootyPunditsApp.ViewModels
         // Push?.Invoke(new FootyPunditsApp.Views.ForgetPassword1());
         //}
 
+        private bool ValidateForm()
+        {
+            if (((App)App.Current).CurrentUser != null)
+            {
+                GeneralError = "You are already logged in";
+                return false;
+            }
+
+            ValidateEmail();
+            ValidatePassword();
+
+            return !(ShowEmailError || ShowPasswordError);
+        }
+
+
         private async void Login()
         {
             FootyPunditsAPIProxy proxy = FootyPunditsAPIProxy.CreateProxy();
 
+            if (ValidateForm())
             try
             {
                 UserAccount u = await proxy.LoginAsync(Email, Password);
@@ -100,18 +178,19 @@ namespace FootyPunditsApp.ViewModels
                 {
                     ((App)App.Current).CurrentUser = u;
                     ((App)App.Current).CurrentUser.VotesHistories = await proxy.GetUserVoteHistory(u.AccountId);
-                    Push?.Invoke(new FootyPunditsApp.Views.TabControlView());
+                        //Push?.Invoke(new FootyPunditsApp.Views.TabControlView());
+                        App.Current.MainPage = new NavigationPage(new FootyPunditsApp.Views.TabControlView());
                 }
                 else
                 {
-                    Error = "This Account Doesn't Exist";
+                    GeneralError = "This Account Doesn't Exist";
 
                 }
             }
 
             catch (Exception)
             {
-                Error = "Something went Wrong";
+                GeneralError = "Something went Wrong";
             }
         }
 

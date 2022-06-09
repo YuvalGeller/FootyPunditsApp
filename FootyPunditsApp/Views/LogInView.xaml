@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="FootyPunditsApp.Views.LogInView"
+             x:Class="FootyPunditsApp.Views.LogInView"            
              xmlns:local="clr-namespace:FootyPunditsApp;assembly=FootyPunditsApp">
-    
+   
     <ContentPage.Content>
         <ScrollView>
             <StackLayout>
@@ -15,21 +15,39 @@
 
                         <Label Margin="20,-35,0,0" FontSize="20" FontAttributes="Bold" Text="Login to your account" FontFamily="Roboto" TextColor="Black"/>
 
-                        <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+                        <Frame Margin="30,10,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                             <local:MyEntry Margin="7,-50" Placeholder="Email" PlaceholderColor="LightGray" Text="{Binding Email}" />
                         </Frame>
+                        <Label Margin="30,0,30,0" Text="{Binding EmailError}" TextColor="Red" IsVisible="{Binding ShowEmailError}" />
 
-                        <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
-                            <Grid>
+                        <Frame Margin="30,10,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
+                            <!-- <Grid>
                                 <Grid.ColumnDefinitions>
                                     <ColumnDefinition Width="9*" />
                                     <ColumnDefinition Width="1*" />
                                     <ColumnDefinition Width="0.2*" />
                                 </Grid.ColumnDefinitions>
-
                                 <local:MyEntry Margin="7,-50,20,-53" Placeholder="Password" PlaceholderColor="LightGray" Text="{Binding Password}" Grid.Column="0" />
-                            </Grid>
+                            </Grid> -->
+                          <Grid>
+                            <local:MyEntry Placeholder="Password" Text="{Binding Password}"
+                                   IsPassword="{Binding Source={x:Reference ShowPasswordActualTrigger}, Path=hidePassword}"/>
+                            <ImageButton VerticalOptions="Center" Margin=" 0,0,10,0"
+                                         HeightRequest="20"
+                                         HorizontalOptions="End"
+                                         Source="Icon_hidePassword.png">
+                                <ImageButton.Triggers>
+                                    <EventTrigger Event="Clicked">
+                                        <local:ShowPasswordTrigger hideIcon="Icon_hidePassword.png"
+                                                                   showIcon="Icon_ShowPassword.png"
+                                                                   x:Name="ShowPasswordActualTrigger"/>                                      
+                                    </EventTrigger>
+                                </ImageButton.Triggers>
+                           </ImageButton>                                       
+                          </Grid>         
                         </Frame>
+                        <Label Margin="30,0,30,0" Text="{Binding PasswordError}" TextColor="Red" IsVisible="{Binding ShowPasswordError}" />
+
 
                         <Label HorizontalOptions="Center" FontSize="20" FontFamily="Roboto" TextColor="Gray">
                             <Label.FormattedText>
@@ -53,6 +71,8 @@
                         Font="Prompt"
                         BackgroundColor="#499D62"
                 Command="{Binding LoginCommand}"/>
+
+                        <Label Text="{Binding GeneralError}" TextColor="Red" IsVisible="{Binding ShowGeneralError}" />
 
                     </StackLayout>
                 </Frame>

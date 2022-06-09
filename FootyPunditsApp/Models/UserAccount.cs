@@ -24,6 +24,9 @@ namespace FootyPunditsApp.Models
         public int FavoriteTeam { get; set; }
         public DateTime SignUpDate { get; set; }
         public int RankId { get; set; }
+        // added for leaderboards
+        public int TotalUpvotes { get; set; }
+        public int LeaderboardPosition { get; set; }
 
         public virtual Rank Rank { get; set; }
         public virtual List<AccMessage> AccMessages { get; set; }

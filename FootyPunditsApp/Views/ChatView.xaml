@@ -60,39 +60,51 @@
                                                     </Label.Triggers>
                                                 </Label>
                                                 <Label Text="{Binding Content}" FontSize="16" TextColor="{DynamicResource primaryText}" VerticalOptions="Center" />
-                                            <ImageButton Source="icon_heart_outline.png" BackgroundColor="#E9E9E9" IsVisible="False" HeightRequest="26" WidthRequest="26" HorizontalOptions="Start"
+                                            <StackLayout Orientation="Horizontal">
+                                                <StackLayout.Triggers>
+                                                    <DataTrigger TargetType="StackLayout"
+                                                         Binding="{Binding AccountId}"
+                                                         Value="{x:Static models:AccMessage.LoggedInAccountId}">
+                                                        <Setter Property="FlowDirection" Value="RightToLeft" />
+                                                    </DataTrigger>
+                                                </StackLayout.Triggers>
+                                                <Label Text="{Binding Upvotes}" />
+
+                                                <ImageButton Source="icon_heart_outline.png" BackgroundColor="#E9E9E9" IsVisible="False" HeightRequest="26" WidthRequest="26" HorizontalOptions="Start"
                                                 Command="{Binding BindingContext.LikeMovieCommand, Source={x:Reference MyPage}}"
                                                 CommandParameter="{Binding MessageId}" >
-                                                <ImageButton.Triggers>
-                                                    <DataTrigger TargetType="ImageButton"
+                                                    <ImageButton.Triggers>
+                                                        <DataTrigger TargetType="ImageButton"
                                                            Binding="{Binding IsLiked}"
                                                            Value="False" >
-                                                        <Setter Property="IsVisible" Value="True" />
-                                                    </DataTrigger>
-                                                    <DataTrigger TargetType="ImageButton"
+                                                            <Setter Property="IsVisible" Value="True" />
+                                                        </DataTrigger>
+                                                        <DataTrigger TargetType="ImageButton"
                                                          Binding="{Binding AccountId}"
                                                          Value="{x:Static models:AccMessage.LoggedInAccountId}">
-                                                        <Setter Property="BackgroundColor" Value="#FFDE9E" />
-                                                    </DataTrigger>
-                                                </ImageButton.Triggers>
-                                            </ImageButton>
+                                                            <Setter Property="BackgroundColor" Value="#FFDE9E" />
+                                                        </DataTrigger>
+                                                    </ImageButton.Triggers>
+                                                </ImageButton>
 
-                                            <ImageButton Source="icon_heart_filled.png" BackgroundColor="#E9E9E9" IsVisible="False" HeightRequest="26" WidthRequest="26" HorizontalOptions="Start"
+                                                <ImageButton Source="icon_heart_filled.png" BackgroundColor="#E9E9E9" IsVisible="False" HeightRequest="26" WidthRequest="26" HorizontalOptions="Start"
                                                 Command="{Binding BindingContext.UnlikeMovieCommand, Source={x:Reference MyPage}}"
                                                 CommandParameter="{Binding MessageId}" >
-                                                <ImageButton.Triggers>
-                                                    <DataTrigger TargetType="ImageButton"
+                                                    <ImageButton.Triggers>
+                                                        <DataTrigger TargetType="ImageButton"
                                                            Binding="{Binding IsLiked}"
                                                            Value="True" >
-                                                        <Setter Property="IsVisible" Value="True" />
-                                                    </DataTrigger>
-                                                    <DataTrigger TargetType="ImageButton"
+                                                            <Setter Property="IsVisible" Value="True" />
+                                                        </DataTrigger>
+                                                        <DataTrigger TargetType="ImageButton"
                                                          Binding="{Binding AccountId}"
                                                          Value="{x:Static models:AccMessage.LoggedInAccountId}">
-                                                        <Setter Property="BackgroundColor" Value="#FFDE9E" />
-                                                    </DataTrigger>
-                                                </ImageButton.Triggers>
-                                            </ImageButton>
+                                                            <Setter Property="BackgroundColor" Value="#FFDE9E" />
+                                                        </DataTrigger>
+                                                    </ImageButton.Triggers>
+                                                </ImageButton>
+                                            </StackLayout>
+                                               
 
                                         </StackLayout>
                                         </yummy:PancakeView>

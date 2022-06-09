@@ -32,7 +32,7 @@
                        Animate="False"
                        SelectedIndex="{Binding SelectedViewModelIndex, Mode=TwoWay}">
                 <views:HomePageView />
-                <Label Text="Hello world 2"/>
+                <views:LeaderboardsView />
                 <views:ProfilePageView/>
 
             </tabs:ViewSwitcher>

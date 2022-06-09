@@ -443,6 +443,28 @@ namespace FootyPunditsApp.Services
                 return null;
             }
         }
+
+        public async Task<Dictionary<int, int>> GetLeaderboard()
+        {
+            try
+            {
+                HttpResponseMessage response = await this.client.GetAsync($"{this.baseUri}/get-leaderboard");
+                if (response.IsSuccessStatusCode)
+                {
+                    string content = await response.Content.ReadAsStringAsync();
+                    Dictionary<int, int> l = JsonConvert.DeserializeObject<Dictionary<int, int>>(content);
+                    return l;
+                }
+                else
+                {
+                    return null;
+                }
+            }
+            catch (Exception e)
+            {
+                return null;
+            }
+        }
     }
 }
 

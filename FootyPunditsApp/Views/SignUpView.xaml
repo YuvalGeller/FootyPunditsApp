@@ -13,6 +13,8 @@
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                 <local:MyEntry Margin="7,-50" Placeholder="Email" PlaceholderColor="LightGray" Text="{Binding Email}" />
             </Frame>
+            <Label Margin="30,0,30,0" Text="{Binding EmailError}" TextColor="Red" IsVisible="{Binding ShowEmailError}" />
+
 
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                 <Grid>
@@ -25,14 +27,18 @@
                     <local:MyEntry Margin="7,-50,20,-53" Placeholder="Password" PlaceholderColor="LightGray" Text="{Binding Password}" Grid.Column="0" />
                 </Grid>
             </Frame>
+            <Label Margin="30,0,30,0" Text="{Binding PasswordError}" TextColor="Red" IsVisible="{Binding ShowPasswordError}" />
+
 
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                 <local:MyEntry Margin="7" Placeholder="Confirm password" PlaceholderColor="LightGray" Text="{Binding ConfirmPassword}" />
             </Frame>
+            <Label Margin="30,0,30,0" Text="{Binding ConfirmPasswordError}" TextColor="Red" IsVisible="{Binding ShowConfirmPasswordError}" />
 
             <Frame Margin="30,20,30,0" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                 <local:MyEntry Margin="7" Placeholder="Username" PlaceholderColor="LightGray" Text="{Binding Username}" />
             </Frame>
+            <Label Margin="30,0,30,0" Text="{Binding UsernameError}" TextColor="Red" IsVisible="{Binding ShowUsernameError}" />
 
             <Frame Margin="30,20,30,15" CornerRadius="11" BorderColor="Gray" HeightRequest="60" WidthRequest="60" Padding="0">
                 <autocomplete:SfAutoComplete Watermark="Choose a league" ShowSuggestionsOnFocus="True" HeightRequest="40" DataSource="{Binding Competitions}" DisplayMemberPath="Name" SelectedItem="{Binding ChosenCompetition}" SelectionChanged="SfAutoComplete_SelectionChanged" >
@@ -78,6 +84,7 @@
                     </autocomplete:SfAutoComplete.ItemTemplate>
                 </autocomplete:SfAutoComplete>
             </Frame>
+
 
             <Label HorizontalOptions="Center" FontSize="20" FontFamily="Roboto" TextColor="Gray">
                 <Label.FormattedText>

@@ -19,7 +19,7 @@ namespace FootyPunditsApp.ViewModels
         public HomePageViewModel()
         {
             Competitions = new ObservableCollection<CompetitionsHelper>();
-            MatchDate = "2022-05-22";
+            MatchDate = "2022-05-22"; //= DateTime.Now.Date;
             GetMatchesByDate(MatchDate, MatchDate);
         }
 

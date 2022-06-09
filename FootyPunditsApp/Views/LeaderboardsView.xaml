@@ -1,10 +1,61 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:controls="clr-namespace:ImageCircle.Forms.Plugin.Abstractions;assembly=ImageCircle.Forms.Plugin"
              x:Class="FootyPunditsApp.Views.LeaderboardsView">
   <ContentView.Content>
-      <StackLayout>
-          <Label Text="Hello Xamarin.Forms!" />
-      </StackLayout>
+        <RefreshView IsRefreshing="{Binding IsRefreshing}" Command="{Binding RefreshCommand}">
+            <ScrollView>
+                <StackLayout>
+                    <Label HorizontalTextAlignment="Center" Margin="0,15,0,15" Text="Leaderboard" FontAttributes="Bold" FontSize="24" />
+
+                    <Frame BorderColor="Black" Margin="10,5" CornerRadius="5">
+                        <StackLayout>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="20*" />
+                                    <ColumnDefinition Width="10*" />
+                                    <ColumnDefinition Width="40*" />
+                                    <ColumnDefinition Width="30*" />
+                                </Grid.ColumnDefinitions>
+
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="20" />
+                                </Grid.RowDefinitions>
+
+                                <Label VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Text="Position" FontAttributes="Bold" Grid.Column="0" Grid.Row="0" />
+                                <Label VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Text="Account Name" FontAttributes="Bold" Grid.Column="2" Grid.Row="0"  />
+                                <Label VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Text="Total Upvotes" FontAttributes="Bold" Grid.Column="3" Grid.Row="0" />
+                            </Grid>
+
+                            <CollectionView ItemsSource="{Binding Accounts}">
+                                <CollectionView.ItemTemplate>
+                                    <DataTemplate>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="20*" />
+                                                <ColumnDefinition Width="10*" />
+                                                <ColumnDefinition Width="40*" />
+                                                <ColumnDefinition Width="30*" />
+                                            </Grid.ColumnDefinitions>
+
+                                            <Grid.RowDefinitions>
+                                                <RowDefinition Height="50" />
+                                            </Grid.RowDefinitions>
+
+                                            <Label VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Text="{Binding LeaderboardPosition}" Grid.Column="0" Grid.Row="0" />
+                                            <controls:CircleImage VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Grid.Column="1" Grid.Row="0" Source="{Binding ProfilePicture, Converter={StaticResource ImageSourceConverter}}" WidthRequest="100" HeightRequest="100" 
+                                                  BorderColor="Black" BorderThickness="1" />
+                                            <Label VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Text="{Binding Username}" Grid.Column="2" Grid.Row="0"  />
+                                            <Label VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" Text="{Binding TotalUpvotes}" Grid.Column="3" Grid.Row="0" />
+                                        </Grid>
+                                    </DataTemplate>
+                                </CollectionView.ItemTemplate>
+                            </CollectionView>
+                        </StackLayout>
+                    </Frame>
+                </StackLayout>
+            </ScrollView>
+        </RefreshView>
   </ContentView.Content>
 </ContentView>

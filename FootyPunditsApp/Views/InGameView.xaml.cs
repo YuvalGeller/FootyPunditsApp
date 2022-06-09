@@ -21,8 +21,8 @@ namespace FootyPunditsApp.Views
 
         protected override void OnAppearing()
         {
-            chatTab.ScrollToBottom();
             base.OnAppearing();
+            chatTab.ScrollToBottom();
         }
     }
 }

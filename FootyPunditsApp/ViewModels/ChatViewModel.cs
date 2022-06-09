@@ -40,6 +40,7 @@ namespace FootyPunditsApp.ViewModels
                 if (accMessage != null)
                 {
                     accMessage.IsLiked = true;
+                    accMessage.Upvotes++;
                     int pos = -1;
                     for (int i = 0; i < Messages.Count; i++)
                     {
@@ -65,6 +66,7 @@ namespace FootyPunditsApp.ViewModels
                 if (accMessage != null)
                 {
                     accMessage.IsLiked = false;
+                    accMessage.Upvotes--;
                     int pos = -1;
                     for (int i = 0; i < Messages.Count; i++)
                     {
@@ -98,7 +100,7 @@ namespace FootyPunditsApp.ViewModels
             }
 
             Messages = new ObservableCollection<AccMessage>(messages);
-            
+            MessagesLoaded?.Invoke();
         }
 
         public async void InitializeHub()

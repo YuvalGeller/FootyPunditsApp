@@ -172,31 +172,16 @@ namespace FootyPunditsApp.ViewModels
 
         private async void ValidateEmail()
         {
-            bool? exists = await footyProxy.EmailExists(Email);
-            if (exists == true)
+            try
             {
+                var addr = new System.Net.Mail.MailAddress(Email);
+                this.ShowEmailError = addr.Address != Email;
+            }
+            catch
+            {
+                EmailError = "Invalid email address";
                 this.ShowEmailError = true;
-                this.EmailError = "Email address already exists";
             }
-            else if (exists == null)
-            {
-                ShowGeneralError = true;
-                GeneralError = "Unknown error occured. Try again later";
-            }
-            else
-            {
-                try
-                {
-                    var addr = new System.Net.Mail.MailAddress(Email);
-                    this.ShowEmailError = addr.Address != Email;
-                }
-                catch
-                {
-                    EmailError = "Invalid email address";
-                    this.ShowEmailError = true;
-                }
-            }
-
         }
         #endregion
 
@@ -251,9 +236,9 @@ namespace FootyPunditsApp.ViewModels
 
             ShowConfirmPasswordError = true;
             if (string.IsNullOrEmpty(ConfirmPassword))
-                ConfirmPasswordError = "ConfirmPassword cannot be blank";
+                ConfirmPasswordError = "Confirm Password cannot be blank";
             else if (ConfirmPassword.Length < 8)
-                ConfirmPasswordError = "ConfirmPassword must be more than 8 characters";
+                ConfirmPasswordError = "Confirm Password must be more than 8 characters";
             else if (ConfirmPassword != Password)
                 ConfirmPasswordError = "Passwords must match";
             else
@@ -437,6 +422,7 @@ namespace FootyPunditsApp.ViewModels
         {
             ValidateEmail();
             ValidatePassword();
+            ValidateFavoriteTeam();
             ValidateUsername();
             
 
